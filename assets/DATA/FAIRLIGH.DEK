@@ -1,0 +1,27 @@
+[Persona]
+Model=Fairlight Excalibur (raw)
+MPCP=12
+Bod=9
+Evasion=9
+Masking=9
+Sensor=9
+Damage=0
+
+[Technical Parameters]
+Hardening=5
+ActiveMem=500
+StorageMem=1000
+Load=100
+I/O=50
+Response=0
+Satuplink=0
+
+[Utilities]
+Program1=Attack-7
+Program2=Sleaze-7
+Program3=Deception-7
+Program4=Analyse-7
+Program5=Browse-5
+Program6=Armor-5
+Program7=Cloak-5
+Program8=Shield-5

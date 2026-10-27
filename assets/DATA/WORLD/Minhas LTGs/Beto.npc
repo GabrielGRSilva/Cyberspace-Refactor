@@ -1,0 +1,22 @@
+[Character]
+Name=New Decker
+
+[Attributes]
+Body=4
+Quickness=5
+Strength=2
+Charisma=4
+Intelligence=5
+Willpower=4
+Reaction=5+1D
+Stun Damage=0
+Phys Damage=0
+
+[Skills]
+Computer=6
+Etiquette/Matrix=0
+
+[Dice Pools]
+Karma=15
+Hacking=0
+Team=6

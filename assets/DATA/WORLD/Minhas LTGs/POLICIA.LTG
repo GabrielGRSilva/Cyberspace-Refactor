@@ -1,0 +1,182 @@
+[Matrix]
+Description=Departamento de Policia do Interior CSS
+Nodes=31
+Entry=1
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Orange-5 4 1
+Mesg=Acesso ao Departamento de Polícia
+Links=2/0
+
+[Node2]
+Type=SPU Orange-3 4 2
+Mesg=Roteador Principal de acesso
+ICEType=White Access-4
+Links=3/4/1/5
+
+[Node3]
+Type=SPU Orange-4 4 3
+Mesg=Roteador de acesso restrito
+ICEType=White Access-4
+Links=6/2/7
+
+[Node4]
+Type=SPU Orange-3 2 2
+Mesg=Controle de aparelhagem geral
+Links=12/11/2
+
+[Node5]
+Type=SPU Orange-3 6 2
+Mesg=Setor administrativo
+ICEType=Gray Killer (M)-6
+Links=2/15/14/16/17
+
+[Node6]
+Type=SPU Orange-5 3 4
+Mesg=Subsistema Restrito: Gabinete do Delegado
+ICEType=Gray Killer (M)-4 immobile
+Links=22/31/29/28/3
+
+[Node7]
+Type=SPU Orange-3 5 4
+Mesg=Subcentral de Operações
+Links=18/20/23/3/19/8/21
+
+[Node8]
+Type=SPU Orange-3 7 4
+Mesg=Controles gerais do prédio
+Links=7/9/10/13
+
+[Node9]
+Type=SM Orange-3 8 3
+Mesg=Multisistema de sensores
+Links=8
+
+[Node10]
+Type=SM Orange-3 8 4
+Mesg=Portões e acessos de segurança.
+Links=8
+
+[Node11]
+Type=SM Orange-3 2 1
+Mesg=Climatização, energia e elevadores.
+Links=4
+
+[Node12]
+Type=SM Orange-3 1 1
+Mesg=Cozinha, bebedouros e máquinas de comida.
+Links=4
+
+[Node13]
+Type=DS Orange-3 8 5
+Mesg=Arquivos de utilização do prédio.
+Files=Transferências ainda não concluídas da Cozinha./80/2000 
+Links=8
+
+[Node14]
+Type=DS Green-3 6 1
+Mesg=Achados e perdidos.
+Files=Achados/40/5000 Perdidos/100/8000 
+Links=5
+
+[Node15]
+Type=DS Orange-3 5 1
+Mesg=Arquivos da prefeitura.
+Files=Permissões e autorizações./60/10000 Cadastros gerais de importadores de armas/110/25000 
+Links=5
+
+[Node16]
+Type=DS Green-3 7 1
+Mesg=Relatórios gerais.
+Files=Registros dos empregados terceirizados/30/1500 Invêntário dos bens agredados ao Departamento./120/6000 Requisição de materias diversos./20/0 
+Links=5
+
+[Node17]
+Type=IOP Green-3 8 2
+Mesg=Terminal do Administrador Interino.
+Links=5
+
+[Node18]
+Type=SPU Orange-3 5 7
+Mesg=Subcentral de acesso dos oficiais.
+ICEType=Gray Killer (M)-4
+Links=22/7/25/24
+
+[Node19]
+Type=IOP Green-3 5 3
+Mesg=Terminais de acesso dos policias 01
+Links=7
+
+[Node20]
+Type=IOP Green-3 4 5
+Mesg=Termiansi de acesso dos policias 03
+Files=491 Surveillance Report/15/5000 772 Burglary Response/15/10000 247 Neighbor Quarrel/15/500 109 Armed Robbery/15/9500 747 Parking Tickets/15/750 
+Links=7
+
+[Node21]
+Type=IOP Green-3 6 5
+Mesg=Terminais de acesso dos policias 02
+Files=Personnel/45/135000 Assets/40/500000 Equipment Maintenance/75/300000 Financial Records/50/100000 Procedures Overhead/25/150000 
+Links=7
+
+[Node22]
+Type=CPU Red-3 3 6
+Links=26/27/6/30/18
+
+[Node23]
+Type=DS Orange-3 4 4
+Mesg=Arquivos policiais gerais.
+Files=Relatórios de operações /90/5000 Relatórios de ocorrências /70/6000 Casos arquivados/0/30 
+Links=7
+
+[Node24]
+Type=IOP Orange-3 6 7
+Mesg=Sala dos oficiais.
+Links=18
+
+[Node25]
+Type=DS Orange-3 6 6
+Files=Relatórios especiais de investigações/50/20000 Arquivos pessoais diversos/50/1500 Operações ilegais investigadas/70/7000 
+Links=18
+
+[Node26]
+Type=DS Red-3 3 7
+Mesg=Arquivos confidenciais.
+Files=Requisições do Conselho/70/40000 Rotas de tráficos investigadas/100/20000 Fichas dos policiais/50/10000 
+ICEType=White Scramble-4 passive
+Links=22
+
+[Node27]
+Type=SM Orange-4 2 7
+Mesg=Controle da prisão.
+Links=22
+
+[Node28]
+Type=DS Orange-4 3 3
+Mesg=Arquivos restritos.
+Files=Investigações confidênciais/50/10000 Relatórios de suspeitos: Corrupção/50/10000 Arquivos de políticos/120/80000 
+Links=6
+
+[Node29]
+Type=IOP Orange-4 2 3
+Mesg=Terminal da sala do Delegado
+Files=Murder Investigations/40/160000 Drugs Investigations/40/160000 Matrix Investigations/40/160000 Magical Investigations/40/160000 
+Links=6
+
+[Node30]
+Type=SM Orange-4 4 6
+Mesg=Sistemas de defesa internos
+Files=Known Criminals/80/240000 Gang Operations/50/200000 Current Jail Guests/10/75000 
+Links=22
+
+[Node31]
+Type=SM Orange-4 2 4
+Mesg=Câmeras secretas na cidade.
+Links=6

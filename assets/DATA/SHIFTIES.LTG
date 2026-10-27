@@ -1,0 +1,33 @@
+[Matrix]
+Description=Shifty's Bar
+Nodes=5
+Entry=1
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Blue-2 6 7
+Mesg=Shifty's Bar
+Links=0/2
+
+[Node2]
+Type=SPU Green-3 6 5
+Links=1/3/4/5
+
+[Node3]
+Type=DS Blue-2 4 6
+Files=Recipes/30/100 Takings/10/500 
+Links=2
+
+[Node4]
+Type=SM Green-3 4 4
+Links=2
+
+[Node5]
+Type=CPU Green-4 6 2
+Links=2

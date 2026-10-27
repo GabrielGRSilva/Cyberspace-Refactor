@@ -1,0 +1,186 @@
+0000 -- Logfile on.
+0000 -- Logfile off.
+0000 -- Logfile on.
+0000 -- Real time decking disabled.
+0000 -- Loading takes 2 turns
+0001 -- Loading takes 2 turns
+0002 -- Loading takes 3 turns
+0003 -- Loading takes 1 turns
+0004 -- Loading takes 1 turns
+0005 -- Loading takes 1 turns
+0005 -- Loading takes 2 turns
+0007 -- Loading takes 1 turns
+0008 -- Loading takes 1 turns
+0008 -- Loading takes 1 turns
+0009 -- Armor builds up.
+0009 -- 
+0009 -- 1. System Access Node (SAN)
+0010 -- Execution of Analyze failed.
+0010 -- 
+0010 -- External Matrix (MAT)
+0011 -- 
+0011 -- 1. System Access Node (SAN)
+0012 -- 
+0012 -- 1. System Access Node (SAN)
+0012 -- Execution of Analyze failed.
+0013 -- Jack out.
+0013 -- 
+0013 -- 1. System Access Node (SAN)
+0000 -- Real time decking disabled.
+0000 -- Plug in first!
+0000 -- Plug in first!
+0000 -- Plug in first!
+0000 -- 
+0000 -- 1. System Access Node (SAN)
+0000 -- Loading takes 2 turns
+0001 -- Loading takes 2 turns
+0002 -- Loading takes 3 turns
+0004 -- Loading takes 1 turns
+0005 -- Loading takes 1 turns
+0005 -- Loading takes 1 turns
+0006 -- Loading takes 1 turns
+0006 -- Loading takes 1 turns
+0007 -- Loading takes 2 turns
+0009 -- Loading takes 1 turns
+0010 -- Loading takes 1 turns
+0010 -- Loading takes 1 turns
+0011 -- Armor builds up.
+0011 -- 
+0011 -- 1. System Access Node (SAN)
+0012 -- Real time decking disabled.
+0012 -- Execution of Analyze failed.
+0012 -- 
+0012 -- 1. System Access Node (SAN)
+0012 -- Bar Entrance
+0013 -- Execution of Analyze failed.
+0013 -- 
+0013 -- 2. Central Processing Unit (CPU)
+0014 -- 
+0014 -- 2. Central Processing Unit (CPU)
+0015 -- Execution of Analyze failed.
+0015 -- 
+0015 -- 2. Central Processing Unit (CPU)
+0015 -- Bar Central System
+0015 -- Decker Initiative:12
+0015 -- Sleaze successful!
+0015 -- *ICE does not see you.
+0015 -- 
+0015 -- 5. I/O Port (IOP)
+0016 -- 
+0016 -- 5. I/O Port (IOP)
+0017 -- You see a IOP Green
+0017 -- 
+0017 -- 5. I/O Port (IOP)
+0017 -- Credstick Checker
+0018 -- Message displayed successful.
+0018 -- Port successful disconnected.
+0020 -- 
+0020 -- 2. Central Processing Unit (CPU)
+0021 -- Execution of Analyze failed.
+0022 -- 
+0022 -- 2. Central Processing Unit (CPU)
+0022 -- 
+0022 -- 2. Central Processing Unit (CPU)
+0022 -- Bar Central System
+0022 -- Decker Initiative:15
+0022 -- Sleaze successful!
+0022 -- *ICE does not see you.
+0022 -- 
+0022 -- 4. Slave Module (SM)
+0023 -- 
+0023 -- 4. Slave Module (SM)
+0023 -- Execution of Analyze failed.
+0024 -- 
+0024 -- 4. Slave Module (SM)
+0024 -- SoyCaf-O-Mat & Soup Tap
+0025 -- 
+0025 -- 2. Central Processing Unit (CPU)
+0026 -- Waiting...
+0027 -- Waiting...
+0027 -- Waiting...
+0028 -- Execution of Analyze failed.
+0028 -- 
+0028 -- 2. Central Processing Unit (CPU)
+0028 -- Bar Central System
+0028 -- Decker Initiative:13
+0028 -- Sleaze successful!
+0028 -- *ICE does not see you.
+0028 -- 
+0028 -- 3. Datastore (DS)
+0029 -- 
+0029 -- 3. Datastore (DS)
+0029 -- You just see a DS
+0030 -- 
+0030 -- 3. Datastore (DS)
+0030 -- Inventory and Finances
+0030 -- Data files:
+0030 --   Inventory [20 Mp]
+0030 --   Financial Records [30 Mp]
+0030 -- File scan started...
+0030 -- Scan takes (2 turns)
+0030 -- You found something in <Financial Records> (see GM log).
+0030 !! GMLOG: Scan file <Financial Records> results in 4 successes.
+0031 -- Transfer file SysOp failed.
+0033 -- Waiting...
+0034 -- Waiting...
+0034 -- Waiting...
+0035 -- 
+0035 -- 3. Datastore (DS)
+0035 -- 
+0035 -- 3. Datastore (DS)
+0035 -- Inventory and Finances
+0035 -- Data files:
+0035 --   Inventory [20 Mp]
+0035 --   Financial Records [30 Mp]
+0036 -- You just see a DS
+0037 -- 
+0037 -- 3. Datastore (DS)
+0037 -- Inventory and Finances
+0037 -- Data files:
+0037 --   Inventory [20 Mp]
+0037 --   Financial Records [30 Mp]
+0037 -- Transfer started...
+0037 -- Transfering <Financial Records>
+0039 -- Transfer started...
+0039 -- Transfering <Inventory>
+0040 -- 
+0040 -- 2. Central Processing Unit (CPU)
+0041 -- Execution of Analyze failed.
+0041 -- 
+0041 -- 2. Central Processing Unit (CPU)
+0041 -- Bar Central System
+0041 -- Decker Initiative:13
+0041 -- *ICE wants your identification.
+0041 -- Useless against this ICE-type?
+0041 -- Deception stalemate!
+0041 -- *ICE is suspicious.
+0041 -- *ICE yells!
+0042 -- Waiting...
+0043 -- Waiting...
+0043 -- Waiting...
+0044 -- Waiting...
+0045 -- Waiting...
+0045 -- Waiting...
+0045 -- Waiting...
+0046 -- Waiting...
+0046 -- Waiting...
+0047 -- 
+0047 -- 3. Datastore (DS)
+0047 -- Inventory and Finances
+0047 -- Data files:
+0047 --   Inventory [20 Mp]
+0047 --   Financial Records [30 Mp]
+0048 -- Waiting...
+0048 -- *New ICE approaches this node.
+0048 -- Waiting...
+0049 -- Waiting...
+0049 -- Waiting...
+0049 -- *ICE approaches node in sensor range.
+0049 -- *ICE enters the node.
+0050 -- *ICE wants your identification.
+0050 -- Jack out.
+0050 !! GMLOG: Decker should save his deck, because something has changed!
+0051 -- R=(Q+I)/2 does not fit this decker!
+0051 -- 
+0051 -- 1. System Access Node (SAN)
+0000 -- Logfile off.

@@ -1,0 +1,38 @@
+[Persona]
+Model=Radio Shack PCD-100 (upgraded)
+MPCP=2
+Bod=1
+Evasion=2
+Masking=1
+Sensor=2
+Damage=0
+
+[Technical Parameters]
+Hardening=1
+ActiveMem=100
+StorageMem=200
+Load=20
+I/O=10
+Response=0
+Satuplink=1
+PureCyber=0
+RealityFilter=0
+DisplayMode=0
+
+[Utilities]
+Program1=Attack (ME)-2-32
+Program2=Deception-2-8
+Program3=Sleaze-2-12
+Program4=Analyze-2-12
+Program5=Decrypt-2-8
+Program6=Relocate-2-8
+Program7=Browse-2-4
+Program8=Evaluate-2-8
+Program9=Sift-2-4
+Program10=Armor-2-12
+Program11=Cloak-2-12
+Program12=Mirrors-2-12
+Program13=Smoke-2-8
+Program14=Medic-2-16
+Program15=Attack-2-8
+Program16=Satlink-1-3

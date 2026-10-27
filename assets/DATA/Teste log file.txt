@@ -1,0 +1,797 @@
+0003 -- Logfile on.
+0003 -- Real time decking disabled.
+0003 -- Fastest ICE reaction time.
+0003 -- 
+0003 -- 1. System Access Node (SAN)
+0003 -- LTG NAN/SLS 5581 (3268), Bem vinda ao Cassino 2 Rivers.
+0003 -- Decker Initiative:13
+0003 -- *ICE wants your identification.
+0003 -- Waiting...
+0004 -- 
+0004 -- 1. System Access Node (SAN)
+0004 -- LTG NAN/SLS 5581 (3268), Bem vinda ao Cassino 2 Rivers.
+0004 -- Decker Initiative:16
+0004 -- *ICE wants your identification.
+0004 -- Waiting...
+0005 -- 
+0005 -- 1. System Access Node (SAN)
+0005 -- LTG NAN/SLS 5581 (3268), Bem vinda ao Cassino 2 Rivers.
+0005 -- Decker Initiative:13
+0005 -- *ICE wants your identification.
+0005 -- Deception successful!
+0005 -- *ICE ignores you.
+0006 -- 
+0006 -- 1. System Access Node (SAN)
+0006 -- LTG NAN/SLS 5581 (3268), Bem vinda ao Cassino 2 Rivers.
+0006 -- Decker Initiative:13
+0006 -- *ICE wants your identification.
+0006 -- Waiting...
+0007 -- 
+0007 -- 1. System Access Node (SAN)
+0007 -- LTG NAN/SLS 5581 (3268), Bem vinda ao Cassino 2 Rivers.
+0007 -- Decker Initiative:14
+0007 -- *ICE wants your identification.
+0007 -- 
+0007 -- 1. System Access Node (SAN)
+0007 -- LTG NAN/SLS 5581 (3268), Bem vinda ao Cassino 2 Rivers.
+0007 -- Decker Initiative:13
+0001 -- Logfile on.
+0001 -- Real time decking disabled.
+0001 -- Loading takes 2 turns
+0002 -- Loading takes 2 turns
+0003 -- Loading takes 3 turns
+0005 -- Loading takes 1 turns
+0005 -- Loading takes 2 turns
+0006 -- Execution of Analyze failed.
+0007 -- Waiting...
+0008 -- 
+0008 -- 1. System Access Node (SAN)
+0008 -- You see a SAN Green
+0009 -- White ICE Access-7
+0009 -- 
+0009 -- 1. System Access Node (SAN)
+0009 -- LTG NAN/SLS 5581 (3268), Bem vinda ao Cassino 2 Rivers.
+0009 -- You see a White Access-7
+0009 -- Decker Initiative:9
+0009 -- *ICE wants your identification.
+0009 -- Deception successful!
+0009 -- *ICE ignores you.
+0010 -- 
+0010 -- 2. Sub-Processing Unit (SPU)
+0010 -- 
+0010 -- 2. Sub-Processing Unit (SPU)
+0011 -- 
+0011 -- 2. Sub-Processing Unit (SPU)
+0011 -- 
+0011 -- 3. I/O Port (IOP)
+0011 -- 
+0011 -- 3. I/O Port (IOP)
+0012 -- 
+0012 -- 3. I/O Port (IOP)
+0012 -- Terminais de acesso pagos.
+0013 -- Message displayed successful.
+0013 -- 
+0013 -- 2. Sub-Processing Unit (SPU)
+0014 -- 
+0014 -- 2. Sub-Processing Unit (SPU)
+0014 -- 
+0014 -- 2. Sub-Processing Unit (SPU)
+0015 -- 
+0015 -- 1. System Access Node (SAN)
+0015 -- 
+0015 -- 1. System Access Node (SAN)
+0016 -- 
+0016 -- 2. Sub-Processing Unit (SPU)
+0017 -- You see a SPU Green-3
+0018 -- 
+0018 -- 4. Sub-Processing Unit (SPU)
+0018 -- 
+0018 -- 4. Sub-Processing Unit (SPU)
+0019 -- You see a SPU Green
+0019 -- 
+0019 -- 4. Sub-Processing Unit (SPU)
+0020 -- 
+0020 -- 8. I/O Port (IOP)
+0020 -- 
+0020 -- 8. I/O Port (IOP)
+0021 -- 
+0021 -- 8. I/O Port (IOP)
+0021 -- Terminais privados dos quartos.
+0021 -- You just see a IOP
+0023 -- 
+0023 -- 4. Sub-Processing Unit (SPU)
+0023 -- 
+0023 -- 7. Sub-Processing Unit (SPU)
+0024 -- 
+0024 -- 7. Sub-Processing Unit (SPU)
+0024 -- Execution of Analyze failed.
+0025 -- Execution of Analyze failed.
+0025 -- 
+0025 -- 4. Sub-Processing Unit (SPU)
+0027 -- Waiting...
+0028 -- 
+0028 -- 7. Sub-Processing Unit (SPU)
+0028 -- 
+0028 -- 7. Sub-Processing Unit (SPU)
+0029 -- Execution of Analyze failed.
+0029 -- Execution of Analyze failed.
+0030 -- 
+0030 -- 7. Sub-Processing Unit (SPU)
+0030 -- Decker Initiative:15
+0030 -- Deception successful!
+0030 -- *ICE ignores you.
+0030 -- 
+0030 -- 16. Datastore (DS)
+0030 -- 
+0030 -- 16. Datastore (DS)
+0031 -- You just see a DS
+0032 -- White ICE Scramble-4
+0004 -- Logfile on.
+0004 -- Real time decking disabled.
+0004 -- Loading takes 8 turns
+0009 -- Loading takes 2 turns
+0010 -- 
+0010 -- 1. System Access Node (SAN)
+0010 -- Waiting...
+0011 -- You see a SAN Green
+0011 -- White ICE Access-7
+0012 -- Waiting...
+0012 -- 
+0012 -- 1. System Access Node (SAN)
+0012 -- LTG NAN/SLS 5581 (3268), Bem vinda ao Cassino 2 Rivers.
+0012 -- You see a White Access-7
+0012 -- Decker Initiative:13
+0012 -- Slow successful!
+0012 -- Execution of Attack successful...
+0012 -- Attack successful!
+0012 -- *ICE yells!
+0013 -- Attack successful!
+0013 -- Attack successful!
+0014 -- 
+0014 -- 2. Sub-Processing Unit (SPU)
+0014 -- 
+0014 -- 2. Sub-Processing Unit (SPU)
+0015 -- 
+0015 -- 2. Sub-Processing Unit (SPU)
+0015 -- 
+0015 -- 4. Sub-Processing Unit (SPU)
+0016 -- 
+0016 -- 4. Sub-Processing Unit (SPU)
+0016 -- 
+0016 -- 4. Sub-Processing Unit (SPU)
+0017 -- 
+0017 -- 7. Sub-Processing Unit (SPU)
+0018 -- 
+0018 -- 7. Sub-Processing Unit (SPU)
+0018 -- You see a SPU Orange
+0019 -- *New ICE approaches this node.
+0019 -- Armor builds up.
+0019 -- *ICE at distance enters your range.
+0019 -- Loading takes 1 turns
+0020 -- *ICE2 wants your identification.
+0020 -- Deception successful!
+0020 -- *ICE2 ignores you.
+0020 -- 
+0020 -- 7. Sub-Processing Unit (SPU)
+0020 -- Decker Initiative:13
+0020 -- *ICE ignores you.
+0020 -- Sleaze failed!
+0020 -- *ICE ignores you.
+0020 -- *ICE blocks your way.
+0021 -- *ICE1 ignores you.
+0021 -- Deception successful!
+0021 -- *ICE1 wants your identification.
+0021 -- *ICE2 enters the node.
+0021 -- *ICE blocks your way.
+0022 -- *ICE2 wants your identification.
+0022 -- *ICE1 is suspicious.
+0022 -- *ICE1 yells!
+0022 -- No clear Analyze results.
+0022 -- *ICE2 hits...
+0022 -- *ICE1 yells!
+0007 -- Logfile on.
+0007 -- Real time decking disabled.
+0007 -- Waiting...
+0008 -- 
+0008 -- 1. System Access Node (SAN)
+0008 -- You see a SAN Green-3
+0009 -- White ICE Access-7
+0010 -- 
+0010 -- 1. System Access Node (SAN)
+0010 -- LTG NAN/SLS 5581 (3268), Bem vinda ao Cassino 2 Rivers.
+0010 -- You see a White Access-7
+0010 -- Decker Initiative:11
+0010 -- *ICE wants your identification.
+0010 -- Deception successful!
+0010 -- *ICE ignores you.
+0010 -- 
+0010 -- 2. Sub-Processing Unit (SPU)
+0010 -- 
+0010 -- 2. Sub-Processing Unit (SPU)
+0011 -- 
+0011 -- 2. Sub-Processing Unit (SPU)
+0011 -- 
+0011 -- 4. Sub-Processing Unit (SPU)
+0011 -- 
+0011 -- 4. Sub-Processing Unit (SPU)
+0013 -- 
+0013 -- 4. Sub-Processing Unit (SPU)
+0013 -- 
+0013 -- 7. Sub-Processing Unit (SPU)
+0013 -- 
+0013 -- 7. Sub-Processing Unit (SPU)
+0014 -- Execution of Analyze failed.
+0015 -- You see a SPU Orange
+0015 -- White ICE Access
+0016 -- 
+0016 -- 7. Sub-Processing Unit (SPU)
+0016 -- You see a White Access
+0016 -- Decker Initiative:17
+0016 -- Deception successful!
+0016 -- *ICE ignores you.
+0016 -- White ICE 
+0016 -- *ICE ignores you.
+0017 -- *ICE ignores you.
+0017 -- White ICE 
+0017 -- *ICE ignores you.
+0018 -- *ICE ignores you.
+0018 -- 
+0018 -- 10. Sub-Processing Unit (SPU)
+0018 -- 
+0018 -- 10. Sub-Processing Unit (SPU)
+0019 -- You see a SPU Orange-3
+0019 -- White ICE Access-4
+0019 -- Inactive 
+0019 -- You already know this ICE:
+0019 -- White ICE Access-4
+0020 -- 
+0020 -- 10. Sub-Processing Unit (SPU)
+0020 -- Sub-Central de Segurança
+0020 -- You see a White Access-4
+0020 -- Decker Initiative:12
+0020 -- *ICE wants your identification.
+0020 -- Deception successful!
+0020 -- *ICE ignores you.
+0020 -- 
+0020 -- 12. Datastore (DS)
+0021 -- 
+0021 -- 12. Datastore (DS)
+0021 -- Execution of Analyze failed.
+0022 -- Loading takes 1 turns
+0023 -- 
+0023 -- 12. Datastore (DS)
+0023 -- Arquivos da Segurança
+0023 -- Data files:
+0023 --   Registro das gravações das câmeras de segurança [120 Mp]
+0023 --   Registro dos acessos dos maglocks [120 Mp]
+0023 --   Registro geral dos turnos de segurança [120 Mp]
+0023 --   Registros das ocorrências e chamados aos Red Rangers [50 Mp]
+0023 -- You see 4 datafiles: 
+0023 -- Registro das gravações das câmeras de segurança 120MP/0 
+0023 -- Registro dos acessos dos maglocks 120MP/0 
+0023 -- Registro geral dos turnos de segurança 120MP/6000 
+0023 -- Registros das ocorrências e chamados aos Red Rangers 50MP/2500 
+0024 -- 
+0024 -- 10. Sub-Processing Unit (SPU)
+0025 -- 
+0025 -- 10. Sub-Processing Unit (SPU)
+0026 -- 
+0026 -- 10. Sub-Processing Unit (SPU)
+0026 -- Sub-Central de Segurança
+0026 -- You see a White Access-4
+0026 -- Decker Initiative:10
+0026 -- *ICE wants your identification.
+0026 -- Deception successful!
+0026 -- *ICE ignores you.
+0027 -- 
+0027 -- 13. Slave Module (SM)
+0027 -- 
+0027 -- 10. Sub-Processing Unit (SPU)
+0028 -- 
+0028 -- 10. Sub-Processing Unit (SPU)
+0028 -- Sub-Central de Segurança
+0028 -- You see a White Access-4
+0028 -- Decker Initiative:11
+0028 -- *ICE wants your identification.
+0028 -- Deception successful!
+0028 -- *ICE ignores you.
+0028 -- 
+0028 -- 11. Slave Module (SM)
+0029 -- 
+0029 -- 11. Slave Module (SM)
+0029 -- You see a SM Green-3
+0030 -- 
+0030 -- 10. Sub-Processing Unit (SPU)
+0031 -- 
+0031 -- 10. Sub-Processing Unit (SPU)
+0031 -- Sub-Central de Segurança
+0031 -- You see a White Access-4
+0031 -- Decker Initiative:11
+0031 -- *ICE wants your identification.
+0031 -- Deception successful!
+0031 -- *ICE ignores you.
+0031 -- 
+0031 -- 14. I/O Port (IOP)
+0032 -- 
+0032 -- 14. I/O Port (IOP)
+0032 -- 
+0032 -- 10. Sub-Processing Unit (SPU)
+0033 -- 
+0033 -- 10. Sub-Processing Unit (SPU)
+0033 -- Sub-Central de Segurança
+0033 -- You see a White Access-4
+0033 -- Decker Initiative:17
+0033 -- You already know this node:
+0033 -- You see a SPU Orange-3
+0033 -- *ICE wants your identification.
+0033 -- You already know this ICE:
+0033 -- White ICE Access-4
+0033 -- *ICE is suspicious.
+0033 -- *ICE yells!
+0034 -- *Killer (M) ICE wants your identification.
+0034 -- *Access ICE is suspicious.
+0034 -- *Access ICE yells!
+0034 -- Cannot refresh an Armor program.
+0034 -- *Killer (M) ICE hits...
+0034 -- Execution of Attack successful...
+0034 -- Attack missed!
+0034 -- *Access ICE yells!
+0035 -- *Killer (M) ICE hits...
+0035 -- *Access ICE yells!
+0035 -- Attack missed!
+0035 -- Your armor disolves.
+0035 -- *Killer (M) ICE hits...
+0035 -- Attack missed!
+0036 -- *Killer (M) ICE hits...
+0036 -- *Access ICE yells!
+0036 -- Attack missed!
+0036 -- *Killer (M) ICE hits...
+0036 -- Attack missed!
+0037 -- *Killer (M) ICE hits...
+0037 -- *Access ICE yells!
+0037 -- Attack missed!
+0037 -- *Killer (M) ICE hits...
+0038 -- *Killer (M) ICE hits...
+0038 -- *ICE blocks your way.
+0038 -- *Access ICE yells!
+0038 -- *ICE blocks your way.
+0038 -- *Access ICE yells!
+0038 -- *Killer (M) ICE hits...
+0039 -- *Killer (M) ICE hits...
+0039 -- *Access ICE yells!
+0039 -- Attack missed!
+0039 -- *Killer (M) ICE hits...
+0040 -- 
+0040 -- 14. I/O Port (IOP)
+0040 -- Terminal da sala de segurança
+0041 -- *New ICE approaches this node.
+0041 -- 
+0041 -- 10. Sub-Processing Unit (SPU)
+0041 -- 
+0041 -- 14. I/O Port (IOP)
+0042 -- *ICE wants your identification.
+0042 -- *ICE blocks your way.
+0042 -- *ICE is suspicious.
+0042 -- *ICE hits...
+0043 -- *ICE hits...
+0043 -- Execution of Attack successful...
+0043 -- Attack missed!
+0043 -- *ICE hits...
+0044 -- *ICE hits...
+0044 -- Attack missed!
+0044 -- *ICE hits...
+0045 -- *ICE hits...
+0045 -- Attack missed!
+0045 -- *ICE hits...
+0045 -- Loading takes 1 turns
+0046 -- *ICE hits...
+0046 -- Smoke makes operations difficult.
+0046 -- *ICE hits...
+0047 -- *ICE hits...
+0047 -- Attack missed!
+0047 -- *ICE hits...
+0047 -- Attack missed!
+0048 -- *ICE hits...
+0048 -- Attack missed!
+0048 -- *ICE hits...
+0048 -- The smoke clears up.
+0049 -- *ICE hits...
+0049 -- Attack missed!
+0049 -- *ICE hits...
+0000 -- Logfile on.
+0000 -- Real time decking disabled.
+0000 -- Loading takes 2 turns
+0001 -- Loading takes 2 turns
+0002 -- Loading takes 3 turns
+0003 -- Loading takes 1 turns
+0004 -- Loading takes 1 turns
+0004 -- Loading takes 1 turns
+0005 -- Loading takes 2 turns
+0006 -- Loading takes 1 turns
+0006 -- Not enough active memory!
+0007 -- Loading takes 1 turns
+0007 -- 
+0007 -- 1. System Access Node (SAN)
+0008 -- You just see a SAN
+0009 -- 
+0009 -- 1. System Access Node (SAN)
+0009 -- Bem vindo aos sitema do Mart Market.
+0010 -- Analyze stopped working.
+0010 -- 
+0010 -- 2. Sub-Processing Unit (SPU)
+0011 -- 
+0011 -- 2. Sub-Processing Unit (SPU)
+0011 -- You see a SPU Green-3
+0012 -- 
+0012 -- 2. Sub-Processing Unit (SPU)
+0012 -- Mart Market, sempre perto de você.
+0012 -- 
+0012 -- 4. I/O Port (IOP)
+0013 -- 
+0013 -- 4. I/O Port (IOP)
+0013 -- You just see a IOP
+0014 -- 
+0014 -- 4. I/O Port (IOP)
+0014 -- Terminais de acesso do Mark Market.
+0015 -- 
+0015 -- 2. Sub-Processing Unit (SPU)
+0015 -- Mart Market, sempre perto de você.
+0016 -- 
+0016 -- 3. Datastore (DS)
+0016 -- 
+0016 -- 3. Datastore (DS)
+0018 -- You see a DS Green
+0018 -- 
+0018 -- 3. Datastore (DS)
+0018 -- Arquivos públicos, propagandas e informações gerais.
+0018 -- Data files:
+0018 --   História do Mark Market [60 Mp]
+0018 --   Ofertas da semana! [70 Mp]
+0018 --   Afiliados Mark Market [40 Mp]
+0019 -- You see 3 datafiles: 
+0019 -- História do Mark Market 60MP/0 
+0019 -- Ofertas da semana! 70MP/1000 
+0019 -- Afiliados Mark Market 40MP/0 
+0019 -- Transfer started...
+0019 -- Transfering <Ofertas da semana!>
+0021 -- 
+0021 -- 2. Sub-Processing Unit (SPU)
+0021 -- 
+0021 -- 2. Sub-Processing Unit (SPU)
+0022 -- 
+0022 -- 2. Sub-Processing Unit (SPU)
+0022 -- Mart Market, sempre perto de você.
+0023 -- 
+0023 -- 5. Sub-Processing Unit (SPU)
+0024 -- 
+0024 -- 5. Sub-Processing Unit (SPU)
+0024 -- Armor builds up.
+0025 -- Execution of Analyze failed.
+0025 -- Execution of Analyze failed.
+0026 -- 
+0026 -- 2. Sub-Processing Unit (SPU)
+0026 -- Mart Market, sempre perto de você.
+0027 -- Waiting...
+0027 -- Waiting...
+0028 -- 
+0028 -- 5. Sub-Processing Unit (SPU)
+0028 -- 
+0028 -- 5. Sub-Processing Unit (SPU)
+0029 -- You see a SPU Green
+0029 -- White ICE Access
+0030 -- Waiting...
+0030 -- 
+0030 -- 5. Sub-Processing Unit (SPU)
+0030 -- Atenção! Acesso somente para pessoal altorizado.
+0030 -- You see a White Access
+0030 -- Decker Initiative:12
+0030 -- Sleaze successful!
+0030 -- *ICE does not see you.
+0030 --  Must do a resleaze...
+0030 -- Deception successful!
+0031 -- 
+0031 -- 6. Sub-Processing Unit (SPU)
+0031 -- 
+0031 -- 6. Sub-Processing Unit (SPU)
+0032 -- You see a SPU Green
+0032 -- 
+0032 -- 6. Sub-Processing Unit (SPU)
+0032 -- Setor gerencial do Mark Market.
+0033 -- 
+0033 -- 10. Sub-Processing Unit (SPU)
+0033 -- 
+0033 -- 10. Sub-Processing Unit (SPU)
+0034 -- You see a SPU Green-3
+0035 -- 
+0035 -- 10. Sub-Processing Unit (SPU)
+0035 -- Controle automotivo da loja física.
+0036 -- 
+0036 -- 6. Sub-Processing Unit (SPU)
+0036 -- Setor gerencial do Mark Market.
+0037 -- 
+0037 -- 14. Sub-Processing Unit (SPU)
+0037 -- 
+0037 -- 14. Sub-Processing Unit (SPU)
+0038 -- 
+0038 -- 14. Sub-Processing Unit (SPU)
+0038 -- Setor de segurança.
+0038 -- You see a SPU Green
+0039 -- 
+0039 -- 18. I/O Port (IOP)
+0039 -- 
+0039 -- 14. Sub-Processing Unit (SPU)
+0039 -- Setor de segurança.
+0040 -- 
+0040 -- 17. Slave Module (SM)
+0041 -- 
+0041 -- 14. Sub-Processing Unit (SPU)
+0041 -- Setor de segurança.
+0042 -- 
+0042 -- 16. Slave Module (SM)
+0042 -- 
+0042 -- 16. Slave Module (SM)
+0043 -- 
+0043 -- 16. Slave Module (SM)
+0043 -- Portas automáticas e sistema de travamento de emergência.
+0043 -- Control Device successful (see GM log).
+0043 !! GMLOG: Control Device in node 16 with 4 successes.
+0044 -- 
+0044 -- 14. Sub-Processing Unit (SPU)
+0044 -- 
+0044 -- 14. Sub-Processing Unit (SPU)
+0045 -- 
+0045 -- 14. Sub-Processing Unit (SPU)
+0045 -- Setor de segurança.
+0045 -- 
+0045 -- 15. Slave Module (SM)
+0045 -- 
+0045 -- 15. Slave Module (SM)
+0046 -- 
+0046 -- 15. Slave Module (SM)
+0046 -- Câmeras de segurança.
+0047 -- Control Device successful (see GM log).
+0047 !! GMLOG: Control Device in node 15 with 8 successes.
+0047 -- 
+0047 -- 14. Sub-Processing Unit (SPU)
+0047 -- 
+0047 -- 14. Sub-Processing Unit (SPU)
+0049 -- 
+0049 -- 14. Sub-Processing Unit (SPU)
+0049 -- Setor de segurança.
+0049 -- 
+0049 -- 19. Datastore (DS)
+0050 -- 
+0050 -- 19. Datastore (DS)
+0050 -- You just see a DS
+0051 -- 
+0051 -- 19. Datastore (DS)
+0051 -- Registros gerais de segurança.
+0051 -- Data files:
+0051 --   Registro das ocorrências de segurança. [60 Mp]
+0051 --   Protocolos de segurança. [60 Mp]
+0051 --   Cópia dos registros das câmeras, ultima semana. [120 Mp]
+0052 -- You see 3 datafiles: 
+0052 -- Registro das ocorrências de segurança. 60MP 
+0052 -- Protocolos de segurança. 60MP 
+0052 -- Cópia dos registros das câmeras, ultima semana. 120MP 
+0052 -- Cannot determine their values.
+0054 -- 
+0054 -- 14. Sub-Processing Unit (SPU)
+0054 -- Setor de segurança.
+0055 -- Waiting...
+0055 -- 
+0055 -- 19. Datastore (DS)
+0055 -- 
+0055 -- 19. Datastore (DS)
+0056 -- 
+0056 -- 19. Datastore (DS)
+0056 -- Registros gerais de segurança.
+0056 -- Data files:
+0056 --   Registro das ocorrências de segurança. [60 Mp]
+0056 --   Protocolos de segurança. [60 Mp]
+0056 --   Cópia dos registros das câmeras, ultima semana. [120 Mp]
+0057 -- Waiting...
+0057 -- You see 3 datafiles: 
+0057 -- Registro das ocorrências de segurança. 60MP/0 
+0057 -- Protocolos de segurança. 60MP/3000 
+0057 -- Cópia dos registros das câmeras, ultima semana. 120MP/0 
+0058 -- Transfer started...
+0058 -- Transfering <Protocolos de segurança.>
+0060 -- 
+0060 -- 14. Sub-Processing Unit (SPU)
+0060 -- Setor de segurança.
+0061 -- 
+0061 -- 6. Sub-Processing Unit (SPU)
+0061 -- 
+0061 -- 6. Sub-Processing Unit (SPU)
+0062 -- 
+0062 -- 6. Sub-Processing Unit (SPU)
+0062 -- Setor gerencial do Mark Market.
+0062 -- 
+0062 -- 21. Datastore (DS)
+0062 -- 
+0062 -- 21. Datastore (DS)
+0063 -- You see a DS Green
+0064 -- 
+0064 -- 21. Datastore (DS)
+0064 -- Arquivos gerais.
+0064 -- Data files:
+0064 --   Escala dos funcionários [20 Mp]
+0064 --   Escala dos transportes. [50 Mp]
+0064 --   Relatório de reposição de estoque [50 Mp]
+0064 -- You see 3 datafiles: 
+0064 -- Escala dos funcionários 20MP 
+0064 -- Escala dos transportes. 50MP 
+0064 -- Relatório de reposição de estoque 50MP 
+0064 -- Cannot determine their values.
+0066 -- Waiting...
+0067 -- Waiting...
+0067 -- Waiting...
+0068 -- 
+0068 -- 21. Datastore (DS)
+0068 -- 
+0068 -- 21. Datastore (DS)
+0068 -- Arquivos gerais.
+0068 -- Data files:
+0068 --   Escala dos funcionários [20 Mp]
+0068 --   Escala dos transportes. [50 Mp]
+0068 --   Relatório de reposição de estoque [50 Mp]
+0069 -- You see 3 datafiles: 
+0069 -- Escala dos funcionários 20MP 
+0069 -- Escala dos transportes. 50MP 
+0069 -- Relatório de reposição de estoque 50MP 
+0069 -- Cannot determine their values.
+0070 -- 
+0070 -- 6. Sub-Processing Unit (SPU)
+0070 -- Setor gerencial do Mark Market.
+0071 -- Waiting...
+0072 -- Waiting...
+0072 -- Waiting...
+0073 -- 
+0073 -- 21. Datastore (DS)
+0073 -- 
+0073 -- 21. Datastore (DS)
+0074 -- 
+0074 -- 21. Datastore (DS)
+0074 -- Arquivos gerais.
+0074 -- Data files:
+0074 --   Escala dos funcionários [20 Mp]
+0074 --   Escala dos transportes. [50 Mp]
+0074 --   Relatório de reposição de estoque [50 Mp]
+0074 -- You see 3 datafiles
+0075 -- 
+0075 -- 6. Sub-Processing Unit (SPU)
+0075 -- Setor gerencial do Mark Market.
+0076 -- Waiting...
+0077 -- Waiting...
+0077 -- Waiting...
+0078 -- 
+0078 -- 21. Datastore (DS)
+0078 -- 
+0078 -- 21. Datastore (DS)
+0078 -- 
+0078 -- 21. Datastore (DS)
+0078 -- Arquivos gerais.
+0078 -- Data files:
+0078 --   Escala dos funcionários [20 Mp]
+0078 --   Escala dos transportes. [50 Mp]
+0078 --   Relatório de reposição de estoque [50 Mp]
+0079 -- You see 3 datafiles
+0080 -- Transfer started...
+0080 -- Transfer aborted.
+0080 -- You see 3 datafiles: 
+0080 -- Escala dos funcionários 20MP 
+0080 -- Escala dos transportes. 50MP 
+0080 -- Relatório de reposição de estoque 50MP 
+0080 -- Cannot determine their values.
+0081 -- 
+0081 -- 6. Sub-Processing Unit (SPU)
+0081 -- 
+0081 -- 6. Sub-Processing Unit (SPU)
+0082 -- 
+0082 -- 6. Sub-Processing Unit (SPU)
+0082 -- Setor gerencial do Mark Market.
+0082 -- 
+0082 -- 20. I/O Port (IOP)
+0083 -- 
+0083 -- 20. I/O Port (IOP)
+0083 -- 
+0083 -- 20. I/O Port (IOP)
+0083 -- Terminais dos funcionários.
+0084 -- Port successful disconnected.
+0084 -- 
+0084 -- 6. Sub-Processing Unit (SPU)
+0084 -- 
+0084 -- 6. Sub-Processing Unit (SPU)
+0085 -- 
+0085 -- 6. Sub-Processing Unit (SPU)
+0085 -- Setor gerencial do Mark Market.
+0086 -- 
+0086 -- 7. Central Processing Unit (CPU)
+0086 -- 
+0086 -- 7. Central Processing Unit (CPU)
+0087 -- Execution of Analyze failed.
+0087 -- 
+0087 -- 6. Sub-Processing Unit (SPU)
+0087 -- Setor gerencial do Mark Market.
+0088 -- Waiting...
+0089 -- Waiting...
+0089 -- 
+0089 -- 20. I/O Port (IOP)
+0089 -- 
+0089 -- 20. I/O Port (IOP)
+0090 -- 
+0090 -- 6. Sub-Processing Unit (SPU)
+0090 -- Setor gerencial do Mark Market.
+0091 -- 
+0091 -- 7. Central Processing Unit (CPU)
+0091 -- 
+0091 -- 7. Central Processing Unit (CPU)
+0092 -- Execution of Analyze failed.
+0093 -- Execution of Analyze failed.
+0094 -- 
+0094 -- 6. Sub-Processing Unit (SPU)
+0094 -- Setor gerencial do Mark Market.
+0094 -- Waiting...
+0095 -- Waiting...
+0095 -- Waiting...
+0096 -- 
+0096 -- 7. Central Processing Unit (CPU)
+0096 -- 
+0096 -- 7. Central Processing Unit (CPU)
+0096 -- 
+0096 -- 7. Central Processing Unit (CPU)
+0096 -- Central do Mark Market LTDA.
+0096 -- Decker Initiative:14
+0096 -- *ICE wants your identification.
+0096 -- *ICE is suspicious.
+0096 -- *ICE hits...
+0097 -- *ICE hits...
+0098 -- 
+0098 -- 6. Sub-Processing Unit (SPU)
+0098 -- Setor gerencial do Mark Market.
+0098 -- Waiting...
+0099 -- 
+0099 -- 20. I/O Port (IOP)
+0099 -- 
+0099 -- 6. Sub-Processing Unit (SPU)
+0099 -- Setor gerencial do Mark Market.
+0100 -- 
+0100 -- 7. Central Processing Unit (CPU)
+0100 -- 
+0100 -- 7. Central Processing Unit (CPU)
+0101 -- Execution of Analyze failed.
+0102 -- Execution of Analyze failed.
+0103 -- 
+0103 -- 7. Central Processing Unit (CPU)
+0103 -- Central do Mark Market LTDA.
+0103 -- Decker Initiative:10
+0103 -- *ICE wants your identification.
+0103 -- Deception stalemate!
+0103 -- *ICE is suspicious.
+0103 -- Your armor disolves.
+0103 -- *ICE hits...
+0104 -- *ICE hits...
+0104 -- Execution... failed. Difficulties increase.
+0106 -- Waiting...
+0106 -- Waiting...
+0108 -- Waiting...
+0108 -- 
+0108 -- 7. Central Processing Unit (CPU)
+0109 -- 
+0109 -- 7. Central Processing Unit (CPU)
+0109 -- Central do Mark Market LTDA.
+0109 -- Decker Initiative:16
+0109 -- Deception failed!
+0109 -- *ICE hits...
+0109 -- Execution... failed. Difficulties increase.
+0110 -- *ICE hits...
+0110 -- Execution... failed. Difficulties increase.
+0110 -- *ICE hits...
+0110 -- Execution... failed. Difficulties increase.
+0110 -- *ICE hits...
+0110 -- Execution... failed. Difficulties increase.
+0110 -- *ICE hits...
+0111 -- *ICE hits...
+0111 -- *ICE hits...
+0112 -- *ICE hits...

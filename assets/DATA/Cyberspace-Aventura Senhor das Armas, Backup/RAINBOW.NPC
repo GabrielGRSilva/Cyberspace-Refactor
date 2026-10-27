@@ -1,0 +1,22 @@
+[Character]
+Name=Rainbow
+
+[Attributes]
+Body=5
+Quickness=5
+Strength=5
+Charisma=8
+Intelligence=5
+Willpower=5
+Reaction=5+1D
+Stun Damage=0
+Phys Damage=0
+
+[Skills]
+Computer=5
+Etiquette/Matrix=4
+
+[Dice Pools]
+Karma=15
+Hacking=0
+Team=5

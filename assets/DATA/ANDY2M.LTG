@@ -1,0 +1,68 @@
+[Matrix]
+Description=2M-Floor 31
+Nodes=9
+Entry=6
+Range=1
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1/6
+
+[Node1]
+Type=IOP Green-6 6 1
+ICEType1=White Access-5
+ICEType2=Gray Blaster-5
+Links=0/3
+
+[Node2]
+Type=IOP Green-6 8 1
+ICEType1=White Access-5
+ICEType2=Gray Blaster-5
+Links=3
+
+[Node3]
+Type=SPU Orange-4 7 2
+ICEType=White Access-4
+Links=4/7/1/2/6/5
+
+[Node4]
+Type=DS Red-5 7 4
+Files=Research Accounts/50/1000 Manager Util./20/5000 
+ICEType1=White Scramble-4
+ICEType2=Black Killer (PhysL)-5 mobile active
+Links=3
+
+[Node5]
+Type=DS Red-6 8 3
+Files=Laboratories TOP SECRET/200/100000 
+ICEType1=Black Killer (PhysL)-5 mobile active
+ICEType2=White Barrier-6 active
+ICEType3=White Scramble-6
+Links=3
+
+[Node6]
+Type=DS Red-5 8 2
+Files=Courier Contacts/50/1000 
+ICEType1=White Barrier-4 active
+ICEType2=Black Killer (PhysL)-4 mobile active
+ICEType3=White Scramble-6
+Links=3/0
+
+[Node7]
+Type=CPU Red-4 5 3
+Links=8/3
+
+[Node8]
+Type=SPU Orange-4 4 4
+ICEType=White Access-4
+Links=9/7
+
+[Node9]
+Type=DS Red-4 2 4
+Mesg=19 Datastores
+Files=Personal/100/1000 Research/200/10000 
+ICEType1=Gray Blaster-5 mobile active
+ICEType2=White Scramble-6
+Links=8

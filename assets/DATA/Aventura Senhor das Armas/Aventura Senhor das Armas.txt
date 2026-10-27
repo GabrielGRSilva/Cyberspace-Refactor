@@ -1,0 +1,931 @@
+0000 -- Logfile on.
+0000 -- Loading takes 4 turns
+0002 -- Loading takes 3 turns
+0003 -- Loading takes 3 turns
+0005 -- Loading takes 1 turns
+0005 -- Loading takes 3 turns
+0007 -- Loading takes 2 turns
+0008 -- Loading takes 2 turns
+0009 -- Not enough active memory!
+0009 -- Armor builds up.
+0010 -- 
+0010 -- 2. I/O Port (IOP)
+0010 -- 
+0010 -- 2. I/O Port (IOP)
+0010 -- Uma terra virtual desolada jaz a sua frente. Um deserto de pó de silício, com algumas poucas construções abandonadas, formam a rede de Redmond.
+0011 -- 
+0011 -- 1. Central Processing Unit (CPU)
+0011 -- 
+0011 -- 1. Central Processing Unit (CPU)
+0012 -- 
+0012 -- 1. Central Processing Unit (CPU)
+0012 -- Display Map.
+0013 -- 
+0013 -- 4. Sub-Processing Unit (SPU)
+0013 -- 
+0013 -- 4. Sub-Processing Unit (SPU)
+0014 -- 
+0014 -- 4. Sub-Processing Unit (SPU)
+0014 -- 
+0014 -- 5. System Access Node (SAN)
+0015 -- 
+0015 -- 5. System Access Node (SAN)
+0015 -- 
+0015 -- 5. System Access Node (SAN)
+0015 -- LTG #16206(40-6739)
+0017 -- 
+0017 -- 4. Sub-Processing Unit (SPU)
+0019 -- 
+0019 -- 5. System Access Node (SAN)
+0019 -- LTG #16206(40-6739)
+0019 -- 
+0019 -- 4. Sub-Processing Unit (SPU)
+0019 -- 
+0019 -- 4. Sub-Processing Unit (SPU)
+0020 -- 
+0020 -- 4. Sub-Processing Unit (SPU)
+0020 -- 
+0020 -- 6. System Access Node (SAN)
+0021 -- 
+0021 -- 4. Sub-Processing Unit (SPU)
+0022 -- 
+0022 -- 1. Central Processing Unit (CPU)
+0022 -- 
+0022 -- 1. Central Processing Unit (CPU)
+0022 -- 
+0022 -- 1. Central Processing Unit (CPU)
+0023 -- 
+0023 -- 10. System Access Node (SAN)
+0024 -- 
+0024 -- 10. System Access Node (SAN)
+0024 -- 
+0024 -- 10. System Access Node (SAN)
+0024 -- RTG Seattle
+0025 -- 
+0025 -- 2. Sub-Processing Unit (SPU)
+0000 -- 
+0000 -- 2. Sub-Processing Unit (SPU)
+0000 -- 
+0000 -- 2. Sub-Processing Unit (SPU)
+0001 -- 
+0001 -- 2. Sub-Processing Unit (SPU)
+0001 -- 
+0001 -- 1. Central Processing Unit (CPU)
+0002 -- 
+0002 -- 1. Central Processing Unit (CPU)
+0002 -- 
+0002 -- 1. Central Processing Unit (CPU)
+0003 -- Display Map SysOp failed.
+0003 -- 
+0003 -- 3. I/O Port (IOP)
+0004 -- 
+0004 -- 3. I/O Port (IOP)
+0004 -- 
+0004 -- 3. I/O Port (IOP)
+0005 -- 
+0005 -- External Matrix (MAT)
+0005 -- 
+0005 -- 3. I/O Port (IOP)
+0007 -- 
+0007 -- External Matrix (MAT)
+0007 -- 
+0007 -- 1. Central Processing Unit (CPU)
+0008 -- 
+0008 -- 1. Central Processing Unit (CPU)
+0008 -- 
+0008 -- 1. Central Processing Unit (CPU)
+0009 -- 
+0009 -- 3. I/O Port (IOP)
+0010 -- 
+0010 -- 1. Central Processing Unit (CPU)
+0010 -- 
+0010 -- 2. Sub-Processing Unit (SPU)
+0011 -- 
+0011 -- 2. Sub-Processing Unit (SPU)
+0012 -- 
+0012 -- 2. Sub-Processing Unit (SPU)
+0012 -- 
+0012 -- 4. System Access Node (SAN)
+0013 -- 
+0013 -- 4. System Access Node (SAN)
+0013 -- 
+0013 -- 4. System Access Node (SAN)
+0013 -- LTG Tacoma
+0015 -- 
+0015 -- 2. Sub-Processing Unit (SPU)
+0015 -- 
+0015 -- 5. System Access Node (SAN)
+0016 -- 
+0016 -- 5. System Access Node (SAN)
+0016 -- 
+0016 -- 5. System Access Node (SAN)
+0016 -- LTG Renton
+0017 -- 
+0017 -- 1. Central Processing Unit (CPU)
+0000 -- 
+0000 -- 1. Central Processing Unit (CPU)
+0000 -- 
+0000 -- 1. Central Processing Unit (CPU)
+0000 -- 
+0000 -- 1. Central Processing Unit (CPU)
+0001 -- Display Map SysOp failed.
+0002 -- 
+0002 -- 2. I/O Port (IOP)
+0002 -- 
+0002 -- 2. I/O Port (IOP)
+0003 -- 
+0003 -- 2. I/O Port (IOP)
+0003 -- 
+0003 -- 1. Central Processing Unit (CPU)
+0004 -- 
+0004 -- 1. Central Processing Unit (CPU)
+0004 -- 
+0004 -- 1. Central Processing Unit (CPU)
+0005 -- Display Map SysOp failed.
+0005 -- 
+0005 -- 6. Sub-Processing Unit (SPU)
+0006 -- 
+0006 -- 6. Sub-Processing Unit (SPU)
+0006 -- 
+0006 -- 6. Sub-Processing Unit (SPU)
+0007 -- 
+0007 -- 4. System Access Node (SAN)
+0007 -- 
+0007 -- 4. System Access Node (SAN)
+0008 -- You see a SAN Orange-3
+0008 -- White ICE Access-5
+0009 -- 
+0009 -- 4. System Access Node (SAN)
+0009 -- LTG #16206(40-6738)
+0009 -- You see a White Access-5
+0009 -- Decker Initiative:17
+0009 -- Deception successful!
+0009 -- *ICE ignores you.
+0009 -- 
+0009 -- 1. System Access Node (SAN)
+0000 -- 
+0000 -- 2. Sub-Processing Unit (SPU)
+0001 -- 
+0001 -- 2. Sub-Processing Unit (SPU)
+0001 -- You see a SPU Green-3
+0002 -- 
+0002 -- 2. Sub-Processing Unit (SPU)
+0002 -- 
+0002 -- 3. Sub-Processing Unit (SPU)
+0003 -- 
+0003 -- 3. Sub-Processing Unit (SPU)
+0003 -- You see a SPU Green-4
+0003 -- Inactive 
+0004 -- 
+0004 -- 3. Sub-Processing Unit (SPU)
+0004 -- 
+0004 -- 11. Sub-Processing Unit (SPU)
+0005 -- 
+0005 -- 11. Sub-Processing Unit (SPU)
+0005 -- You see a SPU Green-4
+0006 -- 
+0006 -- 11. Sub-Processing Unit (SPU)
+0007 -- 
+0007 -- 15. Slave Module (SM)
+0007 -- 
+0007 -- 15. Slave Module (SM)
+0008 -- You see a SM Green-3
+0008 -- 
+0008 -- 15. Slave Module (SM)
+0009 -- 
+0009 -- 15. Slave Module (SM)
+0009 -- 
+0009 -- 11. Sub-Processing Unit (SPU)
+0011 -- 
+0011 -- 11. Sub-Processing Unit (SPU)
+0011 -- 
+0011 -- 11. Sub-Processing Unit (SPU)
+0012 -- 
+0012 -- 17. I/O Port (IOP)
+0012 -- 
+0012 -- 17. I/O Port (IOP)
+0013 -- You see a IOP Green-3
+0013 -- 
+0013 -- 11. Sub-Processing Unit (SPU)
+0014 -- 
+0014 -- 3. Sub-Processing Unit (SPU)
+0015 -- 
+0015 -- 3. Sub-Processing Unit (SPU)
+0015 -- 
+0015 -- 3. Sub-Processing Unit (SPU)
+0016 -- 
+0016 -- 4. Sub-Processing Unit (SPU)
+0016 -- 
+0016 -- 4. Sub-Processing Unit (SPU)
+0017 -- You just see a SPU
+0017 -- White ICE Access-3
+0018 -- 
+0018 -- 4. Sub-Processing Unit (SPU)
+0018 -- You see a White Access-3
+0018 -- Decker Initiative:15
+0018 -- Deception successful!
+0018 -- *ICE ignores you.
+0018 -- 
+0018 -- 9. Central Processing Unit (CPU)
+0019 -- 
+0019 -- 9. Central Processing Unit (CPU)
+0019 -- You see a CPU Orange
+0020 -- 
+0020 -- 9. Central Processing Unit (CPU)
+0020 -- Decker Initiative:16
+0020 -- Deception successful!
+0020 -- *ICE ignores you.
+0020 -- Display Map.
+0020 -- *ICE ignores you.
+0021 -- *ICE ignores you.
+0021 -- Teleport activated.
+0021 -- 
+0021 -- 22. Sub-Processing Unit (SPU)
+0021 -- *ICE ignores you.
+0021 -- 
+0021 -- 25. Datastore (DS)
+0022 -- 
+0022 -- 25. Datastore (DS)
+0022 -- 
+0022 -- 25. Datastore (DS)
+0022 -- Data files:
+0022 --   F4445 [50 Mp]
+0022 --   F4446 [90 Mp]
+0022 --   F4447 [80 Mp]
+0022 --   F4448 [20 Mp]
+0022 --   F4449 [20 Mp]
+0022 --   F4450 [100 Mp]
+0023 -- You see 6 datafiles: 
+0023 -- F4445 50MP/0 
+0023 -- F4446 90MP/9000 
+0023 -- F4447 80MP/8000 
+0023 -- F4448 20MP/2000 
+0023 -- F4449 20MP/0 
+0023 -- F4450 100MP/0 
+0023 -- Transfer started...
+0023 -- Transfering <F4446>
+0026 -- Transfer started...
+0026 -- Transfering <F4447>
+0028 -- Transfer started...
+0028 -- Transfering <F4448>
+0028 -- 
+0028 -- 22. Sub-Processing Unit (SPU)
+0029 -- 
+0029 -- 22. Sub-Processing Unit (SPU)
+0029 -- 
+0029 -- 22. Sub-Processing Unit (SPU)
+0029 -- Decker Initiative:17
+0029 -- Deception successful!
+0029 -- *ICE ignores you.
+0029 -- 
+0029 -- 28. Slave Module (SM)
+0030 -- 
+0030 -- 28. Slave Module (SM)
+0030 -- 
+0030 -- 28. Slave Module (SM)
+0031 -- Sensor Readout successful (ask GM).
+0031 !! GMLOG: Sensor Readout in node 28 with 3 successes.
+0031 -- 
+0031 -- 22. Sub-Processing Unit (SPU)
+0032 -- 
+0032 -- 22. Sub-Processing Unit (SPU)
+0032 -- 
+0032 -- 22. Sub-Processing Unit (SPU)
+0032 -- Decker Initiative:11
+0032 -- *ICE wants your identification.
+0032 -- Deception successful!
+0032 -- *ICE ignores you.
+0032 -- 
+0032 -- 27. Slave Module (SM)
+0033 -- 
+0033 -- 27. Slave Module (SM)
+0033 -- 
+0033 -- 27. Slave Module (SM)
+0034 -- Control Device successful (see GM log).
+0034 !! GMLOG: Control Device in node 27 with 4 successes.
+0034 -- 
+0034 -- 22. Sub-Processing Unit (SPU)
+0035 -- 
+0035 -- 22. Sub-Processing Unit (SPU)
+0035 -- 
+0035 -- 22. Sub-Processing Unit (SPU)
+0035 -- Decker Initiative:14
+0035 -- *ICE wants your identification.
+0035 -- Deception successful!
+0035 -- *ICE ignores you.
+0035 -- 
+0035 -- 2. Sub-Processing Unit (SPU)
+0036 -- 
+0036 -- 2. Sub-Processing Unit (SPU)
+0036 -- 
+0036 -- 2. Sub-Processing Unit (SPU)
+0037 -- 
+0037 -- 18. Sub-Processing Unit (SPU)
+0037 -- 
+0037 -- 18. Sub-Processing Unit (SPU)
+0038 -- 
+0038 -- 18. Sub-Processing Unit (SPU)
+0038 -- 
+0038 -- 29. Datastore (DS)
+0039 -- 
+0039 -- 29. Datastore (DS)
+0039 -- 
+0039 -- 29. Datastore (DS)
+0039 -- Data files:
+0039 --   E1255 [90 Mp]
+0039 --   E1256 [20 Mp]
+0039 --   E1257 [50 Mp]
+0040 -- You see 3 datafiles: 
+0040 -- E1255 90MP/0 
+0040 -- E1256 20MP/0 
+0040 -- E1257 50MP/0 
+0040 -- You can't find the information yet.
+0041 -- Browse stopped working.
+0041 -- 
+0041 -- 18. Sub-Processing Unit (SPU)
+0042 -- 
+0042 -- 18. Sub-Processing Unit (SPU)
+0042 -- 
+0042 -- 18. Sub-Processing Unit (SPU)
+0043 -- 
+0043 -- 19. I/O Port (IOP)
+0044 -- 
+0044 -- 19. I/O Port (IOP)
+0044 -- 
+0044 -- 19. I/O Port (IOP)
+0044 -- Terminais de acesso dos apartamentos.
+0045 -- 
+0045 -- 20. System Access Node (SAN)
+0045 -- 
+0045 -- 20. System Access Node (SAN)
+0046 -- You already know this node:
+0046 -- You see a SAN Orange-3
+0046 -- Execution of Analyze successful...
+0047 -- White ICE Access-3
+0047 -- 
+0047 -- 20. System Access Node (SAN)
+0047 -- LTG#16206(40-6738)3
+0047 -- You see a White Access-3
+0047 -- Decker Initiative:11
+0047 -- *ICE wants your identification.
+0047 -- Deception successful!
+0047 -- *ICE ignores you.
+0047 -- 
+0047 -- 2. Sub-Processing Unit (SPU)
+0000 -- 
+0000 -- 2. Sub-Processing Unit (SPU)
+0001 -- 
+0001 -- 2. Sub-Processing Unit (SPU)
+0001 -- You see a SPU Green
+0002 -- 
+0002 -- 2. Sub-Processing Unit (SPU)
+0002 -- 
+0002 -- 10. Central Processing Unit (CPU)
+0003 -- 
+0003 -- 10. Central Processing Unit (CPU)
+0003 -- You just see a CPU
+0004 -- White ICE Access-4
+0004 -- Inactive 
+0004 -- 
+0004 -- 10. Central Processing Unit (CPU)
+0004 -- You see a White Access-4
+0004 -- Decker Initiative:16
+0004 -- Sleaze successful!
+0004 -- *ICE does not see you.
+0004 --  Must do a resleaze...
+0004 -- Display Map SysOp failed.
+0004 -- *ICE is nervous.
+0005 -- Deception successful!
+0005 -- *ICE ignores you.
+0005 -- 
+0005 -- 3. Datastore (DS)
+0006 -- 
+0006 -- 3. Datastore (DS)
+0006 -- You see a DS Orange-3
+0006 -- Inactive 
+0007 -- 
+0007 -- 3. Datastore (DS)
+0007 -- Data files:
+0007 --   H9352 [80 Mp]
+0007 --   H9363 [90 Mp]
+0007 --   H9364 [90 Mp]
+0007 --   H9365 [60 Mp]
+0007 --   H9366 [120 Mp]
+0007 -- You see 5 datafiles: 
+0007 -- H9352 80MP 
+0007 -- H9363 90MP 
+0007 -- H9364 90MP 
+0007 -- H9365 60MP 
+0007 -- H9366 120MP 
+0007 -- Cannot determine their values.
+0008 -- 
+0008 -- 10. Central Processing Unit (CPU)
+0009 -- 
+0009 -- 10. Central Processing Unit (CPU)
+0009 -- You see a CPU Orange
+0010 -- 
+0010 -- 10. Central Processing Unit (CPU)
+0010 -- You see a White Access-4
+0010 -- Decker Initiative:10
+0010 -- *ICE wants your identification.
+0010 -- Deception successful!
+0010 -- *ICE ignores you.
+0011 -- Display Map SysOp failed.
+0011 -- *ICE ignores you.
+0011 -- Display Map SysOp failed.
+0011 -- *ICE ignores you.
+0012 -- *ICE ignores you.
+0012 -- 
+0012 -- 2. Sub-Processing Unit (SPU)
+0013 -- 
+0013 -- 2. Sub-Processing Unit (SPU)
+0013 -- 
+0013 -- 2. Sub-Processing Unit (SPU)
+0014 -- 
+0014 -- 11. System Access Node (SAN)
+0015 -- 
+0015 -- 11. System Access Node (SAN)
+0015 -- 
+0015 -- 11. System Access Node (SAN)
+0015 -- LTG#5206 (83421)
+0016 -- 
+0016 -- 2. Sub-Processing Unit (SPU)
+0016 -- 
+0016 -- 2. Sub-Processing Unit (SPU)
+0017 -- You see a SPU Green-4
+0017 -- 
+0017 -- 2. Sub-Processing Unit (SPU)
+0018 -- 
+0018 -- 10. Central Processing Unit (CPU)
+0018 -- 
+0018 -- 10. Central Processing Unit (CPU)
+0019 -- You just see a CPU
+0019 -- 
+0019 -- 10. Central Processing Unit (CPU)
+0019 -- You see a White Access-4
+0019 -- Decker Initiative:19
+0019 -- Deception successful!
+0019 -- *ICE ignores you.
+0019 -- Display Map.
+0019 -- *ICE ignores you.
+0020 -- *ICE ignores you.
+0020 -- Teleport SysOp failed.
+0020 -- *ICE ignores you.
+0020 -- 
+0020 -- 3. Datastore (DS)
+0021 -- 
+0021 -- 3. Datastore (DS)
+0021 -- 
+0021 -- 3. Datastore (DS)
+0021 -- Data files:
+0021 --   H9352 [80 Mp]
+0021 --   H9363 [90 Mp]
+0021 --   H9364 [90 Mp]
+0021 --   H9365 [60 Mp]
+0021 --   H9366 [120 Mp]
+0022 -- You see 5 datafiles: 
+0022 -- H9352 80MP 
+0022 -- H9363 90MP 
+0022 -- H9364 90MP 
+0022 -- H9365 60MP 
+0022 -- H9366 120MP 
+0022 -- Cannot determine their values.
+0022 -- 
+0022 -- 10. Central Processing Unit (CPU)
+0023 -- 
+0023 -- 10. Central Processing Unit (CPU)
+0024 -- 
+0024 -- 10. Central Processing Unit (CPU)
+0024 -- You see a White Access-4
+0024 -- Decker Initiative:15
+0024 -- Sleaze successful!
+0024 -- *ICE does not see you.
+0024 -- 
+0024 -- 2. Sub-Processing Unit (SPU)
+0025 -- 
+0025 -- 2. Sub-Processing Unit (SPU)
+0025 -- 
+0025 -- 2. Sub-Processing Unit (SPU)
+0026 -- 
+0026 -- 9. Datastore (DS)
+0026 -- 
+0026 -- 9. Datastore (DS)
+0029 -- 
+0029 -- 9. Datastore (DS)
+0029 -- Data files:
+0029 --   G1028 [110 Mp]
+0029 --   G1029 [80 Mp]
+0029 --   G1030 [50 Mp]
+0029 --   G1031 [50 Mp]
+0029 --   G1032 [70 Mp]
+0029 --   G1033 [100 Mp]
+0029 --   G1034 [70 Mp]
+0029 -- You see 7 datafiles: 
+0029 -- G1028 110MP/0 
+0029 -- G1029 80MP/0 
+0029 -- G1030 50MP/0 
+0029 -- G1031 50MP/5000 
+0029 -- G1032 70MP/7000 
+0029 -- G1033 100MP/10000 
+0029 -- G1034 70MP/7000 
+0030 -- Transfer started...
+0030 -- Transfering <G1031>
+0031 -- Transfer started...
+0031 -- Transfering <G1032>
+0033 -- Transfer started...
+0033 -- Transfering <G1033>
+0036 -- Transfer started...
+0036 -- Transfering <G1034>
+0038 -- 
+0038 -- 2. Sub-Processing Unit (SPU)
+0038 -- 
+0038 -- 2. Sub-Processing Unit (SPU)
+0039 -- 
+0039 -- 2. Sub-Processing Unit (SPU)
+0039 -- 
+0039 -- 10. Central Processing Unit (CPU)
+0040 -- 
+0040 -- 10. Central Processing Unit (CPU)
+0040 -- 
+0040 -- 10. Central Processing Unit (CPU)
+0040 -- You see a White Access-4
+0040 -- Decker Initiative:17
+0040 -- Sleaze successful!
+0040 -- *ICE does not see you.
+0040 -- 
+0040 -- 3. Datastore (DS)
+0041 -- 
+0041 -- 3. Datastore (DS)
+0041 -- 
+0041 -- 3. Datastore (DS)
+0041 -- Data files:
+0041 --   H9352 [80 Mp]
+0041 --   H9363 [90 Mp]
+0041 --   H9364 [90 Mp]
+0041 --   H9365 [60 Mp]
+0041 --   H9366 [120 Mp]
+0042 -- You see 5 datafiles
+0042 -- 
+0042 -- 10. Central Processing Unit (CPU)
+0043 -- 
+0043 -- 10. Central Processing Unit (CPU)
+0043 -- 
+0043 -- 10. Central Processing Unit (CPU)
+0043 -- You see a White Access-4
+0043 -- Decker Initiative:11
+0043 -- *ICE wants your identification.
+0043 -- Deception successful!
+0043 -- *ICE ignores you.
+0043 -- 
+0043 -- 2. Sub-Processing Unit (SPU)
+0044 -- 
+0044 -- 2. Sub-Processing Unit (SPU)
+0044 -- 
+0044 -- 2. Sub-Processing Unit (SPU)
+0045 -- Waiting...
+0045 -- Waiting...
+0046 -- Waiting...
+0047 -- Waiting...
+0048 -- 
+0048 -- 10. Central Processing Unit (CPU)
+0048 -- 
+0048 -- 10. Central Processing Unit (CPU)
+0049 -- 
+0049 -- 10. Central Processing Unit (CPU)
+0049 -- You see a White Access-4
+0049 -- Decker Initiative:14
+0049 -- Sleaze stalemate!
+0049 -- *ICE wants your identification.
+0049 -- Deception successful!
+0049 -- *ICE ignores you.
+0049 -- 
+0049 -- 3. Datastore (DS)
+0050 -- 
+0050 -- 3. Datastore (DS)
+0050 -- 
+0050 -- 3. Datastore (DS)
+0050 -- Data files:
+0050 --   H9352 [80 Mp]
+0050 --   H9363 [90 Mp]
+0050 --   H9364 [90 Mp]
+0050 --   H9365 [60 Mp]
+0050 --   H9366 [120 Mp]
+0051 -- You see 5 datafiles: 
+0051 -- H9352 80MP/80000 
+0051 -- H9363 90MP/0 
+0051 -- H9364 90MP/90000 
+0051 -- H9365 60MP/60000 
+0051 -- H9366 120MP/0 
+0051 -- Transfer started...
+0051 -- Transfering <H9352>
+0053 -- Transfer started...
+0053 -- Transfering <H9364>
+0056 -- Transfer started...
+0056 -- Transfering <H9365>
+0057 -- 
+0057 -- 10. Central Processing Unit (CPU)
+0058 -- 
+0058 -- 10. Central Processing Unit (CPU)
+0058 -- 
+0058 -- 10. Central Processing Unit (CPU)
+0058 -- You see a White Access-4
+0058 -- Decker Initiative:9
+0058 -- *ICE wants your identification.
+0058 -- Deception successful!
+0058 -- *ICE ignores you.
+0058 -- 
+0058 -- 2. Sub-Processing Unit (SPU)
+0059 -- 
+0059 -- 2. Sub-Processing Unit (SPU)
+0059 -- 
+0059 -- 2. Sub-Processing Unit (SPU)
+0060 -- 
+0060 -- 11. System Access Node (SAN)
+0060 -- 
+0060 -- 11. System Access Node (SAN)
+0061 -- 
+0061 -- 11. System Access Node (SAN)
+0061 -- LTG#5206 (83421)
+0061 -- 
+0061 -- 2. Sub-Processing Unit (SPU)
+0062 -- 
+0062 -- 2. Sub-Processing Unit (SPU)
+0062 -- 
+0062 -- 2. Sub-Processing Unit (SPU)
+0063 -- 
+0063 -- External Matrix (MAT)
+0063 -- 
+0063 -- 2. Sub-Processing Unit (SPU)
+0064 -- 
+0064 -- 4. Slave Module (SM)
+0064 -- 
+0064 -- 4. Slave Module (SM)
+0065 -- 
+0065 -- 4. Slave Module (SM)
+0066 -- You already know this node:
+0066 -- You see a SM Green-3
+0066 -- 
+0066 -- 4. Slave Module (SM)
+0067 -- Control Device successful (see GM log).
+0067 !! GMLOG: Control Device in node 4 with 3 successes.
+0068 -- 
+0068 -- 2. Sub-Processing Unit (SPU)
+0069 -- 
+0069 -- 1. System Access Node (SAN)
+0069 -- 
+0069 -- 1. System Access Node (SAN)
+0070 -- 
+0070 -- 1. System Access Node (SAN)
+0071 -- You already know this node:
+0071 -- You see a SAN Orange-3
+0071 -- Execution of Analyze successful...
+0072 -- White ICE Access-3
+0072 -- 
+0072 -- 1. System Access Node (SAN)
+0072 -- LTG #18206(40-6738)
+0072 -- You see a White Access-3
+0072 -- Decker Initiative:15
+0072 -- *ICE wants your identification.
+0072 -- Deception successful!
+0072 -- *ICE ignores you.
+0072 -- 
+0072 -- 2. Sub-Processing Unit (SPU)
+0000 -- 
+0000 -- 19. I/O Port (IOP)
+0001 -- 
+0001 -- 19. I/O Port (IOP)
+0001 -- You see a IOP Blue-3
+0002 -- 
+0002 -- 19. I/O Port (IOP)
+0002 -- Terminais de acesso dos apartamentos.
+0002 -- 
+0002 -- 18. Sub-Processing Unit (SPU)
+0003 -- 
+0003 -- 18. Sub-Processing Unit (SPU)
+0003 -- You just see a SPU
+0004 -- 
+0004 -- 18. Sub-Processing Unit (SPU)
+0005 -- 
+0005 -- 2. Sub-Processing Unit (SPU)
+0005 -- 
+0005 -- 2. Sub-Processing Unit (SPU)
+0006 -- You see a SPU Green-3
+0007 -- 
+0007 -- 2. Sub-Processing Unit (SPU)
+0007 -- 
+0007 -- 1. System Access Node (SAN)
+0008 -- 
+0008 -- 2. Sub-Processing Unit (SPU)
+0008 -- 
+0008 -- 3. Sub-Processing Unit (SPU)
+0009 -- 
+0009 -- 3. Sub-Processing Unit (SPU)
+0009 -- You see a SPU Green
+0010 -- 
+0010 -- 3. Sub-Processing Unit (SPU)
+0010 -- 
+0010 -- 4. Sub-Processing Unit (SPU)
+0011 -- 
+0011 -- 4. Sub-Processing Unit (SPU)
+0011 -- You see a SPU Orange-3
+0011 -- White ICE Access-3
+0012 -- 
+0012 -- 4. Sub-Processing Unit (SPU)
+0012 -- You see a White Access-3
+0012 -- Decker Initiative:14
+0012 -- *ICE wants your identification.
+0012 -- Deception successful!
+0012 -- *ICE ignores you.
+0012 -- 
+0012 -- 9. Central Processing Unit (CPU)
+0013 -- 
+0013 -- 9. Central Processing Unit (CPU)
+0013 -- You see a CPU Orange-3
+0014 -- 
+0014 -- 9. Central Processing Unit (CPU)
+0014 -- Decker Initiative:15
+0014 -- *ICE wants your identification.
+0014 -- Deception successful!
+0014 -- *ICE ignores you.
+0014 -- Display Map.
+0015 -- Teleport activated.
+0015 -- 
+0015 -- 5. Datastore (DS)
+0015 -- Data files:
+0015 --   A8631 [110 Mp]
+0015 --   A8632 [110 Mp]
+0015 --   A8633 [100 Mp]
+0015 --   A8634 [30 Mp]
+0015 --   A8635 [40 Mp]
+0015 --   A8636 [70 Mp]
+0015 -- You see 6 datafiles: 
+0015 -- A8631 110MP/11000 
+0015 -- A8632 110MP/0 
+0015 -- A8633 100MP/0 
+0015 -- A8634 30MP/3000 
+0015 -- A8635 40MP/0 
+0015 -- A8636 70MP/7000 
+0016 -- Transfer file SysOp failed.
+0017 -- 
+0017 -- 4. Sub-Processing Unit (SPU)
+0017 -- 
+0017 -- 4. Sub-Processing Unit (SPU)
+0018 -- You already know this ICE:
+0018 -- White ICE Access-3
+0018 -- 
+0018 -- 4. Sub-Processing Unit (SPU)
+0018 -- You see a White Access-3
+0018 -- Decker Initiative:14
+0018 -- *ICE wants your identification.
+0018 -- Deception successful!
+0018 -- *ICE ignores you.
+0018 -- 
+0018 -- 6. Datastore (DS)
+0018 -- 
+0018 -- 6. Datastore (DS)
+0019 -- 
+0019 -- 6. Datastore (DS)
+0019 -- Data files:
+0019 --   B9641 [50 Mp]
+0019 --   B9642 [50 Mp]
+0019 --   B9643 [40 Mp]
+0019 --   B9644 [40 Mp]
+0019 --   B9645 [50 Mp]
+0020 -- You see 5 datafiles
+0020 -- 
+0020 -- 4. Sub-Processing Unit (SPU)
+0021 -- 
+0021 -- 4. Sub-Processing Unit (SPU)
+0021 -- 
+0021 -- 4. Sub-Processing Unit (SPU)
+0021 -- You see a White Access-3
+0021 -- Decker Initiative:15
+0021 -- Sleaze successful!
+0021 -- *ICE does not see you.
+0021 -- 
+0021 -- 5. Datastore (DS)
+0021 -- 
+0021 -- 5. Datastore (DS)
+0022 -- 
+0022 -- 5. Datastore (DS)
+0022 -- Data files:
+0022 --   A8631 [110 Mp]
+0022 --   A8632 [110 Mp]
+0022 --   A8633 [100 Mp]
+0022 --   A8634 [30 Mp]
+0022 --   A8635 [40 Mp]
+0022 --   A8636 [70 Mp]
+0023 -- You see 6 datafiles: 
+0023 -- A8631 110MP/11000 
+0023 -- A8632 110MP/0 
+0023 -- A8633 100MP/0 
+0023 -- A8634 30MP/3000 
+0023 -- A8635 40MP/0 
+0023 -- A8636 70MP/7000 
+0023 -- Transfer started...
+0023 -- Transfering <A8631>
+0026 -- Transfer started...
+0026 -- Transfering <A8636>
+0028 -- 
+0028 -- 4. Sub-Processing Unit (SPU)
+0029 -- 
+0029 -- 4. Sub-Processing Unit (SPU)
+0030 -- 
+0030 -- 4. Sub-Processing Unit (SPU)
+0030 -- You see a White Access-3
+0030 -- Decker Initiative:17
+0030 -- Sleaze successful!
+0030 -- *ICE does not see you.
+0030 -- 
+0030 -- 6. Datastore (DS)
+0031 -- 
+0031 -- 6. Datastore (DS)
+0031 -- 
+0031 -- 6. Datastore (DS)
+0031 -- Data files:
+0031 --   B9641 [50 Mp]
+0031 --   B9642 [50 Mp]
+0031 --   B9643 [40 Mp]
+0031 --   B9644 [40 Mp]
+0031 --   B9645 [50 Mp]
+0032 -- Execution of Evaluate failed. Difficulties increase.
+0032 -- 
+0032 -- 4. Sub-Processing Unit (SPU)
+0033 -- 
+0033 -- 4. Sub-Processing Unit (SPU)
+0033 -- 
+0033 -- 4. Sub-Processing Unit (SPU)
+0033 -- You see a White Access-3
+0033 -- Decker Initiative:14
+0033 -- Sleaze stalemate!
+0033 -- *ICE wants your identification.
+0033 -- Deception successful!
+0033 -- *ICE ignores you.
+0034 -- 
+0034 -- 3. Sub-Processing Unit (SPU)
+0034 -- 
+0034 -- 3. Sub-Processing Unit (SPU)
+0035 -- 
+0035 -- 3. Sub-Processing Unit (SPU)
+0035 -- 
+0035 -- 11. Sub-Processing Unit (SPU)
+0036 -- 
+0036 -- 11. Sub-Processing Unit (SPU)
+0036 -- 
+0036 -- 11. Sub-Processing Unit (SPU)
+0037 -- 
+0037 -- 16. Datastore (DS)
+0037 -- 
+0037 -- 16. Datastore (DS)
+0038 -- 
+0038 -- 16. Datastore (DS)
+0038 -- Data files:
+0038 --   D5633 [110 Mp]
+0038 --   D5634 [100 Mp]
+0038 --   D5635 [30 Mp]
+0038 --   D5636 [90 Mp]
+0038 -- You see 4 datafiles: 
+0038 -- D5633 110MP/0 
+0038 -- D5634 100MP/0 
+0038 -- D5635 30MP/0 
+0038 -- D5636 90MP/4500 
+0039 -- 
+0039 -- 11. Sub-Processing Unit (SPU)
+0039 -- 
+0039 -- 11. Sub-Processing Unit (SPU)
+0040 -- 
+0040 -- 11. Sub-Processing Unit (SPU)
+0040 -- 
+0040 -- 3. Sub-Processing Unit (SPU)
+0041 -- 
+0041 -- 3. Sub-Processing Unit (SPU)
+0041 -- 
+0041 -- 3. Sub-Processing Unit (SPU)
+0042 -- Waiting...
+0042 -- Waiting...
+0043 -- Waiting...
+0044 -- 
+0044 -- 4. Sub-Processing Unit (SPU)
+0044 -- 
+0044 -- 4. Sub-Processing Unit (SPU)
+0045 -- 
+0045 -- 4. Sub-Processing Unit (SPU)
+0045 -- You see a White Access-3
+0045 -- Decker Initiative:10
+0045 -- *ICE wants your identification.
+0045 -- Deception successful!
+0045 -- *ICE ignores you.
+0046 -- 
+0046 -- 6. Datastore (DS)
+0046 -- 
+0046 -- 6. Datastore (DS)
+0047 -- 
+0047 -- 6. Datastore (DS)
+0047 -- Data files:
+0047 --   B9641 [50 Mp]
+0047 --   B9642 [50 Mp]
+0047 --   B9643 [40 Mp]
+0047 --   B9644 [40 Mp]
+0047 --   B9645 [50 Mp]
+0047 -- You see 5 datafiles
+0048 -- Jack out.

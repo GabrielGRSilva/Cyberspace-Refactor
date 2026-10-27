@@ -1,0 +1,53 @@
+[Matrix]
+Description=New LTG
+Nodes=10
+Entry=2
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=2/10/1
+
+[Node1]
+Type=CPU Green-5 4 4
+Links=5/0
+
+[Node2]
+Type=SAN Green-4 4 1
+Mesg=SAN 01
+Links=3/0
+
+[Node3]
+Type=SPU Green-4 4 2
+Links=4/2/6
+
+[Node4]
+Type=SPU Green-4 1 4
+Links=8/7/3/5
+
+[Node5]
+Type=SPU Green-4 4 7
+Links=4/1/6/10
+
+[Node6]
+Type=SPU Green-4 7 4
+Links=5/3/9
+
+[Node7]
+Type=SM Green-4 1 2
+Links=4
+
+[Node8]
+Type=DS Green-4 1 6
+Links=4
+
+[Node9]
+Type=IOP Green-3 8 1
+Links=6
+
+[Node10]
+Type=SAN Green-3 7 7
+Mesg=teste01.ltg 13
+Links=0/5

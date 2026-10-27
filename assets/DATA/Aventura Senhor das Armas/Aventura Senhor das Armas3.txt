@@ -1,0 +1,282 @@
+0068 -- Logfile on.
+0069 -- *ICE ignores you.
+0070 -- *ICE ignores you.
+0070 -- *ICE ignores you.
+0070 -- Real time decking disabled.
+0071 -- Transfer started...
+0071 -- Transfering <PV2003>
+0071 -- *ICE ignores you.
+0071 -- *ICE ignores you.
+0072 -- *ICE ignores you.
+0072 -- *ICE ignores you.
+0073 -- Transfer started...
+0073 -- Transfering <PV2002>
+0073 -- *ICE ignores you.
+0073 -- *ICE ignores you.
+0074 -- *ICE ignores you.
+0074 -- *ICE ignores you.
+0075 -- *ICE ignores you.
+0075 -- *ICE ignores you.
+0075 -- Transfer started...
+0075 -- Transfering <PV2001>
+0076 -- *ICE ignores you.
+0076 -- *ICE ignores you.
+0077 -- *ICE ignores you.
+0077 -- *ICE ignores you.
+0078 -- 
+0078 -- 20. Central Processing Unit (CPU)
+0078 -- 
+0078 -- 20. Central Processing Unit (CPU)
+0079 -- 
+0079 -- 20. Central Processing Unit (CPU)
+0079 -- Decker Initiative:11
+0079 -- *ICE wants your identification.
+0079 -- Deception successful!
+0079 -- *ICE ignores you.
+0079 -- *ICE ignores you.
+0080 -- *ICE ignores you.
+0080 -- Teleport activated.
+0080 -- 
+0080 -- 17. Datastore (DS)
+0080 -- Data files:
+0080 --   AD3001 [90 Mp]
+0080 --   AD3002 [90 Mp]
+0080 --   AD3003 [90 Mp]
+0080 --   AD3004 [90 Mp]
+0080 --   AD3005 [90 Mp]
+0080 -- You see 5 datafiles
+0081 -- You see 5 datafiles: 
+0081 -- AD3001 90MP 
+0081 -- AD3002 90MP 
+0081 -- AD3003 90MP 
+0081 -- AD3004 90MP 
+0081 -- AD3005 90MP 
+0081 -- Cannot determine their values.
+0081 -- 
+0081 -- 5. Sub-Processing Unit (SPU)
+0082 -- 
+0082 -- 5. Sub-Processing Unit (SPU)
+0082 -- 
+0082 -- 5. Sub-Processing Unit (SPU)
+0083 -- 
+0083 -- 18. Datastore (DS)
+0083 -- 
+0083 -- 18. Datastore (DS)
+0084 -- 
+0084 -- 18. Datastore (DS)
+0084 -- Data files:
+0084 --   AD4001 [50 Mp]
+0084 --   AD4002 [60 Mp]
+0084 --   AD4003 [70 Mp]
+0084 --   AD4004 [70 Mp]
+0084 --   AD4005 [100 Mp]
+0084 -- You see 5 datafiles: 
+0084 -- AD4001 50MP/5000 
+0084 -- AD4002 60MP/6000 
+0084 -- AD4003 70MP/7000 
+0084 -- AD4004 70MP/7000 
+0084 -- AD4005 100MP/10000 
+0085 -- Transfer started...
+0085 -- Transfering <AD4005>
+0087 -- 
+0087 -- 5. Sub-Processing Unit (SPU)
+0087 -- 
+0087 -- 5. Sub-Processing Unit (SPU)
+0088 -- 
+0088 -- 5. Sub-Processing Unit (SPU)
+0089 -- 
+0089 -- 17. Datastore (DS)
+0089 -- 
+0089 -- 17. Datastore (DS)
+0090 -- 
+0090 -- 17. Datastore (DS)
+0090 -- Data files:
+0090 --   AD3001 [90 Mp]
+0090 --   AD3002 [90 Mp]
+0090 --   AD3003 [90 Mp]
+0090 --   AD3004 [90 Mp]
+0090 --   AD3005 [90 Mp]
+0090 -- Execution of Evaluate failed. Difficulties increase.
+0091 -- 
+0091 -- 5. Sub-Processing Unit (SPU)
+0091 -- 
+0091 -- 5. Sub-Processing Unit (SPU)
+0092 -- 
+0092 -- 5. Sub-Processing Unit (SPU)
+0093 -- Waiting...
+0093 -- Waiting...
+0094 -- Waiting...
+0094 -- Waiting...
+0095 -- Waiting...
+0095 -- Waiting...
+0096 -- 
+0096 -- 17. Datastore (DS)
+0096 -- 
+0096 -- 17. Datastore (DS)
+0097 -- 
+0097 -- 17. Datastore (DS)
+0097 -- Data files:
+0097 --   AD3001 [90 Mp]
+0097 --   AD3002 [90 Mp]
+0097 --   AD3003 [90 Mp]
+0097 --   AD3004 [90 Mp]
+0097 --   AD3005 [90 Mp]
+0097 -- Execution of Evaluate failed. Difficulties increase.
+0098 -- 
+0098 -- 5. Sub-Processing Unit (SPU)
+0098 -- 
+0098 -- 5. Sub-Processing Unit (SPU)
+0098 -- 
+0098 -- 5. Sub-Processing Unit (SPU)
+0099 -- 
+0099 -- 20. Central Processing Unit (CPU)
+0100 -- 
+0100 -- 20. Central Processing Unit (CPU)
+0100 -- 
+0100 -- 20. Central Processing Unit (CPU)
+0100 -- Decker Initiative:16
+0100 -- Deception successful!
+0100 -- *ICE ignores you.
+0100 -- Teleport activated.
+0100 -- 
+0100 -- 6. Datastore (DS)
+0100 -- Data files:
+0100 --   SG2001 [40 Mp]
+0100 --   SG2002 [50 Mp]
+0100 --   SG2003 [80 Mp]
+0100 --   SG2004 [120 Mp]
+0101 -- Execution of Evaluate failed. Difficulties increase.
+0101 -- Transfer started...
+0101 -- Transfering <SG2004>
+0105 -- 
+0105 -- 4. Sub-Processing Unit (SPU)
+0105 -- 
+0105 -- 4. Sub-Processing Unit (SPU)
+0105 -- 
+0105 -- 4. Sub-Processing Unit (SPU)
+0106 -- 
+0106 -- 2. Sub-Processing Unit (SPU)
+0107 -- 
+0107 -- 2. Sub-Processing Unit (SPU)
+0108 -- 
+0108 -- 2. Sub-Processing Unit (SPU)
+0108 -- You see a White Access-3
+0108 -- Decker Initiative:16
+0108 -- Deception successful!
+0108 -- *ICE ignores you.
+0108 -- 
+0108 -- 22. System Access Node (SAN)
+0109 -- 
+0109 -- 2. Sub-Processing Unit (SPU)
+0110 -- 
+0110 -- 2. Sub-Processing Unit (SPU)
+0110 -- You see a White Access-3
+0110 -- Decker Initiative:12
+0110 -- *ICE wants your identification.
+0110 -- Deception successful!
+0110 -- *ICE ignores you.
+0110 -- 
+0110 -- 5. Sub-Processing Unit (SPU)
+0110 -- 
+0110 -- 5. Sub-Processing Unit (SPU)
+0111 -- 
+0111 -- 5. Sub-Processing Unit (SPU)
+0112 -- 
+0112 -- 17. Datastore (DS)
+0112 -- 
+0112 -- 17. Datastore (DS)
+0113 -- 
+0113 -- 17. Datastore (DS)
+0113 -- Data files:
+0113 --   AD3001 [90 Mp]
+0113 --   AD3002 [90 Mp]
+0113 --   AD3003 [90 Mp]
+0113 --   AD3004 [90 Mp]
+0113 --   AD3005 [90 Mp]
+0113 -- Execution of Evaluate failed. Difficulties increase.
+0114 -- Transfer file SysOp failed.
+0114 -- 
+0114 -- 5. Sub-Processing Unit (SPU)
+0114 -- 
+0114 -- 5. Sub-Processing Unit (SPU)
+0115 -- 
+0115 -- 5. Sub-Processing Unit (SPU)
+0116 -- Waiting...
+0116 -- Waiting...
+0117 -- Waiting...
+0117 -- Waiting...
+0118 -- Waiting...
+0118 -- Waiting...
+0119 -- 
+0119 -- 17. Datastore (DS)
+0119 -- 
+0119 -- 17. Datastore (DS)
+0120 -- 
+0120 -- 17. Datastore (DS)
+0120 -- Data files:
+0120 --   AD3001 [90 Mp]
+0120 --   AD3002 [90 Mp]
+0120 --   AD3003 [90 Mp]
+0120 --   AD3004 [90 Mp]
+0120 --   AD3005 [90 Mp]
+0120 -- Execution of Evaluate failed. Difficulties increase.
+0121 -- 
+0121 -- 5. Sub-Processing Unit (SPU)
+0121 -- 
+0121 -- 5. Sub-Processing Unit (SPU)
+0122 -- 
+0122 -- 5. Sub-Processing Unit (SPU)
+0122 -- Waiting...
+0123 -- Waiting...
+0123 -- Waiting...
+0124 -- Waiting...
+0124 -- Waiting...
+0125 -- 
+0125 -- 17. Datastore (DS)
+0125 -- 
+0125 -- 17. Datastore (DS)
+0126 -- 
+0126 -- 17. Datastore (DS)
+0126 -- Data files:
+0126 --   AD3001 [90 Mp]
+0126 --   AD3002 [90 Mp]
+0126 --   AD3003 [90 Mp]
+0126 --   AD3004 [90 Mp]
+0126 --   AD3005 [90 Mp]
+0126 -- Execution of Evaluate failed. Difficulties increase.
+0127 -- Transfer started...
+0127 -- Transfering <AD3005>
+0130 -- Rating of Persona programs higher than MPCP supports.
+0130 -- 
+0130 -- 5. Sub-Processing Unit (SPU)
+0130 -- 
+0130 -- 5. Sub-Processing Unit (SPU)
+0131 -- 
+0131 -- 5. Sub-Processing Unit (SPU)
+0132 -- 
+0132 -- 2. Sub-Processing Unit (SPU)
+0132 -- 
+0132 -- 2. Sub-Processing Unit (SPU)
+0133 -- 
+0133 -- 2. Sub-Processing Unit (SPU)
+0133 -- You see a White Access-3
+0133 -- Decker Initiative:11
+0133 -- *ICE wants your identification.
+0133 -- Deception successful!
+0133 -- *ICE ignores you.
+0133 -- 
+0133 -- 22. System Access Node (SAN)
+0134 -- 
+0134 -- 22. System Access Node (SAN)
+0134 -- 
+0134 -- 22. System Access Node (SAN)
+0134 -- LTG#0001
+0134 -- Decker Initiative:10
+0134 -- *ICE wants your identification.
+0134 -- Deception successful!
+0134 -- *ICE ignores you.
+0135 -- *ICE ignores you.
+0135 -- Back Door SysOp failed.
+0135 -- *ICE ignores you.
+0135 -- Jack out.
+0135 -- The high response team is catching you!!!

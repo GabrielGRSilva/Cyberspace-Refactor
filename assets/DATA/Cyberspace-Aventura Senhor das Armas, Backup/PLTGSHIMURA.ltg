@@ -1,0 +1,81 @@
+[Matrix]
+Description=Residência Shimura
+Nodes=15
+Entry=2
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1/2
+
+[Node1]
+Type=SAN Orange-3 6 2
+Mesg=LTG #18206(40-6738)
+ICEType=White Access-3 atrigger -2
+Links=2/0/13
+
+[Node2]
+Type=SPU Green-4 4 3
+Links=10/11/0/9/8/7/4/5/6/1/12
+
+[Node3]
+Type=DS Orange-3 4 7
+Files=H9352/80/80000 H9363/90/0 H9364/90/90000 H9365/60/60000 H9366/120/0 
+ICEType=White Barrier-5 passive
+Links=10
+
+[Node4]
+Type=SM Green-3 3 1
+Links=2
+
+[Node5]
+Type=SM Green-3 4 1
+Links=2
+
+[Node6]
+Type=SM Green-4 5 1
+Links=2
+
+[Node7]
+Type=IOP Green-3 1 1
+Links=2
+
+[Node8]
+Type=IOP Green-3 1 2
+Links=2
+
+[Node9]
+Type=DS Green-4 1 3
+Files=G1028/110/0 G1029/80/0 G1030/50/0 G1031/50/5000 G1032/70/7000 G1033/100/10000 G1034/70/7000 
+ICEType=White Barrier-5 passive
+Links=2
+
+[Node10]
+Type=CPU Orange-4 4 5
+ICEType1=White Access-4 atrigger -2
+ICEType2=Gray Trace and Burn-3 amobile
+Links=3/2
+
+[Node11]
+Type=SAN Green-4 2 5
+Mesg=LTG#5206 (83421)
+Links=15/2
+
+[Node12]
+Type=SAN Green-4 6 5
+Mesg=LTG# 0001(5489923)
+Links=14/2
+
+[Node13]
+Type=LNK APSHIMURA.ltg 19 6 1
+Links=1
+
+[Node14]
+Type=LNK NEOTOKYOJAPAO.ltg 2 6 6
+Links=12
+
+[Node15]
+Type=LNK NEOTOKYOTACOMA.ltg 2 2 6
+Links=11

@@ -1,0 +1,229 @@
+[Matrix]
+Description=Nightingale's Body Parts 2206(52-2675)
+Nodes=41
+Entry=1
+Range=2
+Alert=none
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Blue-4 7 1
+Mesg=Public Hospital Entrance
+Links=0/2/41
+
+[Node2]
+Type=SPU Blue-4 4 1
+Mesg=Routing: Hospital Info
+Links=4/16/17/1
+
+[Node3]
+Type=SPU Orange-5 2 3
+Mesg=Routing: Administration
+Links=39/38/4
+
+[Node4]
+Type=SAN Red-5 4 3
+Mesg=Hospital Secure Entrance
+ICEType=White Access-7
+Links=7/3/2/5
+
+[Node5]
+Type=SPU Orange-5 6 3
+Mesg=Routing: Nurse Dept. A
+Links=15/4/18/19/6
+
+[Node6]
+Type=SPU Orange-5 8 3
+Mesg=Routing: Nurse Dept. B
+Links=14/5/20/21
+
+[Node7]
+Type=SPU Orange-5 4 4
+Mesg=Routing: Medical Data
+Links=8/24/4
+
+[Node8]
+Type=CPU Red-7 4 5
+Mesg=Hospital Central System
+ICEType1=Gray Blaster (M)-6 amobile triggered
+ICEType2=Gray Acid (M)-4 immobile ever atrigger 2
+Links=11/12/26/13/9/7/40/15/25
+
+[Node9]
+Type=SPU Red-5 1 4
+Mesg=Routing: Security
+ICEType=Gray Trace and Burn-6
+Links=35/36/37/8
+
+[Node10]
+Type=SPU Red-3 5 6
+Mesg=Routing: Cyberware Adaptation
+Links=30
+
+[Node11]
+Type=SPU Red-3 4 6
+Mesg=Routing: Pharmacy/Vat Control
+Links=31/8
+
+[Node12]
+Type=SPU Red-3 3 6
+Mesg=Routing: Surgery
+Links=32/8
+
+[Node13]
+Type=SPU Red-3 1 5
+Mesg=Routing: Intensive Care
+Links=34/8
+
+[Node14]
+Type=SPU Orange-5 8 4
+Mesg=Routing: Building Controls B
+Links=23/6
+
+[Node15]
+Type=SPU Orange-5 6 4
+Mesg=Routing: Building Controls A
+Links=22/8/5
+
+[Node16]
+Type=DS Blue-4 3 2
+Mesg=Hospital Information
+Files=Visitor Information/15/150 Tariffs Information/15/150 Disease Information/15/150 Treatment Information/15/150 Insurance Information/15/150 Cyberware Information/15/150 
+Links=2
+
+[Node17]
+Type=IOP Blue-4 3 1
+Mesg=Info Desk
+Links=2
+
+[Node18]
+Type=IOP Orange-3 5 2
+Mesg=Nurse's terminal/Intercom
+Links=5
+
+[Node19]
+Type=SM Orange-3 6 2
+Mesg=Patient Monitors
+Links=5
+
+[Node20]
+Type=IOP Orange-3 7 2
+Mesg=Nurse's Terminal/Intercom
+Links=6
+
+[Node21]
+Type=SM Orange-3 8 2
+Mesg=Patient Monitors
+Links=6
+
+[Node22]
+Type=SM Orange-3 6 5
+Mesg=Building Controls Dept. A
+Links=15
+
+[Node23]
+Type=SM Orange-3 8 5
+Mesg=Building Controls Dept. B
+Links=14
+
+[Node24]
+Type=DS Red-5 3 4
+Mesg=Medical Archives
+Files=Patient Information/250/500000 Surgery Logs/50/50000 Experimental Treatments/20/200000 Cyberware Implants/35/100000 
+ICEType=White Scramble-6 atrigger -2
+Links=7
+
+[Node25]
+Type=SPU Red-3 7 6
+Mesg=Routing: Alarm Handling
+ICEType=Gray Tar Baby-4 immobile
+Links=29/8/27/28
+
+[Node26]
+Type=SPU Red-3 2 6
+Mesg=Routing: Magical Healing
+Links=33/8
+
+[Node27]
+Type=IOP Orange-6 8 6
+Mesg=Sattelite Dish (link)
+Links=25
+
+[Node28]
+Type=IOP Orange-6 8 7
+Mesg=Alarm hotline - 911
+Links=25
+
+[Node29]
+Type=DS Orange-6 7 7
+Mesg=Alarm Logs
+Files=911 Incoming Calls/55/55000 Dispatcher Logs/25/25000 High Response Logs/15/35000 Ambulance/0/15 
+Links=25
+
+[Node30]
+Type=SM Orange-3 5 7
+Mesg=Cyberware Adaptation Boxes
+Links=10
+
+[Node31]
+Type=SM Orange-3 4 7
+Mesg=Biochem Dispensers/Vat Controls
+Links=11
+
+[Node32]
+Type=SM Orange-3 3 7
+Mesg=Anesthesia/Surgery Tools Controls
+Links=12
+
+[Node33]
+Type=DS Orange-3 2 7
+Mesg=Medical Library
+Files=Arcane Healing/35/10000 Regenerative Powers/35/10000 Totem Synching/35/10000 Ectoplasmic Bandages/35/10000 Wizards' Healing Risks/35/10000 
+ICEType=White Scramble-5
+Links=26
+
+[Node34]
+Type=SM Orange-3 1 6
+Mesg=Patient Life Support Systems
+Links=13
+
+[Node35]
+Type=IOP Orange-6 0 4
+Mesg=Security Console
+ICEType=White Barrier-4 amobile
+Links=9
+
+[Node36]
+Type=SM Red-3 0 3
+Mesg=Security Cameras
+Links=9
+
+[Node37]
+Type=SM Red-3 0 2
+Mesg=Departmental Door Controls
+ICEType=Gray Killer-5 amobile
+Links=9
+
+[Node38]
+Type=DS Orange-4 2 2
+Mesg=Hospital Business Administration
+Files=Financial Records/80/80000 Personnel Records/40/40000 Supplies Records/60/60000 Services Records/100/50000 Hospital Assets/20/80000 
+ICEType=White Scramble-4 passive
+Links=3
+
+[Node39]
+Type=IOP Orange-4 1 2
+Mesg=Chief Administrator's Terminal
+Links=3
+
+[Node40]
+Type=SM Red-3 5 4
+Mesg=Central Building Controls
+Links=8
+
+[Node41]
+Type=LNK ..\rtg\seattle2.ltg 17 8 1
+Links=1

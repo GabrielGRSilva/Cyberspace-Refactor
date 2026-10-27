@@ -1,0 +1,252 @@
+[Matrix]
+Description=2M Main System
+Nodes=35
+Entry=1
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Orange-4 8 7
+Mesg=2M Main System
+ICEType1=Gray Trace and Report-4
+ICEType2=White Access-4
+Links=0/2
+
+[Node2]
+Type=SPU Green-5 7 5
+Mesg=Correspondence
+ICEType=White Access-5
+Links=8/9/6/5/7/4/3/1
+
+[Node3]
+Type=DS Orange-4 8 5
+Mesg=Correspondence
+Files=Correspondence/110/0 
+ICEType1=White Scramble-4
+ICEType2=White Barrier-6 active
+Links=2
+
+[Node4]
+Type=IOP Green-5 8 4
+Mesg=Secretary
+ICEType=White Access-5
+Links=2
+
+[Node5]
+Type=IOP Green-5 8 2
+Mesg=Sectretary
+ICEType=White Access-5
+Links=2
+
+[Node6]
+Type=IOP Green-5 8 1
+Mesg=Secretary
+ICEType=White Access-5
+Links=2
+
+[Node7]
+Type=IOP Green-5 8 3
+Mesg=Secretary
+ICEType=White Access-5
+Links=2
+
+[Node8]
+Type=IOP Green-5 7 6
+Mesg=Reception
+ICEType=White Access-5
+Links=2
+
+[Node9]
+Type=CPU Red-5 5 5
+Mesg=Main System 2M
+ICEType1=Gray Trace and Report-6
+ICEType2=Black Killer (PhysL)-5 mobile active
+Links=10/14/20/26/2
+
+[Node10]
+Type=SPU Orange-5 5 6
+Mesg=Personnel
+ICEType1=Gray Trace and Dump-5
+ICEType2=White Access-5
+Links=13/9/12/11
+
+[Node11]
+Type=DS Orange-5 6 7
+Mesg=Office Personnel Record
+Files=Office Personnel Records/200/0 
+ICEType1=White Barrier-5 active
+ICEType2=White Scramble-6
+Links=10
+
+[Node12]
+Type=DS Red-5 6 6
+Mesg=Lap-Personnal/Mosquito-Couriers
+Files=Personnel Records/0/150 
+ICEType1=Gray Trace and Burn-5
+ICEType2=White Barrier-6 active
+ICEType3=White Scramble-6
+Links=10
+
+[Node13]
+Type=IOP Orange-6 5 7
+Mesg=VP
+ICEType1=White Access-6
+ICEType2=Gray Trace and Burn-5
+Links=10
+
+[Node14]
+Type=SPU Orange-4 3 6
+Mesg=Marketing
+ICEType1=White Access-5
+ICEType2=Gray Trace and Report-5
+Links=17/18/19/9/15/16
+
+[Node15]
+Type=DS Orange-5 4 6
+Mesg=Marketing List/Proposals
+Files=Marketing Lists/50/2000 
+ICEType1=Gray Trace and Report-5
+ICEType2=White Barrier-5 active
+ICEType3=White Scramble-6
+Links=14
+
+[Node16]
+Type=DS Orange-5 4 7
+Mesg=Marketing List/Prpoposal
+Files=Proposal/150/10000 
+ICEType1=Gray Trace and Report-5
+ICEType2=White Barrier-5 active
+ICEType3=White Scramble-6
+Links=14
+
+[Node17]
+Type=SM Orange-4 3 7
+Mesg=Boardroom Display Screens
+Links=14
+
+[Node18]
+Type=IOP Green-5 2 7
+Mesg=Boadroom
+ICEType=White Access-5
+Links=14
+
+[Node19]
+Type=IOP Green-5 2 6
+Mesg=VP-Marketing
+ICEType1=White Access-4
+ICEType2=Gray Trace and Dump-4
+Links=14
+
+[Node20]
+Type=SPU Orange-5 2 4
+Mesg=Accounting
+ICEType=White Access-6
+Links=21/22/23/24/9
+
+[Node21]
+Type=DS Red-5 2 5
+Mesg=financial
+Files=Financial/150/2000 
+ICEType=White Scramble-6
+Links=20
+
+[Node22]
+Type=DS Red-6 1 5
+Mesg=Montary
+Files=Monetary Accounts/200/5000 
+ICEType=White Scramble-8
+Links=20
+
+[Node23]
+Type=IOP Orange-5 1 4
+Mesg=President
+ICEType=White Access-6
+Links=20
+
+[Node24]
+Type=IOP Red-4 1 3
+Mesg=VP Accounting
+ICEType=White Access-6
+Links=25/20
+
+[Node25]
+Type=DS Orange-6 1 2
+Mesg=President's Diary
+Files=Diary/350/50000 
+ICEType=White Scramble-6
+Links=24
+
+[Node26]
+Type=SPU Orange-5 5 3
+Mesg=Client Accounts
+ICEType1=White Access-6
+ICEType2=Gray Trace and Dump-5
+Links=9/27/29/31/30/32/33/34/35
+
+[Node27]
+Type=SPU Green-5 3 2
+Mesg=Accounting Manager
+Links=28/26
+
+[Node28]
+Type=IOP Orange-4 2 1
+Mesg=Junior Account Managers
+ICEType=White Access-6
+Links=27
+
+[Node29]
+Type=IOP Orange-5 4 1
+Mesg=Supervisor
+ICEType1=White Access-6
+ICEType2=Gray Killer-5 amobile active
+Links=26
+
+[Node30]
+Type=IOP Orange-5 5 2
+Mesg=Supervisor
+ICEType1=White Access-6
+ICEType2=Gray Killer-5 amobile active
+Links=26
+
+[Node31]
+Type=IOP Orange-5 5 1
+Mesg=Supervisor
+ICEType1=White Access-6
+ICEType2=Gray Killer-5 amobile active
+Links=26
+
+[Node32]
+Type=IOP Orange-6 6 1
+Mesg=VP Account Management
+ICEType1=White Access-6
+ICEType2=Gray Trace and Burn-5
+Links=26
+
+[Node33]
+Type=DS Orange-4 7 1
+Mesg=Account Data Mainly Corespondence
+Files=TOP SECRET/5000/100000 
+ICEType1=Gray Trace and Report-5
+ICEType2=White Scramble-6
+Links=26
+
+[Node34]
+Type=DS Orange-4 7 2
+Mesg=Account Data Mainly Corespondence
+Files=Account Data/200/100 
+ICEType1=Gray Trace and Report-5
+ICEType2=White Scramble-6
+Links=26
+
+[Node35]
+Type=DS Orange-4 7 3
+Mesg=Account Data Mainly Corespondence
+Files=Correspondence/20/1000 
+ICEType1=Gray Trace and Report-5
+ICEType2=White Scramble-6
+Links=26

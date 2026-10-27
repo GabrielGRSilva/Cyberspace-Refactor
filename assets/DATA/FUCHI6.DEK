@@ -1,0 +1,28 @@
+[Persona]
+Model=Fuchi Cyber-6 (raw)
+MPCP=8
+Bod=6
+Evasion=6
+Masking=6
+Sensor=6
+Damage=0
+
+[Technical Parameters]
+Hardening=4
+ActiveMem=100
+StorageMem=500
+Load=50
+I/O=30
+Response=0
+Satuplink=0
+
+[Utilities]
+Program1=Attack-5
+Program2=Deception-6
+Program3=Sleaze-5
+Program4=Analyse-5
+Program5=Browse-2
+Program6=Armor-2
+Program7=Cloak-2
+Program8=Shield-2
+Program9=Mirrors-2

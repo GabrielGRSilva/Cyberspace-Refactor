@@ -1,0 +1,151 @@
+[Matrix]
+Description=Noble Hills
+Nodes=30
+Entry=1
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Orange-5 5 2
+Mesg=LTG #16206
+ICEType=White Access-3
+Links=2/30/0
+
+[Node2]
+Type=SPU Green-3 5 3
+Links=3/1/18/22
+
+[Node3]
+Type=SPU Green-4 2 4
+ICEType=White Barrier-5 passive
+Links=11/4/2
+
+[Node4]
+Type=SPU Orange-3 2 2
+ICEType=White Access-3
+Links=3/6/5/7/8/9
+
+[Node5]
+Type=DS Green-3 1 1
+Files=A8631/110/11000 A8632/110/0 A8633/100/0 A8634/30/3000 A8635/40/0 A8636/70/7000 
+ICEType=White Barrier-5 passive
+Links=4
+
+[Node6]
+Type=DS Green-3 1 2
+Files=B9641/50/0 B9642/50/2500 B9643/40/0 B9644/40/2000 B9645/50/2500 
+ICEType=White Barrier-5 passive
+Links=4
+
+[Node7]
+Type=IOP Green-3 2 1
+Links=4
+
+[Node8]
+Type=IOP Green-3 3 1
+Links=4
+
+[Node9]
+Type=CPU Orange-3 5 1
+ICEType1=White Access-4
+ICEType2=Gray Trace and Burn-3 amobile
+ICEType3=White Barrier-5 passive
+Links=4/10
+
+[Node10]
+Type=DS Green-5 6 1
+Files=C1062/20/10000 C1063/30/0 C1064/40/0 C1065/50/25000 C1066/50/25000 C1067/50/0 C1068/50/0 C1069/110/55000 
+Links=9
+
+[Node11]
+Type=SPU Green-4 2 6
+Links=15/14/13/12/3/17/16
+
+[Node12]
+Type=SM Green-3 1 5
+Links=11
+
+[Node13]
+Type=SM Green-3 1 6
+Links=11
+
+[Node14]
+Type=SM Green-3 1 7
+Links=11
+
+[Node15]
+Type=SM Green-3 2 7
+Links=11
+
+[Node16]
+Type=DS Green-3 3 7
+Files=D5633/110/0 D5634/100/0 D5635/30/0 D5636/90/4500 
+Links=11
+
+[Node17]
+Type=IOP Green-3 3 6
+Links=11
+
+[Node18]
+Type=SPU Blue-4 7 3
+Links=2/19/29
+
+[Node19]
+Type=IOP Blue-3 6 2
+Mesg=Terminais de acesso dos apartamentos.
+Links=20/18
+
+[Node20]
+Type=SAN Orange-3 8 2
+Mesg=LTG#16206(40-6738)3
+ICEType=White Access-3 atrigger -2
+Links=19/21
+
+[Node21]
+Type=LNK PLTGSHIMURA.ltg 2 8 1
+Links=20
+
+[Node22]
+Type=SPU Orange-3 6 5
+ICEType1=White Access-3 atrigger -2
+ICEType2=White Barrier-5 passive
+Links=26/25/24/23/2/28/27
+
+[Node23]
+Type=IOP Green-3 5 5
+Links=22
+
+[Node24]
+Type=IOP Green-3 5 6
+Links=22
+
+[Node25]
+Type=DS Green-4 5 7
+Files=F4445/50/0 F4446/90/9000 F4447/80/8000 F4448/20/2000 F4449/20/0 F4450/100/0 
+Links=22
+
+[Node26]
+Type=SM Green-4 6 7
+Links=22
+
+[Node27]
+Type=SM Green-5 7 6
+Links=22
+
+[Node28]
+Type=SM Green-5 7 5
+Links=22
+
+[Node29]
+Type=DS Blue-4 8 3
+Files=E1255/90/0 E1256/20/0 E1257/50/0 
+Links=18
+
+[Node30]
+Type=LNK LTGRENTON.ltg 06 4 2
+Links=1

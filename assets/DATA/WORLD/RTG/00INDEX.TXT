@@ -1,0 +1,8 @@
+Contents of the Seattle RTG:
+
+SEARTG1.LTG     Seattle local RTG, connects to district RTGs
+SEARTG2.LTG     Seattle international RTG
+SEATTLE1.LTG    Downtown Seattle RTG, system 1 of 3
+SEATTLE2.LTG    Downtown Seattle RTG, system 2 of 3
+SEATTLE3.LTG    Downtown Seattle RTG, system 3 of 3
+TACOMA.LTG      Tacoma RTG

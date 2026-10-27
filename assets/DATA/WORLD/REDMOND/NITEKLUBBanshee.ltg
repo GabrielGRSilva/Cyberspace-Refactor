@@ -1,0 +1,145 @@
+[Matrix]
+Description=Banshee
+Nodes=25
+Entry=1
+Range=2
+Alert=none
+Emergency=66/15
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Orange-5 4 1
+Mesg=Banshee Night Club Entrance
+ICEType=White Access-6
+Links=2/0/25
+
+[Node2]
+Type=SPU Orange-3 4 2
+Mesg=Routing: All Data
+Links=4/9/1/3
+
+[Node3]
+Type=SPU Orange-4 6 2
+Mesg=Routing: Administration
+Links=2/10/11
+
+[Node4]
+Type=SPU Orange-4 4 5
+Mesg=Routing: Building Controls
+Links=7/6/5/2/12/13/14
+
+[Node5]
+Type=SPU Orange-4 3 4
+Mesg=Routing: Bar Flows
+ICEType=White Barrier-6 ptrigger 2
+Links=16/15/4
+
+[Node6]
+Type=SPU Orange-4 2 5
+Mesg=Routing: Performance Controls
+ICEType=Gray Killer-6 triggered
+Links=18/17/24/19/4
+
+[Node7]
+Type=CPU Orange-5 4 7
+Mesg=Night Club Central System
+ICEType=Gray Jammer-3
+Links=23/4/8
+
+[Node8]
+Type=SPU Orange-5 6 7
+Mesg=Routing: Secure Procedures
+ICEType=Gray Tar Pit-5 triggered
+Links=7/20/21/22
+
+[Node9]
+Type=IOP Orange-3 3 2
+Mesg=Info and Reservation Desk
+Links=2
+
+[Node10]
+Type=DS Orange-5 6 1
+Mesg=Administration
+Files=Contracted Artists/15/45000 Personnel/25/15000 Cleaning/0/25 Bouncer Medical Bills/35/35000 Financial Records/45/75000 
+ICEType=White Scramble-4
+Links=3
+
+[Node11]
+Type=IOP Orange-4 7 2
+Mesg=Night Club Manager's Terminal
+Links=3
+
+[Node12]
+Type=SM Green-4 5 3
+Mesg=Air Conditioning (improved)
+Links=4
+
+[Node13]
+Type=SM Orange-3 5 4
+Mesg=Door Controls
+Links=4
+
+[Node14]
+Type=SM Orange-3 5 5
+Mesg=Fire Extinguisher (sprinklers)
+Links=4
+
+[Node15]
+Type=SM Green-4 3 3
+Mesg=SoyCaf-O-Mat and Soup Server
+Links=5
+
+[Node16]
+Type=SM Green-4 2 3
+Mesg=Beer 'n Booze Tap
+Links=5
+
+[Node17]
+Type=SM Green-4 1 6
+Mesg=Lighting System
+Links=6
+
+[Node18]
+Type=SM Green-4 2 6
+Mesg=Sound System
+Links=6
+
+[Node19]
+Type=SM Green-4 1 4
+Mesg=Synthlink Intergrators
+Links=6
+
+[Node20]
+Type=SM Orange-4 6 6
+Mesg=Security Cameras
+Links=8
+
+[Node21]
+Type=SM Orange-4 7 6
+Mesg=Meeting Room White-Noise-Gen and Locks
+Links=8
+
+[Node22]
+Type=IOP Orange-6 7 7
+Mesg=Secured Terminal
+Links=8
+
+[Node23]
+Type=DS Orange-5 3 7
+Mesg=Night Club Secure Data
+Files=Camera Archives/125/100000 Meeting Recordings/65/175000 Star Contracts/15/100000 Real Financial Records/45/150000 
+ICEType=White Scramble-6
+Links=7
+
+[Node24]
+Type=SM Green-4 1 5
+Mesg=Smoke and Laser Machinery
+Links=6
+
+[Node25]
+Type=LNK LTGREDMOND68.LTG 4 4 0
+Links=1

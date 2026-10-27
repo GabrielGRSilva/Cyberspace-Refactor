@@ -1,0 +1,24 @@
+[Persona]
+Model=Sony CTY-360 (raw)
+MPCP=6
+Bod=4
+Evasion=5
+Masking=4
+Sensor=5
+Damage=0
+
+[Technical Parameters]
+Hardening=3
+ActiveMem=50
+StorageMem=100
+Load=20
+I/O=10
+Response=0
+Satuplink=0
+
+[Utilities]
+Program1=Attack-3
+Program2=Deception-3
+Program3=Analyse-4
+Program4=Compressor-1
+Program5=Cloak-3

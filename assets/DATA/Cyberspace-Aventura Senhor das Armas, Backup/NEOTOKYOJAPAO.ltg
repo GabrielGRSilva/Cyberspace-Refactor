@@ -1,0 +1,123 @@
+[Matrix]
+Description=Neo-Tokyo I&E - Tokyo
+Nodes=24
+Entry=22
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=22/1/2
+
+[Node1]
+Type=SAN Green-4 6 4
+Mesg=LTG# 5206(83421)
+Links=24/0/2
+
+[Node2]
+Type=SPU Orange-3 4 4
+ICEType=White Access-3
+Links=5/0/3/4/22/1
+
+[Node3]
+Type=SAN Green-4 2 4
+Mesg=LTG#16206(40-6738)3
+Links=23/2
+
+[Node4]
+Type=SPU Green-5 4 2
+ICEType=White Barrier-5 passive
+Links=2/9/8/6/7/10/11
+
+[Node5]
+Type=SPU Green-5 4 6
+ICEType1=Gray Killer (M)-3 immobile atrigger -3
+ICEType2=White Barrier-5 passive atrigger -2
+Links=15/14/13/12/20/2/21/17/18/16
+
+[Node6]
+Type=DS Green-5 3 1
+Files=SG2001/40/0 SG2002/50/0 SG2003/80/4000 SG2004/120/6000 
+Links=4
+
+[Node7]
+Type=IOP Green-4 5 1
+Links=4
+
+[Node8]
+Type=SM Green-4 3 2
+Links=4
+
+[Node9]
+Type=SM Green-4 3 3
+Links=4
+
+[Node10]
+Type=SM Green-4 5 2
+Links=4
+
+[Node11]
+Type=SM Green-4 5 3
+Links=4
+
+[Node12]
+Type=IOP Green-4 2 6
+Links=5
+
+[Node13]
+Type=IOP Green-4 2 7
+Links=5
+
+[Node14]
+Type=IOP Green-4 3 7
+Links=5
+
+[Node15]
+Type=IOP Green-4 4 7
+Links=5
+
+[Node16]
+Type=IOP Green-4 5 7
+Links=5
+
+[Node17]
+Type=DS Green-4 7 5
+Files=AD3001/90/0 AD3002/90/0 AD3003/90/0 AD3004/90/45000 AD3005/90/0 
+Links=5
+
+[Node18]
+Type=DS Green-3 7 6
+Files=AD4001/50/5000 AD4002/60/6000 AD4003/70/7000 AD4004/70/7000 AD4005/100/10000 
+Links=5
+
+[Node19]
+Type=DS Orange-3 1 5
+Files=PV2001/90/22500 PV2002/90/0 PV2003/80/0 PV2004/80/20000 PV2005/120/600000 
+ICEType1=White Scramble-4 atrigger -2
+ICEType2=White Barrier-5 passive
+Links=20
+
+[Node20]
+Type=CPU Orange-3 2 5
+ICEType1=White Access-3 atrigger -2
+ICEType2=Gray Trace and Burn-3 amobile atrigger -2
+Links=19/5
+
+[Node21]
+Type=SM Green-3 5 5
+Links=5
+
+[Node22]
+Type=SAN Orange-3 6 3
+Mesg=LTG#0001
+ICEType=White Access-4 atrigger -2
+Links=2/0
+
+[Node23]
+Type=LNK PLTGSHIMURA.ltg 2 2 3
+Links=3
+
+[Node24]
+Type=LNK NEOTOKYOTACOMA.ltg 2 6 5
+Links=1

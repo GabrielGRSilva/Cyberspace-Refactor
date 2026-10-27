@@ -1,0 +1,211 @@
+[Matrix]
+Description=LTG de Redmond
+Nodes=45
+Entry=10
+Range=2
+Alert=none
+Emergency=50/100
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=13/1/11
+
+[Node1]
+Type=IOP Green-3 5 3
+Links=2/0
+
+[Node2]
+Type=CPU Green-4 4 5
+Links=35/37/12/11/23/3/1/24/20/38/21/36
+
+[Node3]
+Type=SAN Green-4 4 2
+Links=2/22
+
+[Node4]
+Type=SAN Green-4 3 1
+Mesg=LTG #11206(42-010)
+Links=23/27
+
+[Node5]
+Type=SAN Green-4 2 1
+Mesg=LTG #11206(42-009)
+Links=26/23
+
+[Node6]
+Type=SAN Green-4 1 1
+Mesg=LTG #11206(42-008)
+Links=25/23
+
+[Node7]
+Type=SAN Green-4 1 2
+Mesg=LTG #11206(32-721)
+Links=31/23
+
+[Node8]
+Type=SAN Green-4 1 3
+Mesg=LTG #11206(32-722)
+Links=32/23
+
+[Node9]
+Type=SAN Green-4 1 4
+Mesg=LTG #11206(32-723)
+Links=33/23
+
+[Node10]
+Type=SAN Green-4 1 5
+Mesg=LTG #11206(32-724)
+Links=34/23
+
+[Node11]
+Type=SAN Green-4 1 7
+Mesg=Link para LTGs da área 61
+Links=39/0/2
+
+[Node12]
+Type=SAN Green-4 2 7
+Mesg=Link para LTGs da área 62
+Links=40/2
+
+[Node13]
+Type=SAN Green-4 6 1
+Mesg=LTG #11206(65-754)
+Links=24/0/28
+
+[Node14]
+Type=SAN Green-4 7 1
+Mesg=LTG #11206(65-755)
+Links=24/29
+
+[Node15]
+Type=SAN Green-4 8 1
+Mesg=LTG #11206(65-756)
+Links=24/30
+
+[Node16]
+Type=SAN Green-4 8 2
+Mesg=LTG #11206(34-5901)
+Links=24/45
+
+[Node17]
+Type=SAN Green-4 8 3
+Links=24
+
+[Node18]
+Type=SAN Green-4 8 4
+Links=24
+
+[Node19]
+Type=SAN Green-4 8 5
+Links=24
+
+[Node20]
+Type=SAN Green-4 8 7
+Mesg=Link para LTGs da área 68
+Links=44/2
+
+[Node21]
+Type=SAN Green-4 6 7
+Mesg=Link para LTGs da área 66
+Links=2
+
+[Node22]
+Type=LNK ..\RTG\SEARTG1.ltg 18 4 0
+Links=3
+
+[Node23]
+Type=SPU Green-4 3 4
+Links=10/9/8/7/6/5/4/2
+
+[Node24]
+Type=SPU Green-4 6 4
+Links=2/13/14/15/16/17/18/19
+
+[Node25]
+Type=LNK BAR.ltg 1 1 0
+Links=6
+
+[Node26]
+Type=LNK BANKSMAL.LTG 1 2 0
+Links=5
+
+[Node27]
+Type=LNK BODYSHOP.LTG 1 3 0
+Links=4
+
+[Node28]
+Type=LNK BUSSTAT.LTG 1 6 0
+Links=13
+
+[Node29]
+Type=LNK HOSPITAL.LTG 1 7 0
+Links=14
+
+[Node30]
+Type=LNK NITEKLUB.LTG 1 8 0
+Links=15
+
+[Node31]
+Type=LNK POLICE.LTG 1 0 2
+Links=7
+
+[Node32]
+Type=LNK RESTOSML.LTG 1 0 3
+Links=8
+
+[Node33]
+Type=LNK SHOPMALL.LTG 1 0 4
+Links=9
+
+[Node34]
+Type=LNK STORESML.LTG 1 0 5
+Links=10
+
+[Node35]
+Type=SAN Green-4 4 7
+Mesg=Link para LTGs da área 64
+Links=42/2
+
+[Node36]
+Type=SAN Green-4 5 7
+Mesg=Link para LTGs da área 65
+Links=2
+
+[Node37]
+Type=SAN Green-4 3 7
+Mesg=Link para LTGs da área 63
+Links=41/2
+
+[Node38]
+Type=SAN Green-4 7 7
+Mesg=Link para LTGs da área 67
+Links=43/2
+
+[Node39]
+Type=LNK ltgredmond61.ltg 1 1 8
+Links=11
+
+[Node40]
+Type=LNK ltgredmond62.ltg 1 2 8
+Links=12
+
+[Node41]
+Type=LNK ltgredmond63.ltg 1 3 8
+Links=37
+
+[Node42]
+Type=LNK ltgredmond64.ltg 1 4 8
+Links=35
+
+[Node43]
+Type=LNK ltgredmond67.ltg 1 7 8
+Links=38
+
+[Node44]
+Type=LNK ltgredmond68.ltg 1 8 8
+Links=20
+
+[Node45]
+Type=LNK RedmondCenterHotel.ltg 1 9 2
+Links=16

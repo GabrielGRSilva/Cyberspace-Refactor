@@ -1,0 +1,33 @@
+[Persona]
+Model=Fuchi Cyber-6 (for Major League)
+MPCP=8
+Bod=5
+Evasion=5
+Masking=5
+Sensor=5
+Damage=0
+
+[Technical Parameters]
+Hardening=4
+ActiveMem=400
+StorageMem=1500
+Load=80
+I/O=40
+Response=1
+Satuplink=1
+PureCyber=0
+RealityFilter=0
+DisplayMode=0
+
+[Utilities]
+Program1=Analyze-6-108
+Program2=Attack-6-72
+Program3=Slow-6-144
+Program4=Deception-6-72
+Program5=Sleaze-6-108
+Program6=Browse-3-9
+Program7=Sift-4-16
+Program8=Shield-2-16
+Program9=Mirrors-2-12
+Program10=Medic-4-64
+Program11=Satlink-1-3

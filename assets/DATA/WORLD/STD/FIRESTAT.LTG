@@ -1,0 +1,118 @@
+[Matrix]
+Description=Fire Station
+Nodes=20
+Entry=1
+Range=2
+Alert=none
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Red-5 1 2
+Mesg=Fire Station Entrance
+ICEType=White Access-5 ptrigger 3
+Links=0/2
+
+[Node2]
+Type=SPU Orange-4 3 2
+Mesg=Routing: All Data
+Links=4/1/3
+
+[Node3]
+Type=SPU Orange-4 5 2
+Mesg=Routing: Garage Operations
+Links=2/9/10
+
+[Node4]
+Type=SPU Orange-4 3 4
+Mesg=Routing: Housing Functions
+Links=5/13/11/12/2/6
+
+[Node5]
+Type=SPU Orange-4 3 6
+Mesg=Routing: Administration
+Links=14/15/4/8
+
+[Node6]
+Type=CPU Red-5 5 4
+Mesg=Fire Station Central System
+ICEType1=Gray Killer-6 triggered
+ICEType2=White Barrier-5 atrigger 1
+Links=4/7
+
+[Node7]
+Type=SPU Orange-4 7 4
+Mesg=Routing: Operation Command
+Links=6/17/16/18
+
+[Node8]
+Type=SPU Orange-4 5 6
+Mesg=Routing: External Comms
+Links=5/19/20
+
+[Node9]
+Type=SM Green-5 6 1
+Mesg=Garage Door Controla
+Links=3
+
+[Node10]
+Type=SM Green-5 6 2
+Mesg=Car Maintenance and Supplier
+Links=3
+
+[Node11]
+Type=IOP Orange-3 2 4
+Mesg=Terminal/Commline
+Links=4
+
+[Node12]
+Type=SM Orange-3 2 3
+Mesg=Main Powers Switch
+Links=4
+
+[Node13]
+Type=SM Green-4 2 5
+Mesg=Climate Controls
+Links=4
+
+[Node14]
+Type=DS Orange-5 3 7
+Mesg=Administrative Database
+Files=Personnel/20/5000 Car Maintenance Costs/25/6000 Overhead/35/2000 
+ICEType=Gray Trace and Dump-5 mobile triggered
+Links=5
+
+[Node15]
+Type=IOP Orange-3 2 7
+Mesg=Commander's Terminal
+Links=5
+
+[Node16]
+Type=DS Red-5 8 4
+Mesg=Operations Database
+Files=Dispatcher's Log/25/25000 Technical Research/30/60000 Old Ladies' Cats Log/45/450 Fire Fighter's Manual/15/1000 
+ICEType=White Scramble-4
+Links=7
+
+[Node17]
+Type=IOP Orange-6 8 3
+Mesg=Dispatcher Terminal
+Links=7
+
+[Node18]
+Type=IOP Orange-6 8 5
+Mesg=Alarm Line - 911
+ICEType=White Access-4 passive atrigger -2
+Links=7
+
+[Node19]
+Type=IOP Orange-4 6 6
+Mesg=Satellite Dish (link)
+Links=8
+
+[Node20]
+Type=SM Orange-3 6 7
+Mesg=Helipad Landing Controls
+Links=8

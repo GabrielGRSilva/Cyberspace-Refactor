@@ -1,0 +1,101 @@
+[Matrix]
+Description=Hotel Nikko 206(52-4534)
+Nodes=17
+Entry=1
+Range=2
+Alert=none
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Red-6 4 7
+Mesg=Luxury Hotel Entrance
+ICEType=White Access-6
+Links=0/2/17
+
+[Node2]
+Type=SPU Orange-6 4 5
+Mesg=Routing: All Data
+Links=1/3/4/8/7/16/6
+
+[Node3]
+Type=IOP Orange-5 2 6
+Mesg=Hotel Manager's Terminal
+Links=2
+
+[Node4]
+Type=DS Red-5 2 5
+Mesg=Hotel Administration
+Files=Guest List/35/14000 Financial Records/40/32000 Faciltary Service Contract/20/12000 Restaurant Stores/30/8000 
+ICEType=White Scramble-6
+Links=2
+
+[Node5]
+Type=SM Orange-4 4 1
+Mesg=Room Locks
+ICEType=White Barrier-5
+Links=8
+
+[Node6]
+Type=IOP Orange-5 6 6
+Mesg=Room Commline and TV
+Links=2
+
+[Node7]
+Type=SM Orange-4 6 4
+Mesg=Climate Control
+Links=2
+
+[Node8]
+Type=CPU Red-6 4 2
+Mesg=Luxury Hotel Central System
+ICEType1=Gray Trace and Dump-4 mobile triggered
+ICEType2=Gray Marker-5 ever atrigger 4
+Links=2/11/10/9/5/12
+
+[Node9]
+Type=SM Orange-4 2 1
+Mesg=Credstick Checker/Key Register
+Links=8
+
+[Node10]
+Type=SM Orange-4 2 2
+Mesg=Security Cameras
+Links=8
+
+[Node11]
+Type=IOP Orange-5 2 3
+Mesg=Security Console
+ICEType=Gray Tar Pit-4 amobile active
+Links=8
+
+[Node12]
+Type=SPU Orange-6 6 2
+Mesg=Routing: Restaurant
+Links=8/13/14/15
+
+[Node13]
+Type=IOP Orange-5 6 1
+Mesg=Room Service
+Links=12
+
+[Node14]
+Type=SM Orange-4 7 1
+Mesg=Hotel Bar Equipment
+Links=12
+
+[Node15]
+Type=SM Orange-4 7 2
+Mesg=Hotel Restaurant Equipment
+Links=12
+
+[Node16]
+Type=SM Orange-4 6 5
+Mesg=Elevator Controls
+Links=2
+
+[Node17]
+Type=LNK ..\rtg\seattle2.ltg 19 6 7
+Links=1

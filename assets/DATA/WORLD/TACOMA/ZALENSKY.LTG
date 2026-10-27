@@ -1,0 +1,96 @@
+[Matrix]
+Description=Zalensky's Electronics 5206(17-7029)
+Nodes=16
+Entry=1
+Range=2
+Alert=none
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Red-4 2 3
+Mesg=ZALENSKY'S ELECTRONICS
+ICEType1=Gray Trace and Dump-5 triggered
+ICEType2=White Access-6 atrigger 0
+Links=0/16/2
+
+[Node2]
+Type=SPU Orange-4 4 3
+Mesg=Zalensky's Administration
+Links=13/1/6/5/3
+
+[Node3]
+Type=SPU Orange-5 6 3
+Mesg=Dr. M. Carruther's Office
+ICEType=White Barrier-7
+Links=4/2/7
+
+[Node4]
+Type=CPU Red-4 6 5
+Mesg=Surgical Control Centre
+ICEType=Gray Killer-4 amobile active
+Links=10/11/12/15/3/14/8/9
+
+[Node5]
+Type=SM Orange-3 4 2
+Mesg=Building Controls
+Links=2
+
+[Node6]
+Type=IOP Orange-3 3 2
+Mesg=Credstick Checker/Terminal
+Links=2
+
+[Node7]
+Type=DS Orange-5 7 3
+Mesg=Medical Archives
+Files=Client Files/70/500000 Medical Supplies/30/30000 Cyberware Supplies/10/50000 
+ICEType=White Scramble-5 passive
+Links=3
+
+[Node8]
+Type=SM Orange-3 7 6
+Mesg=Life Sign Monitors
+Links=4
+
+[Node9]
+Type=SM Orange-3 7 7
+Mesg=Anesthetics Controls
+Links=4
+
+[Node10]
+Type=SM Orange-3 6 7
+Mesg=Surgical Tools Controls
+Links=4
+
+[Node11]
+Type=SM Orange-3 5 7
+Mesg=Organ Vats
+Links=4
+
+[Node12]
+Type=SM Orange-3 5 6
+Mesg=Cyberware Hook-up Controls
+Links=4
+
+[Node13]
+Type=DS Orange-4 4 4
+Mesg=Business Database
+Files=Financial Records/50/50000 Personnel/20/10000 
+Links=2
+
+[Node14]
+Type=SM Orange-3 7 5
+Mesg=Diagnostic Tools Controls
+Links=4
+
+[Node15]
+Type=IOP Orange-3 5 5
+Mesg=Intercom and Audiologger
+Links=4
+
+[Node16]
+Type=LNK ..\rtg\tacoma.ltg 25 1 3
+Links=1

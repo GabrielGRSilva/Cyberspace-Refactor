@@ -1,0 +1,49 @@
+[Persona]
+Model=Fuchi Cyber-6 Resp. Incr. 2
+MPCP=8
+Bod=6
+Evasion=6
+Masking=6
+Sensor=6
+Damage=7
+
+[Technical Parameters]
+Hardening=4
+ActiveMem=400
+StorageMem=1500
+Load=80
+I/O=40
+Response=2
+Satuplink=1
+PureCyber=0
+RealityFilter=0
+DisplayMode=0
+
+[Utilities]
+Program1=Attack (ME)-6-64
+Program2=Blind-3-14
+Program3=Hog-3-14
+Program4=Poison-4-24
+Program5=Restrict-4-24
+Program6=Reveal-3-14
+Program7=Slow-5-50
+Program8=Armor-2-6
+Program9=Cloak-3-14
+Program10=Medic-3-18
+Program11=Mirrors-2-6
+Program12=Restore-4-24
+Program13=Shield-3-18
+Program14=Smoke-3-9
+Program15=Analyze-6-54
+Program16=Browse-3-5
+Program17=Decrypt-5-25
+Program18=Evaluate-3-9
+Program19=Scanner-4-24
+Program20=Sift-2-2
+Program21=Deception-5-25
+Program22=Relocate-3-9
+Program23=Sleaze-5-38
+Program24=Auto Execute-4-8
+Program25=Compressor-2-8
+Program26=Controller-3-18
+Program27=Satlink-1-2

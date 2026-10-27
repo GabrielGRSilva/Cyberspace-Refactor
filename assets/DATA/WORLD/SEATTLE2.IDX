@@ -1,0 +1,50 @@
+SEATTLE/DOWNTOWN LOCAL TELECOM GRID 2 of 3
+
+District Code:  206/2206
+File:           rtg\seattle2.ltg
+Notes:          SAN* with number, but no LNK don't have *.ltg files yet.
+                SAN- have no number ('disconnected'), free to fill in.
+
+Alpha Links
+Node#   LTGcode Client                          Location Archetype
+ 4      56-9147 Knutson's Country Home          mid-size restaurant
+ 5      52-2552 Laubenstein Plaza               luxury hotel (15 floors)
+ 6      56-4236 Lee Chee Garden                 small restaurant
+ 7      56-4954 Ling Ho                         mid-size restaurant
+ 8      56-7184 A Little Bit O' Saigon          small restaurant
+ 9      52-0441 Lucas Palace                    luxury hotel (25 floors)
+10      56-2121 Marcus' Hovel                   mid-size restaurant
+11      56-2249 Matchstick's                    night club
+12      56-6088 Maximillion's                   large restaurant
+13      52-6498 Mayflower Park Hotel            average hotel (14 floors)
+14      56-7830 Miner's Landing                 mid-size restaurant
+15      56-7343 Murphy's Law                    small restaurant
+16      52-2022 New Century Square Hotel        luxury hotel (30 floors)
+17      52-2675 Nightingale's Body Parts        (legal) body shop
+19      52-4534 Hotel Nikko                     luxury hotel (16 floors)
+20      56-7654 Nukit Burgers                   small restaurant
+21      56-2451 Nyen Lang                       mid-size restaurant
+22      52-4371 Chez Ogino                      average hotel (15 floors)
+23      56-4179 Ohgi-Ya                         mid-size restaurant
+
+Beta Links
+Node#   LTGcode Client                          Location Archetype
+25      56-5304 The Other Place                 mid-size restaurant
+26      52-1379 Club Penumbra                   night club
+27      56-6084 Pink Door                       small restaurant
+28      52-5277 Psychedelic Pirate              night club
+30      56-3314 Purple Haze                     large restaurant
+31*     53-0300 Northgate Mall                  shopping mall (10 floors)
+32*     52-0615 Omnidome
+33*     52-0213 Opera House
+34*     52-3657 Pacific Science Center
+35*     51-9196 Pike Place Farmer's Market      shopping mall (1 floor)
+36*     secured Metroplex Prison
+37*     52-3282 Metroplex Supreme Court
+38*     52-0292 Lone Star Security Building
+39*     52-2176 McKuen's Scrap and Salvage Yard
+40*     52-7411 Mitsuhama Computer Technologies Complex
+41-     Disconnected
+42-     Disconnected
+43-     Disconnected
+44      RTG     Seattle Regional Telecom Grid

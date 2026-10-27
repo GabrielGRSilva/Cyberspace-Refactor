@@ -1,0 +1,21 @@
+[Character]
+Name=Bush League
+Race=Human
+
+[Attributes]
+Body=4
+Quickness=3
+Strength=3
+Charisma=3
+Intelligence=4
+Willpower=4
+Reaction=3+1D6
+
+[SKILLS]
+Computer/Software/Decking=3
+Etiquette/Matrix=2
+
+[DICE POOLS]
+Combat=3
+Karma=2
+Team=0

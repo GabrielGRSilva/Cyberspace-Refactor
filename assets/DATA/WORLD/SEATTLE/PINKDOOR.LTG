@@ -1,0 +1,51 @@
+[Matrix]
+Description=Pink Door 206(56-6084)
+Nodes=8
+Entry=1
+Range=2
+Alert=none
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Green-4 4 6
+Mesg=Entrance Small Restaurant
+ICEType=White Barrier-3
+Links=8/0/2
+
+[Node2]
+Type=CPU Green-4 4 4
+Mesg=Small Restaurant Central System
+Links=1/5/3/4/6/7
+
+[Node3]
+Type=SM Green-3 2 4
+Mesg=Kitchen Apparatus
+Links=2
+
+[Node4]
+Type=SM Green-3 2 3
+Mesg=Air Conditioning
+Links=2
+
+[Node5]
+Type=IOP Green-3 2 5
+Mesg=Delivery Service Commline
+Links=2
+
+[Node6]
+Type=IOP Green-3 6 3
+Mesg=Credstick Checker/Terminal
+Links=2
+
+[Node7]
+Type=DS Green-4 6 4
+Mesg=Administration
+Files=Reservations/20/500 Personnel/30/3000 Inventory/30/4500 Financial Records/45/9000 
+Links=2
+
+[Node8]
+Type=LNK ..\rtg\seattle2.ltg 27 4 7
+Links=1

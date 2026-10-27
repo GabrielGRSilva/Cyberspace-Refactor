@@ -1,0 +1,33 @@
+[Persona]
+Model=Fuchi Cyber6 Do Beto
+MPCP=8+0-0-0
+Bod=3+0-0-0
+Evasion=8+0-0-0
+Masking=8+0-0-0
+Sensor=5+0-0-0
+Damage=0
+
+[Technical Parameters]
+Hardening=4
+ActiveMem=400
+StorageMem=2000
+Load=20
+I/O=20
+Response=2
+Satuplink=0
+PureCyber=0
+RealityFilter=0
+DisplayMode=1
+
+[Utilities]
+Program1=Analyze-7-147
+Program2=Armor-4-48
+Program3=Attack-5-50
+Program4=Browse-3-9
+Program5=Deception-7-98
+Program6=Evaluate-5-50
+Program7=Relocate-5-50
+Program8=Sleaze-5-75
+Program9=Cloak-4-48
+Program10=Mirrors-4-48
+Program11=Auto Execute-10-100

@@ -1,0 +1,135 @@
+[Matrix]
+Description=Seattle RTG - District Index
+Nodes=26
+Entry=18
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=12/1
+
+[Node1]
+Type=IOP Green-4 8 4
+Mesg=Seattle RTG Districts Monitor
+Links=2/0
+
+[Node2]
+Type=CPU Green-4 7 4
+Mesg=Seattle RTG - District Central
+Links=3/1
+
+[Node3]
+Type=DS Green-4 6 4
+Mesg=Seattle RTG - District Index
+Links=4/2
+
+[Node4]
+Type=SPU Green-4 4 4
+Mesg=Seattle RTG District Links
+Links=16/15/14/13/20/5/6/7/8/9/10/11/12/3/19/18/17
+
+[Node5]
+Type=SAN Green-4 1 1
+Mesg=206/2206 list 1 of 3
+Links=21/4
+
+[Node6]
+Type=SAN Green-4 2 1
+Mesg=206/2206 list 2 of 3
+Links=22/4
+
+[Node7]
+Type=SAN Green-4 3 1
+Mesg=206/2206 list 3 of 3
+Links=23/4
+
+[Node8]
+Type=SAN Green-4 4 1
+Mesg=2206 - RENRAKU
+Links=4
+
+[Node9]
+Type=SAN Green-4 5 1
+Mesg=2206 - AZTECH
+Links=4
+
+[Node10]
+Type=SAN Green-4 6 1
+Mesg=2206 - CI
+Links=4
+
+[Node11]
+Type=SAN Green-4 7 1
+Mesg=9206
+Links=4
+
+[Node12]
+Type=SAN Green-4 8 1
+Mesg=5206
+Links=4/0/24
+
+[Node13]
+Type=SAN Green-4 1 7
+Mesg=3206
+Links=4
+
+[Node14]
+Type=SAN Green-4 2 7
+Mesg=16206 (Renton)
+Links=4
+
+[Node15]
+Type=SAN Green-4 3 7
+Mesg=1206
+Links=4
+
+[Node16]
+Type=SAN Green-4 4 7
+Mesg=17206
+Links=4
+
+[Node17]
+Type=SAN Green-4 5 7
+Mesg=22206
+Links=4
+
+[Node18]
+Type=SAN Green-4 6 7
+Mesg=11206 (Redmond)
+Links=26/4
+
+[Node19]
+Type=SAN Green-4 7 7
+Mesg=4206
+Links=4
+
+[Node20]
+Type=SAN Green-4 1 4
+Mesg=To RTG Links
+Links=25/4
+
+[Node21]
+Type=LNK seattle1.ltg 44 1 0
+Links=5
+
+[Node22]
+Type=LNK seattle2.ltg 44 2 0
+Links=6
+
+[Node23]
+Type=LNK seattle3.ltg 44 3 0
+Links=7
+
+[Node24]
+Type=LNK tacoma.ltg 44 8 0
+Links=12
+
+[Node25]
+Type=LNK seartg2.ltg 9 0 4
+Links=20
+
+[Node26]
+Type=LNK ..\REDMOND\LTGREDMOND.ltg 3 6 8
+Links=18

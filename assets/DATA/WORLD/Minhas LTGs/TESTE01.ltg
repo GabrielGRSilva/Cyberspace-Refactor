@@ -1,0 +1,74 @@
+[Matrix]
+Description=New LTG
+Nodes=15
+Entry=10
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=10/2/13/1/5
+
+[Node1]
+Type=CPU Green-5 4 4
+Links=5/11/0/9/12
+
+[Node2]
+Type=SAN Green-4 4 1
+Mesg=SAN 01
+Links=3/0
+
+[Node3]
+Type=SPU Green-4 4 2
+Links=4/2/6
+
+[Node4]
+Type=SPU Green-4 1 4
+Links=8/7/3/5
+
+[Node5]
+Type=SPU Green-4 4 7
+Links=0/4/1/6/13
+
+[Node6]
+Type=SPU Green-4 7 4
+Links=5/3/10/15
+
+[Node7]
+Type=SM Green-4 1 2
+Links=4
+
+[Node8]
+Type=DS Green-4 1 6
+Links=4
+
+[Node9]
+Type=DS Green-5 4 3
+Links=1
+
+[Node10]
+Type=IOP Green-3 8 1
+Links=6/0
+
+[Node11]
+Type=IOP Green-3 3 4
+Links=1
+
+[Node12]
+Type=SM Green-3 5 4
+Links=1
+
+[Node13]
+Type=SAN Green-5 7 7
+Mesg=teste02.ltg 10
+Links=5/0/14
+
+[Node14]
+Type=LNK TESTE01exclusãodamatexterna.ltg 1 9 7
+Links=13
+
+[Node15]
+Type=DS Green-3 8 4
+ICEType=White Scramble-3
+Links=6

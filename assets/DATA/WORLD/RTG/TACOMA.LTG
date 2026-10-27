@@ -1,0 +1,321 @@
+[Matrix]
+Description=Tacoma LTG Network
+Nodes=66
+Entry=44
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=IOP Green-3 5 3
+Mesg=Call log/bill mail central
+Links=2/0
+
+[Node2]
+Type=CPU Green-4 5 4
+Mesg=Tacoma LTG Central System
+Links=18/1/29
+
+[Node3]
+Type=SPU Green-3 2 4
+Mesg=Tacoma LTG Router Alpha
+Links=23/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22
+
+[Node4]
+Type=SAN Green-4 1 8
+Mesg=5206(14-2582)
+Links=45/3
+
+[Node5]
+Type=SAN Green-4 1 7
+Mesg=5206(16-9485)
+Links=46/3
+
+[Node6]
+Type=SAN Green-4 1 6
+Mesg=5206(14-0924)
+Links=47/3
+
+[Node7]
+Type=SAN Green-4 1 5
+Mesg=5206(19-4822)
+Links=48/3
+
+[Node8]
+Type=SAN Green-4 1 4
+Mesg=5206(16-3719)
+Links=49/3
+
+[Node9]
+Type=SAN Green-4 1 3
+Mesg=5206(19-2782)
+Links=50/3
+
+[Node10]
+Type=SAN Green-4 1 2
+Mesg=5206(14-6461)
+Links=51/3
+
+[Node11]
+Type=SAN Green-4 1 1
+Mesg=5206(12-8766)
+Links=52/3
+
+[Node12]
+Type=SAN Green-4 1 0
+Mesg=5206(15-3319)
+Links=53/3
+
+[Node13]
+Type=SAN Green-4 2 1
+Mesg=5206(16-9756)
+Links=3/54
+
+[Node14]
+Type=SAN Green-4 3 0
+Mesg=5206(14-0945)
+Links=3/55
+
+[Node15]
+Type=SAN Green-4 3 1
+Mesg=5206(14-0920)
+Links=3/56
+
+[Node16]
+Type=SAN Green-4 3 2
+Mesg=5206(14-5662)
+Links=3/57
+
+[Node17]
+Type=SAN Green-4 3 3
+Mesg=5206(17-8173)
+Links=3/58
+
+[Node18]
+Type=DS Green-4 3 4
+Mesg=Tacoma LTG Index Alpha
+Files=Comline Index Alpha/2500/2500000 
+Links=3/2
+
+[Node19]
+Type=SAN Green-4 3 5
+Mesg=5206(16-2230)
+Links=3/59
+
+[Node20]
+Type=SAN Green-4 3 6
+Mesg=5206(16-8868)
+Links=3/60
+
+[Node21]
+Type=SAN Green-4 3 7
+Mesg=5206(16-0705)
+Links=3/61
+
+[Node22]
+Type=SAN Green-4 3 8
+Mesg=5206(17-3337)
+Links=3/62
+
+[Node23]
+Type=SAN Green-4 2 7
+Mesg=5206(13-1154)
+Links=63/3
+
+[Node24]
+Type=SPU Green-3 7 4
+Mesg=Tacoma LTG Router Beta
+Links=44/25/26/27/28/29/30/31/32/33/34/35/36/37/38/39/40/41/42/43
+
+[Node25]
+Type=SAN Green-4 6 8
+Mesg=5206(17-7029)
+Links=64/24
+
+[Node26]
+Type=SAN Green-4 6 7
+Mesg=5206(16-1171)
+Links=24
+
+[Node27]
+Type=SAN Green-4 6 6
+Mesg=5206(15-0667)
+Links=24
+
+[Node28]
+Type=SAN Green-4 6 5
+Mesg=5206(15-3050)
+Links=24
+
+[Node29]
+Type=DS Green-4 6 4
+Mesg=Tacoma LTG Index Beta
+Files=Comline Index Beta/2500/2500000 
+Links=2/24
+
+[Node30]
+Type=SAN Green-4 6 3
+Mesg=5206(14-9597)
+Links=24
+
+[Node31]
+Type=SAN Green-4 6 2
+Mesg=5206(14-0540)
+Links=24
+
+[Node32]
+Type=SAN Green-4 6 1
+Mesg=5206(14-0351)
+Links=24
+
+[Node33]
+Type=SAN Green-4 6 0
+Mesg=5206(19-3987)
+Links=24
+
+[Node34]
+Type=SAN Green-4 7 1
+Mesg=5206(19-9334)
+Links=24
+
+[Node35]
+Type=SAN Green-4 8 0
+Mesg=5206(16-4301)
+Links=24
+
+[Node36]
+Type=SAN Green-4 8 1
+Mesg=5206(19-0532)
+Links=24
+
+[Node37]
+Type=SAN Green-4 8 2
+Mesg=5206(16-2608)
+Links=24
+
+[Node38]
+Type=SAN Green-4 8 3
+Mesg=5206(14-1374)
+Links=24/65
+
+[Node39]
+Type=SAN Green-4 8 4
+Mesg=Disconnected
+Links=24
+
+[Node40]
+Type=SAN Green-4 8 5
+Mesg=Disconnected
+Links=24
+
+[Node41]
+Type=SAN Green-4 8 6
+Mesg=Disconnected
+Links=24
+
+[Node42]
+Type=SAN Green-4 8 7
+Mesg=Disconnected
+Links=24
+
+[Node43]
+Type=SAN Green-4 8 8
+Mesg=Disconnected
+Links=24
+
+[Node44]
+Type=SAN Green-4 7 7
+Mesg=To Seattle RTG
+Links=66/24
+
+[Node45]
+Type=LNK ..\tacoma\basils.ltg 1 0 8
+Links=4
+
+[Node46]
+Type=LNK ..\tacoma\charityh.ltg 1 0 7
+Links=5
+
+[Node47]
+Type=LNK ..\tacoma\declerry.ltg 1 0 6
+Links=6
+
+[Node48]
+Type=LNK ..\tacoma\doctorsh.ltg 1 0 5
+Links=7
+
+[Node49]
+Type=LNK ..\tacoma\fenris.ltg 1 0 4
+Links=8
+
+[Node50]
+Type=LNK ..\tacoma\humana.ltg 1 0 3
+Links=9
+
+[Node51]
+Type=LNK ..\tacoma\lakeshez.ltg 1 0 2
+Links=10
+
+[Node52]
+Type=LNK ..\tacoma\lakewood.ltg 1 0 1
+Links=11
+
+[Node53]
+Type=LNK ..\tacoma\mbridgeh.ltg 1 0 0
+Links=12
+
+[Node54]
+Type=LNK ..\tacoma\nybblesn.ltg 1 2 0
+Links=13
+
+[Node55]
+Type=LNK ..\tacoma\palaceoc.ltg 1 4 0
+Links=14
+
+[Node56]
+Type=LNK ..\tacoma\portofta.ltg 1 4 1
+Links=15
+
+[Node57]
+Type=LNK ..\tacoma\purphaze.ltg 1 4 2
+Links=16
+
+[Node58]
+Type=LNK ..\tacoma\seatacml.ltg 1 4 3
+Links=17
+
+[Node59]
+Type=LNK ..\tacoma\sheraton.ltg 1 4 5
+Links=19
+
+[Node60]
+Type=LNK ..\tacoma\tacodome.ltg 1 4 6
+Links=20
+
+[Node61]
+Type=LNK ..\tacoma\tacomaml.ltg 1 4 7
+Links=21
+
+[Node62]
+Type=LNK ..\tacoma\tacstyle.ltg 1 4 8
+Links=22
+
+[Node63]
+Type=LNK ..\tacoma\villapla.ltg 1 2 8
+Links=23
+
+[Node64]
+Type=LNK ..\tacoma\zalensky.ltg 1 5 8
+Links=25
+
+[Node65]
+Type=LNK ..\tacoma\johnybar.ltg 1 9 3
+Links=38
+
+[Node66]
+Type=LNK seartg1.ltg 12 7 8
+Links=44

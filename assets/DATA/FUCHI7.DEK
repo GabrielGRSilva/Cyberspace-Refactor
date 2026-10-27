@@ -1,0 +1,25 @@
+[Persona]
+Model=Fuchi Cyber-7 (raw)
+MPCP=10
+Bod=7
+Evasion=8
+Masking=7
+Sensor=8
+Damage=0
+
+[Technical Parameters]
+Hardening=4
+ActiveMem=200
+StorageMem=1000
+Load=50
+I/O=40
+Response=0
+Satuplink=0
+
+[Utilities]
+Program1=Attack-7
+Program2=Deception-7
+Program3=Analyse-7
+Program4=Browse-6
+Program5=Cloak-5
+Program6=Attack (ME)-6

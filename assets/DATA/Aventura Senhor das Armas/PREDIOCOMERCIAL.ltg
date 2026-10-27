@@ -1,0 +1,108 @@
+[Matrix]
+Description=Comercial Tower
+Nodes=22
+Entry=1
+Range=2
+Alert=none
+Emergency=60/60
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Orange-3 4 3
+Mesg=LTG# 5206
+ICEType=White Access-5
+Links=22/0/2
+
+[Node2]
+Type=SPU Green-4 5 4
+Links=6/1/4
+
+[Node3]
+Type=SPU Green-4 2 2
+Links=5/15/14/13/12/4
+
+[Node4]
+Type=SPU Green-4 6 2
+ICEType=White Access-5
+Links=2/3/11/7/8/9/10
+
+[Node5]
+Type=CPU Orange-3 2 5
+ICEType=Gray Trace and Burn-3 amobile
+Links=16/3
+
+[Node6]
+Type=SPU Green-4 5 6
+Links=21/20/2/19/18/17
+
+[Node7]
+Type=SM Green-4 6 1
+Links=4
+
+[Node8]
+Type=SM Green-4 7 1
+Links=4
+
+[Node9]
+Type=SM Green-4 7 2
+Links=4
+
+[Node10]
+Type=DS Green-5 7 3
+ICEType=White Barrier-5 passive
+Links=4
+
+[Node11]
+Type=IOP Green-3 5 1
+Links=4
+
+[Node12]
+Type=IOP Green-3 3 1
+Links=3
+
+[Node13]
+Type=IOP Green-3 2 1
+Links=3
+
+[Node14]
+Type=DS Orange-3 1 1
+ICEType=White Scramble-4
+Links=3
+
+[Node15]
+Type=DS Green-4 1 2
+ICEType=White Barrier-5 passive
+Links=3
+
+[Node16]
+Type=IOP Orange-3 1 5
+Links=5
+
+[Node17]
+Type=SM Green-3 6 7
+Links=6
+
+[Node18]
+Type=SM Green-3 6 6
+Links=6
+
+[Node19]
+Type=SM Green-3 6 5
+Links=6
+
+[Node20]
+Type=DS Green-4 4 6
+ICEType=White Barrier-5 passive
+Links=6
+
+[Node21]
+Type=IOP Green-3 5 7
+Links=6
+
+[Node22]
+Type=LNK LTGTACOMA.ltg 06 3 3
+Links=1

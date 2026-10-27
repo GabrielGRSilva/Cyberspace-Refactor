@@ -1,0 +1,154 @@
+[Matrix]
+Description=The Joke
+Nodes=27
+Entry=1
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Green-5 4 7
+Mesg=Bar Entrance
+ICEType=White Barrier-4
+Links=6/0/7
+
+[Node2]
+Type=CPU Orange-5 4 2
+Mesg=Building Central System
+ICEType1=White Access-5 ptrigger -3
+ICEType2=Gray Blaster-4 amobile triggered
+Links=17
+
+[Node3]
+Type=DS Green-4 3 6
+Mesg=Inventory and Finances
+Files=Inventory/20/250 Financial Records/30/3000 
+Links=7
+
+[Node4]
+Type=SM Green-4 5 6
+Mesg=SoyCaf-O-Mat & Soup Tap
+Links=7
+
+[Node5]
+Type=IOP Green-3 5 5
+Mesg=Credstick Checker
+Links=7
+
+[Node6]
+Type=LNK LTGREDMOND68.ltg 09 4 8
+Links=1
+
+[Node7]
+Type=SPU Green-4 4 6
+Mesg=Bar Central Routing
+Links=1/3/8/5/4
+
+[Node8]
+Type=SPU Orange-4 4 4
+Mesg=Routing: Restrict Area.
+ICEType=White Access-4
+Links=7/9/12/17
+
+[Node9]
+Type=SPU Green-3 1 4
+Mesg=Routing: general access
+Links=11/8/10
+
+[Node10]
+Type=IOP Green-3 2 5
+Mesg=Many terminals seens linked to this node.
+Links=9
+
+[Node11]
+Type=DS Green-4 1 5
+Files=Access archives/80/20000 Controled apartmantes list./30/10000 Administration 001/60/0 Administration 002/50/0 Administration 003/40/5000 
+ICEType=White Scramble-2
+Links=9
+
+[Node12]
+Type=SPU Orange-4 2 2
+Mesg=Routing: Security
+Links=16/14/18/13/15/8
+
+[Node13]
+Type=SM Green-3 1 1
+Mesg=Security Cameras controls
+Links=12
+
+[Node14]
+Type=SM Orange-3 1 3
+Mesg=Maglocks and alarms Controls
+Links=12
+
+[Node15]
+Type=IOP Green-3 2 1
+Mesg=Security Room Terminals
+Links=12
+
+[Node16]
+Type=DS Orange-3 2 3
+Files=Security Cameras Files/120/30000 Maglocks access codes/60/50000 Patrols scheduales/20/20000 
+ICEType=White Scramble-4
+Links=12
+
+[Node17]
+Type=SPU Green-4 6 4
+Links=8/2/19/27
+
+[Node18]
+Type=SM Orange-3 1 2
+Mesg=Sentry Guns Controls
+Links=12
+
+[Node19]
+Type=SPU Orange-4 6 2
+Mesg=WARNNING! You do not have permission to access this area!
+ICEType=White Access-5 atrigger 2
+Links=17/21/20/24
+
+[Node20]
+Type=IOP Orange-3 6 1
+Mesg=Manager access terminal.
+Links=19
+
+[Node21]
+Type=DS Orange-4 5 1
+Files=Government: Contracts/30/150000 Operational Files 001/50/50000 Operational Files 002/50/0 Operational Files 003/50/0 Resources Management schedule/200/200000 Clan's regional affiliates/30/100000 
+ICEType=White Scramble-5
+Links=19
+
+[Node22]
+Type=SM Orange-3 8 1
+Mesg=Chemical Machines Control System.
+Links=24
+
+[Node23]
+Type=SM Orange-3 7 1
+Mesg=Chips Encoder Machines
+Links=24
+
+[Node24]
+Type=SPU Orange-3 8 2
+Mesg=Routing: Supervisors
+Links=25/26/19/23/22
+
+[Node25]
+Type=IOP Orange-5 8 3
+Mesg=Supervisors Terminals.
+Links=24
+
+[Node26]
+Type=DS Orange-4 7 3
+Files=Chemmicals recipes/120/100000 Arabian Night Program Source Code/120/100000 Tristan 3000 Program Source Code/50/50000 Programers Contact notes/10/150000 
+ICEType=White Scramble-4
+Links=24
+
+[Node27]
+Type=SAN Orange-4 8 4
+Mesg=LTG #11206 (68-6488)
+Links=17

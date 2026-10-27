@@ -1,0 +1,46 @@
+[Persona]
+Model=Fairlight Excalibur Resp. Incr. 3
+MPCP=12
+Bod=9
+Evasion=9
+Masking=9
+Sensor=9
+Damage=0
+
+[Technical Parameters]
+Hardening=6
+ActiveMem=600
+StorageMem=3000
+Load=120
+I/O=60
+Response=3
+Satuplink=1
+PureCyber=0
+RealityFilter=0
+DisplayMode=1
+
+[Utilities]
+Program1=Deception-9-162
+Program2=Sleaze-9-243
+Program3=Relocate-7-98
+Program4=Decrypt-7-98
+Program5=Slow-7-196
+Program6=Browse-8-64
+Program7=Evaluate-4-32
+Program8=Sift-5-25
+Program9=Armor-6-108
+Program10=Cloak-7-147
+Program11=Mirrors-6-108
+Program12=Shield-6-144
+Program13=Smoke-6-72
+Program14=Medic-6-144
+Program15=Attack (ME)-8-200
+Program16=Attack (DE)-6-242
+Program17=Attack-4-32
+Program18=Attack-7-98
+Program19=Deception-7-98
+Program20=Sleaze-7-147
+Program21=Satlink-1-3
+Program22=Analyze-9-243
+Program23=Attack-9-162
+Program24=Satlink-1-3

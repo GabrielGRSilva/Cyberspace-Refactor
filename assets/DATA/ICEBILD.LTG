@@ -1,0 +1,17 @@
+[Matrix]
+Description=New LTG
+Nodes=1
+Entry=1
+Range=2
+Alert=none
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SM Green-5 4 1
+ICEType1=Gray Trace and Burn-6
+ICEType2=Gray Tar Pit-6
+ICEType3=White Access-6 mobile
+Links=0

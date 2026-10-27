@@ -1,0 +1,125 @@
+[Matrix]
+Description=New LTG
+Nodes=21
+Entry=0
+Range=2
+Alert=active
+Emergency=100/0
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Green-4 4 7
+Mesg=Bem vindo aos sitema do Mart Market.
+Links=0/2
+
+[Node2]
+Type=SPU Green-3 4 6
+Mesg=Mart Market, sempre perto de você.
+Links=1/4/5/3
+
+[Node3]
+Type=DS Green-3 5 7
+Mesg=Arquivos públicos, propagandas e informações gerais.
+Files=História do Mark Market/60/0 Ofertas da semana!/70/1000 Afiliados Mark Market/40/0 
+Links=2
+
+[Node4]
+Type=IOP Green-3 3 7
+Mesg=Terminais de acesso do Mark Market.
+Links=2
+
+[Node5]
+Type=SPU Green-4 4 5
+Mesg=Atenção! Acesso somente para pessoal altorizado.
+ICEType=White Access-4  Damage 12
+Links=2/6
+
+[Node6]
+Type=SPU Green-3 4 4
+Mesg=Setor gerencial do Mark Market.
+Links=5/10/7/20/21/14
+
+[Node7]
+Type=CPU Green-5 1 1
+Mesg=Central do Mark Market LTDA.
+ICEType=Gray Killer (M)-4 immobile ever Damage 9
+Links=8/9/6
+
+[Node8]
+Type=IOP Green-3 1 2
+Mesg=Terminal da Gerência.
+Links=7
+
+[Node9]
+Type=DS Green-5 2 1
+Mesg=Arquivos contábeis e dados restritos.
+Files=Registros bancários primários/120/6000 Transações completadas, arquivos encerrados/120/0 Arquivos do Setor Pessoal/50/2500 Registro de faltas, atrasos e dispensa dos empregados/70/0 Transações pendentes/90/4500 Controle de estoque/80/4000 Controle de saídas/80/0 Contratos e empresas terceirizadas/80/4000 
+ICEType=White Scramble-5 passive
+Links=7
+
+[Node10]
+Type=SPU Green-3 3 4
+Mesg=Controle automotivo da loja física.
+Links=13/12/11/6
+
+[Node11]
+Type=SM Green-3 2 3
+Mesg=Caixas eletrônicos de auto-atendimento.
+Links=10
+
+[Node12]
+Type=SM Green-3 1 3
+Mesg=Controle climático e sistema de resfriamento.
+Links=10
+
+[Node13]
+Type=SM Green-3 1 4
+Mesg=Cafeteria e sistema da cozinha.
+Links=10
+
+[Node14]
+Type=SPU Green-3 5 4
+Mesg=Setor de segurança.
+Links=19/6/18/17/16/15
+
+[Node15]
+Type=SM Green-3 6 5
+Mesg=Câmeras de segurança.
+Links=14
+
+[Node16]
+Type=SM Green-3 7 5
+Mesg=Portas automáticas e sistema de travamento de emergência.
+Links=14
+
+[Node17]
+Type=SM Green-3 7 4
+Mesg="PanicButtons" e sistema de alarme silencioso.
+Links=14
+
+[Node18]
+Type=IOP Green-3 7 3
+Mesg=Terminal de acesso da sala de segurança.
+Links=14
+
+[Node19]
+Type=DS Green-3 5 5
+Mesg=Registros gerais de segurança.
+Files=Registro das ocorrências de segurança./60/0 Cópia dos registros das câmeras, ultima semana./120/0 
+ICEType=White Scramble-4 passive
+Links=14
+
+[Node20]
+Type=IOP Green-3 3 2
+Mesg=Terminais dos funcionários.
+Links=6
+
+[Node21]
+Type=DS Green-3 5 2
+Mesg=Arquivos gerais.
+Files=Escala dos funcionários/20/0 Escala dos transportes./50/0 Relatório de reposição de estoque/50/0 
+Links=6

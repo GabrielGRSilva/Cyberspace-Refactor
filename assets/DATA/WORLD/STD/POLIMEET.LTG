@@ -1,0 +1,50 @@
+[Matrix]
+Description=Policub Meeting Hall
+Nodes=7
+Entry=1
+Range=2
+Alert=none
+Emergency=20/5
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Orange-3 2 3
+Mesg=Meeting Hall Entrance
+ICEType=White Probe-3 mobile
+Links=0/2
+
+[Node2]
+Type=CPU Orange-4 4 3
+Mesg=Policlub Central System
+Links=4/1/3/5/6
+
+[Node3]
+Type=SM Green-3 3 1
+Mesg=Security Cameras
+Links=2
+
+[Node4]
+Type=SM Green-3 3 5
+Mesg=Infrared Sensors
+Links=2
+
+[Node5]
+Type=IOP Green-3 5 1
+Mesg=Desktop Terminal
+Links=2
+
+[Node6]
+Type=DS Green-3 5 5
+Mesg=Policlub Public Data
+Files=Policlub Propaganda/30/6000 Public Meeting Schedule/20/5000 Demonstrations/40/4000 Political Issues District/25/1000 
+Links=2/7
+
+[Node7]
+Type=DS Orange-3 7 5
+Mesg=Policlub Secret Data
+Files=Meeting Schedule/25/25000 Secret Codes/15/10000 Membership List/35/70000 Illegal Activities/30/50000 
+ICEType=White Scramble-4
+Links=6

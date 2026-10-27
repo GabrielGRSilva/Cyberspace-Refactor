@@ -1,0 +1,37 @@
+REDMOND LOCAL TELECOM GRID
+
+District Code:  11206
+File:           redmond\ltgredmond.ltg
+Notes:          SAN* with number, but no LNK don't have *.ltg files yet.
+                SAN- have no number ('disconnected'), free to fill in.
+
+Alpha Links
+Node#   LTGcode  Client                          Location Archetype
+ 3               Seattle Regional Telecom Grid
+ 4      42-010                                   (legal) body shop
+ 5      42-009                                   small bank
+ 6      42-008                                   bar
+ 7      32-721                                   police station
+ 8      32-722                                   small restaurant
+ 9      32-723                                   shopping mall
+10      32-724                                   small store
+11               Link para LTGs da área 61
+12               Link para LTGs da área 62
+13      
+14      
+15      65-754                                   Bus station
+16      65-755                                   hospital
+17      65-756                                   night club
+18
+19      34-5901  Redmond Center Hotel            Luxury Hotel and Mid-size Restaurant
+20               Link para LTGs da área 68
+21      
+22      
+23      
+25      
+33
+34
+35               Link para LTGs da área 64
+36
+37               Link para LTGs da área 63
+38               Link para LTGs da área 67

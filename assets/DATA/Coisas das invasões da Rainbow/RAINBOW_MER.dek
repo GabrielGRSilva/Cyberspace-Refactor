@@ -1,0 +1,37 @@
+[Persona]
+Model=Fuchi Cyber4 Da Rainbow
+MPCP=6+0-0-0
+Bod=5+0-0-0
+Evasion=5+0-0-0
+Masking=4+0-0-0
+Sensor=6+0-0-0
+Damage=0
+
+[Technical Parameters]
+Hardening=3
+ActiveMem=300
+StorageMem=900
+Load=20
+I/O=20
+Response=1
+Satuplink=0
+PureCyber=0
+RealityFilter=0
+DisplayMode=1
+
+[Utilities]
+Program1=Analyze-3-27
+Program2=Attack-5-50
+Program3=Browse-3-9
+Program4=Deception-3-18
+Program5=Sleaze-3-27
+Program6=Evaluate-3-18
+Program7=Relocate-3-18
+Program8=Armor-3-27
+Program9=Smoke-3-18
+Program10=Slow-6-144
+Program11=Financial Records-30-30
+Program12=Inventory-20-20
+Program13=Ofertas da semana!-70
+Program14=Registros bancários primários-120
+Program15=Contratos e empresas terceirizadas-80

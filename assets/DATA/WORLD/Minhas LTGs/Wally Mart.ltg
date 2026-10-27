@@ -1,0 +1,143 @@
+[Matrix]
+Description=Wally Mart Matrix EX
+Nodes=23
+Entry=1
+Range=2
+Alert=none
+Shutdowntics=30
+Readonly=No
+LTGImagePath=..\IMAGESloja\
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Green-5 4 1
+Mesg=Bem vindo ao Wally Mart Matrix, onde você encontra aquilo que quer, pelo preço que pode pagar!
+ICEType=White Access-2
+Links=6/0
+
+[Node2]
+Type=DS Blue-4 3 1
+Mesg=Seção de Cama, mesa, banho, vestuário, roupas íntimas e acessórios.
+Files=S01: Ofertas da semana./80/5000 S01: Relação de produtos da seção./100/8000 
+Links=6
+
+[Node3]
+Type=DS Blue-4 3 2
+Mesg=Seção de Casa e Jardim, móveis, eletrodomésticos, ferramentas e serviços domésticos.
+Files=S02: Ofertas da semana./80/5000 S02: Relação de produtos da seção./100/8000 
+Links=6
+
+[Node4]
+Type=DS Blue-4 5 1
+Mesg=Seção de Viagens e Turismo, veículos e meios de transporte, hotelaria e lazer.
+Files=S03: Ofertas da semana./80/5000 S03: Relação de produtos da seção./100/8000 
+Links=6
+
+[Node5]
+Type=DS Green-3 5 2
+Mesg=Seção de multimídea, sex shop e serviços de acompanhantes.
+Files=S04: Ofertas da semana./120/15000 S04: Relação de produtos da seção./200/20000 
+ICEType=White Access-3
+Links=6
+
+[Node6]
+Type=SPU Orange-3 4 2
+Mesg=Veja as ofertas especiais dessa semana ou simplesmente peça o que está procurando.
+Links=7/3/2/1/4/5
+
+[Node7]
+Type=SPU Orange-5 4 4
+Mesg=Roteador: Central
+ICEType1=Gray Trace and Report-4 triggered
+ICEType2=White Access-5 ptrigger 2
+Links=12/11/8/6/9/10
+
+[Node8]
+Type=SPU Orange-3 2 3
+Mesg=Roteador: administração da Seção de Cama, mesa, banho, vestuário, roupas íntimas e acessórios.
+Links=13/17/7
+
+[Node9]
+Type=SPU Orange-3 6 3
+Mesg=Roteador: administração da Seção de Viagens e Turismo, veículos e meios de transporte, hotelaria e lazer.
+Links=7/18/15
+
+[Node10]
+Type=SPU Orange-3 6 5
+Mesg=Roteador: administração da Seção de multimídea, sex shop e serviços de acompanhantes.
+Links=19/7/16
+
+[Node11]
+Type=SPU Orange-3 2 5
+Mesg=Roteador: administração da Seção de Casa e Jardim, móveis, eletrodomésticos, ferramentas e serviços domésticos.
+Links=20/14/7
+
+[Node12]
+Type=SPU Orange-4 4 5
+Mesg=Roteador: Administração central
+Links=21/22/7/23
+
+[Node13]
+Type=DS Orange-4 1 3
+Files=A01: Estoques/110/50000 A01: Compras e transações/80/80000 A01: Registros de clientes/70/40000 
+ICEType=White Scramble-4
+Links=8
+
+[Node14]
+Type=DS Orange-4 1 5
+Files=A02: Estoques/110/50000 A02: Compras e transações/130/80000 A02: Registros de clientes/70/40000 
+ICEType=White Scramble-4
+Links=11
+
+[Node15]
+Type=DS Orange-4 7 3
+Files=A03: Estoques/80/200000 A03: Compras e transações/120/100000 A03: Registros de clientes/70/40000 
+ICEType=White Barrier-4
+Links=9
+
+[Node16]
+Type=DS Orange-4 7 5
+Files=A04: Compras e transações/120/65000 A04: Registros de clientes/70/190000 A04: Estoques/200/80000 
+ICEType=White Scramble-4
+Links=10
+
+[Node17]
+Type=IOP Orange-3 2 2
+Mesg=Verificador de Credstick.
+Links=8
+
+[Node18]
+Type=IOP Orange-3 6 2
+Mesg=Verificador de Credstick.
+Links=9
+
+[Node19]
+Type=IOP Orange-3 6 6
+Mesg=Verificador de Credstick.
+Links=10
+
+[Node20]
+Type=IOP Orange-3 2 6
+Mesg=Verificador de Credstick.
+Links=11
+
+[Node21]
+Type=CPU Orange-6 4 7
+ICEType1=White Barrier-4 ptrigger -3
+ICEType2=Gray Blaster-5 amobile triggered
+Links=12
+
+[Node22]
+Type=IOP Orange-5 3 6
+Mesg=Terminais da administração.
+Links=12
+
+[Node23]
+Type=DS Orange-5 5 6
+Files=AD001/500/200000 AD002/500/200000 AD003/120/5000 AD004/120/60000 
+ICEType1=Gray Tar Baby-4 immobile ever ptrigger -3
+ICEType2=White Scramble-6 triggered
+Links=12

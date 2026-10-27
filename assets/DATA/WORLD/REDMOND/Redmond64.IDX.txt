@@ -1,0 +1,14 @@
+REDMOND64 SUB-LOCAL TELECOM GRID
+
+District Code:  11206 (64-****)
+File:           redmond\ltgredmond64.ltg
+Notes:          SAN* with number, but no LNK don't have *.ltg files yet.
+                SAN- have no number ('disconnected'), free to fill in.
+
+Alpha Links
+Node#   LTGcode  Client                          Location Archetype
+ 3               Redmond Local Grid
+ 4      64-6409  Novelty Hill Sleep & Eat        Small Hotel and Mid-size Restaurant
+ 
+21      64-8462  The Skeleton                    Night Club
+ 

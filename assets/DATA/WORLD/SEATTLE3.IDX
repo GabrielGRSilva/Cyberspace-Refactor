@@ -1,0 +1,49 @@
+SEATTLE/DOWNTOWN LOCAL TELECOM GRID 3 of 3
+
+District Code:  206/2206
+File:           rtg\seattle3.ltg
+Notes:          SAN* with number, but no LNK don't have *.ltg files yet.
+                SAN- have no number ('disconnected'), free to fill in.
+
+Alpha Links
+Node#   LTGcode Client                          Location Archetype
+ 4      56-7964 Reno's                          mid-size restaurant
+ 5      56-7123 Run Run Shaw's                  mid-size restaurant
+ 6      52-4719 Seward Club                     casino
+ 7      52-6328 Stouffer-Madison Hotel          average hotel (10 floors)
+ 8      56-2143 Stuffer Shack                   small restaurant
+ 9      56-7149 Sybrespace                      night club
+10      56-2969 Takuri's                        mid-size restaurant
+11      56-5052 Tam's Under The Needle          small restaurant
+12      56-2587 The Edge                        large restaurant
+13      56-6785 THE Sports Bar                  mid-size restaurant
+14      52-4800 University Hospital             hospital (18 floors)
+15      52-4278 U.S. Public Hospital            hospital (14 floors)
+16      52-4117 Warwick Hotel                   luxury hotel (20 floors)
+17      53-6510 Weapons World                   large store
+19      52-5180 West Coast Hamlin Hotel         average hotel (30 floors)
+20      52-3587 Westin Hotel                    luxury hotel (60 floors)
+21      52-3564 Wylie's Gala Inn                average hotel (20 floors)
+22      56-9288 You Should Not Eat So Much!     large restaurant
+23*     51-4233 Renton Mall                     shopping mall (4 floors)
+
+Beta Links
+Node#   LTGcode Client                          Location Archetype
+25*     52-2873 Seattle Art Museum Pavilion
+26*     52-6110 Seattle Coliseum
+27*     52-3312 Seattle Convention and Trade Center
+28*     52-5256 Seattle University
+30*     52-6500 Space Needle
+31*     52-2084 University of Washington
+32*     52-4985 Y.M.C.A.
+33*     22-8906 Seattle-Tacoma International Airport
+34*     52-2210 U.C.A.S. Post Office
+35-     Disconnected
+36-     Disconnected
+37-     Disconnected
+38-     Disconnected
+39-     Disconnected
+41-     Disconnected
+42-     Disconnected
+43-     Disconnected
+44      RTG             Seattle Regional Telecom Grid

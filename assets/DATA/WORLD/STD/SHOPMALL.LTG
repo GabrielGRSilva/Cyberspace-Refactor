@@ -1,0 +1,144 @@
+[Matrix]
+Description=Shopping Mall
+Nodes=25
+Entry=1
+Range=2
+Alert=none
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Green-4 1 2
+Mesg=Shopping Mall Public Entrance
+ICEType=White Access-3
+Links=0/2
+
+[Node2]
+Type=SPU Green-4 3 2
+Mesg=Routing: Public Data
+Links=3/1/15/14
+
+[Node3]
+Type=SAN Orange-6 3 4
+Mesg=Shopping Mall Secure Entrance
+ICEType1=Gray Trace and Burn-4 triggered
+ICEType2=White Barrier-6 atrigger 1
+Links=4/2
+
+[Node4]
+Type=SPU Orange-4 3 6
+Mesg=Routing: Central Building Controls
+Links=16/18/5/3/7/17
+
+[Node5]
+Type=SPU Orange-4 1 5
+Mesg=Routing: Central Supply Orders
+Links=20/19/25/4
+
+[Node6]
+Type=SPU Orange-6 5 2
+Mesg=Routing: Mall Internal Links
+Links=7/8/13/9/10/11/12
+
+[Node7]
+Type=CPU Orange-6 5 6
+Mesg=Shopping Mall Central System
+ICEType1=Gray Acid-4
+ICEType2=Gray Killer-5 amobile active
+Links=23/4/6/21/22/24
+
+[Node8]
+Type=SAN Orange-4 8 1
+Mesg=To Shop #1 (add LNK)
+Links=6
+
+[Node9]
+Type=SAN Orange-4 8 3
+Mesg=To Shop #3 (add LNK)
+Links=6
+
+[Node10]
+Type=SAN Orange-4 8 4
+Mesg=To Shop #4 (add LNK)
+Links=6
+
+[Node11]
+Type=SAN Orange-4 8 5
+Mesg=To Shop #5 (add LNK)
+Links=6
+
+[Node12]
+Type=SAN Orange-4 8 6
+Mesg=To Shop #6 (add LNK)
+Links=6
+
+[Node13]
+Type=SAN Orange-4 8 2
+Mesg=To Shop #2 (add LNK)
+Links=6
+
+[Node14]
+Type=DS Green-4 3 1
+Mesg=Public Relations and Info
+Links=2
+
+[Node15]
+Type=IOP Green-2 2 1
+Mesg=Mall Vidphone Central Node
+Links=2
+
+[Node16]
+Type=SM Orange-3 3 7
+Mesg=Elevator/Escalator Controls
+Links=4
+
+[Node17]
+Type=SM Orange-3 4 7
+Mesg=Air Conditioning
+Links=4
+
+[Node18]
+Type=SM Orange-3 2 7
+Mesg=Outer Doors Controls
+Links=4
+
+[Node19]
+Type=DS Orange-5 1 4
+Mesg=Supplies Administration
+Files=Security Equipment/20/50000 Store Orders/80/160000 Delivery Schedules/40/40000 Overhead/20/40000 Suppliers Index/30/10000 
+ICEType=White Scramble-5
+Links=5
+
+[Node20]
+Type=IOP Orange-4 1 6
+Mesg=Supplies Terminal
+Links=5
+
+[Node21]
+Type=DS Orange-6 6 5
+Mesg=Mall Secure Data
+Files=Financial Records/45/135000 Membership/0/15 Security Map/25/100000 Surveillance Roster/30/30000 
+ICEType=White Scramble-5
+Links=7
+
+[Node22]
+Type=IOP Orange-4 6 6
+Mesg=Security Console
+Links=7
+
+[Node23]
+Type=SM Orange-4 5 7
+Mesg=Security Cameras
+Links=7
+
+[Node24]
+Type=SM Orange-4 6 7
+Mesg=Parking Lot/Helipad Barrrier Controls
+Links=7
+
+[Node25]
+Type=SM Orange-3 2 4
+Mesg=Cargo Bay Inventory Controls
+Links=5

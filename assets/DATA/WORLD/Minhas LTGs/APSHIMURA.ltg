@@ -1,0 +1,98 @@
+[Matrix]
+Description=Noble Hills
+Nodes=21
+Entry=0
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Green-5 5 2
+Mesg=LTG #16206(40-6738)
+Links=2/0
+
+[Node2]
+Type=SPU Green-3 5 3
+Links=3/1/18
+
+[Node3]
+Type=SPU Green-4 2 4
+Links=11/4/2
+
+[Node4]
+Type=SPU Orange-3 2 2
+Links=3/6/5/7/8/9
+
+[Node5]
+Type=DS Green-3 1 1
+Links=4
+
+[Node6]
+Type=DS Green-3 1 2
+Links=4
+
+[Node7]
+Type=IOP Green-3 2 1
+Links=4
+
+[Node8]
+Type=IOP Green-3 3 1
+Links=4
+
+[Node9]
+Type=CPU Orange-3 5 1
+Links=4/10
+
+[Node10]
+Type=DS Green-5 6 1
+Links=9
+
+[Node11]
+Type=SPU Green-4 2 6
+Links=15/14/13/12/3/17/16
+
+[Node12]
+Type=SM Green-3 1 5
+Links=11
+
+[Node13]
+Type=SM Green-3 1 6
+Links=11
+
+[Node14]
+Type=SM Green-3 1 7
+Links=11
+
+[Node15]
+Type=SM Green-3 2 7
+Links=11
+
+[Node16]
+Type=DS Green-3 3 7
+Links=11
+
+[Node17]
+Type=IOP Green-3 3 6
+Links=11
+
+[Node18]
+Type=SPU Blue-4 6 3
+Links=2/19
+
+[Node19]
+Type=IOP Blue-3 6 2
+Mesg=Terminais de acesso dos apartamentos.
+Links=18/20
+
+[Node20]
+Type=SAN Orange-3 8 2
+Mesg=PLTGSHIMURA.ltg02
+Links=19/21
+
+[Node21]
+Type=LNK PLTGSHIMURA.ltg2 8 1 0
+Links=20

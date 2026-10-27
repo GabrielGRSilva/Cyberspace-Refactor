@@ -1,0 +1,30 @@
+[Persona]
+Model=Allegiance Alpha (for Bush League)
+MPCP=3
+Bod=2
+Evasion=3
+Masking=2
+Sensor=2
+Damage=0
+
+[Technical Parameters]
+Hardening=1
+ActiveMem=150
+StorageMem=500
+Load=30
+I/O=15
+Response=0
+Satuplink=0
+
+[Utilities]
+Program1=Attack-4
+Program2=Deception-3
+Program3=Sleaze-3
+Program4=Decrypt-3
+Program5=Slow-3
+Program6=Relocate-3
+Program7=Analyse-3
+Program8=Browse-3
+Program9=Evaluate-3
+Program10=Sift-3
+Program11=Medic-3

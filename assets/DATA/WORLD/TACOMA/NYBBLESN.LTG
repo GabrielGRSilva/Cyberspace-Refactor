@@ -1,0 +1,149 @@
+[Matrix]
+Description=Tacoma Nibbles n Bytes 5206(16-9756)
+Nodes=25
+Entry=1
+Range=2
+Alert=none
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Orange-6 1 2
+Mesg=Large Store Entrance
+ICEType1=Gray Trace and Burn-5 amobile triggered
+ICEType2=White Access-6 atrigger 0
+Links=25/0/2
+
+[Node2]
+Type=SPU Orange-4 3 2
+Mesg=Routing: All Data
+Links=4/1/3/6
+
+[Node3]
+Type=SPU Orange-4 3 1
+Mesg=Routing: Building Controls
+Links=2/24/23
+
+[Node4]
+Type=SPU Orange-4 3 4
+Mesg=Routing: Administration
+Links=7/18/2/19
+
+[Node5]
+Type=SPU Orange-4 1 6
+Mesg=Routing: Basement
+Links=10/14/7
+
+[Node6]
+Type=CPU Orange-7 6 2
+Mesg=Large Store Central System
+ICEType1=Gray Blaster-5 amobile triggered
+ICEType2=Gray Acid-4 immobile ever atrigger 2
+Links=2/22/21/20
+
+[Node7]
+Type=SPU Orange-4 3 6
+Mesg=Routing: First Floor
+Links=5/4/15/8/11
+
+[Node8]
+Type=SPU Orange-4 6 6
+Mesg=Routing: Second Floor
+Links=12/7/16/9
+
+[Node9]
+Type=SPU Orange-4 8 6
+Mesg=Routing: Third Floor
+Links=13/8/17
+
+[Node10]
+Type=IOP Orange-4 1 7
+Mesg=Credstick Checkers (B)
+Links=5
+
+[Node11]
+Type=IOP Orange-4 4 7
+Mesg=Credstick Checkers (1)
+Links=7
+
+[Node12]
+Type=IOP Orange-4 6 7
+Mesg=Credstick checkers (2)
+Links=8
+
+[Node13]
+Type=IOP Orange-4 8 7
+Mesg=Credstick Checkers (3)
+Links=9
+
+[Node14]
+Type=DS Orange-4 1 5
+Mesg=Basement Administration
+Files=Inventory/40/40000 Sales Data/60/60000 Special Actions/20/25000 
+ICEType=White Scramble-4 passive
+Links=5
+
+[Node15]
+Type=DS Orange-4 4 5
+Mesg=1st Floor Administration
+Files=Inventory/40/40000 Sales Data/60/60000 Special Actions/20/25000 
+ICEType=White Scramble-4 passive
+Links=7
+
+[Node16]
+Type=DS Orange-4 6 5
+Mesg=2nd Floor Administration
+Files=Inventory/40/40000 Sales Data/60/60000 Special Actions/20/25000 
+ICEType=White Scramble-4 passive
+Links=8
+
+[Node17]
+Type=DS Orange-4 8 5
+Mesg=3rd Floor Administration
+Files=Inventory/40/40000 Sales Data/60/60000 Special Actions/20/25000 
+ICEType=White Scramble-4 passive
+Links=9
+
+[Node18]
+Type=IOP Orange-4 2 4
+Mesg=Store Manager's Terminal
+Links=4
+
+[Node19]
+Type=DS Orange-6 4 4
+Mesg=Store Administration
+Files=Personnel Records/50/25000 Financial Records/80/160000 Public Relations/20/7500 
+ICEType=White Scramble-6
+Links=4
+
+[Node20]
+Type=IOP Orange-4 7 2
+Mesg=Security Console
+Links=6
+
+[Node21]
+Type=DS Orange-6 7 1
+Mesg=Secured Data
+Files=Tax Declarations/25/50000 Security Contract/20/50000 Camera Archives/95/10000 Mall Association Contract/15/15000 Holding Company Shares/40/100000 
+Links=6
+
+[Node22]
+Type=SM Orange-4 6 1
+Mesg=Security Cameras
+Links=6
+
+[Node23]
+Type=SM Orange-4 4 1
+Mesg=Elevator/Escalator Controls
+Links=3
+
+[Node24]
+Type=SM Orange-4 2 1
+Mesg=Air Conditioning
+Links=3
+
+[Node25]
+Type=LNK ..\rtg\tacoma.ltg 13 1 3
+Links=1

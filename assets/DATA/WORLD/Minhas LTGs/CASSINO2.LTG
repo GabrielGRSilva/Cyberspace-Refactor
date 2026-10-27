@@ -1,0 +1,152 @@
+[Matrix]
+Description=LTG NAN/SLS 5581 (3268), Cassino 2 Rives
+Nodes=25
+Entry=1
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Green-3 1 4
+Mesg=LTG NAN/SLS 5581 (3268), Bem vinda ao Cassino 2 Rivers.
+ICEType=White Access-7
+Links=0/2
+
+[Node2]
+Type=SPU Green-3 1 3
+Links=1/4/3/5
+
+[Node3]
+Type=IOP Green-3 2 3
+Mesg=Terminais de acesso pagos.
+Links=2
+
+[Node4]
+Type=SPU Green-3 1 2
+Links=2/8/7
+
+[Node5]
+Type=DS Green-3 2 4
+Mesg=Bancos de dados gerais sobre o cassino.
+Files=História do Cassino/90/0 Principais eventos anuais/10/0 Tabelas de descontos programados e excurções pelas NAN/120/12000 
+Links=2
+
+[Node6]
+Type=CPU Orange-5 4 4
+Mesg=Acesso principal do sistema, observe os níveis de segurança apropriados.
+ICEType1=White Access-4 atrigger -2
+ICEType2=Gray Blaster (M)-6 immobile
+Links=17/18/15/7/23/19
+
+[Node7]
+Type=SPU Orange-4 4 2
+ICEType=White Access-4 atrigger -2
+Links=6/20/4/9/16/22/10/21
+
+[Node8]
+Type=IOP Green-3 1 1
+Mesg=Terminais privados dos quartos.
+Links=4
+
+[Node9]
+Type=IOP Green-3 2 1
+Mesg=Terminais dos funcionários.
+Links=7
+
+[Node10]
+Type=SPU Orange-3 7 2
+Mesg=Sub-Central de Segurança
+ICEType1=White Access-4 atrigger -3
+ICEType2=Gray Killer (M)-6
+Links=7/14/11/12/13
+
+[Node11]
+Type=SM Green-3 8 1
+Mesg=Controle das câmeras de Segurança e Sistemas de alarme
+Links=10
+
+[Node12]
+Type=DS Green-3 8 2
+Mesg=Arquivos da Segurança
+Files=Registro das gravações das câmeras de segurança/120/0 Registro dos acessos dos maglocks/120/0 Registro geral dos turnos de segurança/120/6000 Registros das ocorrências e chamados aos Red Rangers/50/2500 
+Links=10
+
+[Node13]
+Type=SM Green-3 8 3
+Mesg=Controle dos Maglocks e sistemas de identificação
+Links=10
+
+[Node14]
+Type=IOP Orange-3 7 1
+Mesg=Terminal da sala de segurança
+Links=10
+
+[Node15]
+Type=IOP Orange-3 3 4
+Mesg=Terminal da Sala do gerente
+Links=6
+
+[Node16]
+Type=DS Green-3 4 1
+Mesg=Arquivos administrativos.
+Files=Inventário do Estoque/20/0 Requisições de suprimentos/30/0 Registro de hóspedes/0/50 Livro de registro de ocorrências/120/0 
+ICEType=White Scramble-4
+Links=7
+
+[Node17]
+Type=DS Green-3 4 5
+Mesg=Arquivos de funcionários
+Files=Arquivos dos funcionários/50/0 Registros dos depósitos de pagamento/70/3500 
+Links=6
+
+[Node18]
+Type=DS Green-3 3 5
+Mesg=Registros contábeis
+Files=Detalhamento das faturas/90/9000 Transferencias à serem confirmados/70/7000 Quebras de caixa/120/12000 Contas e registros cancelados/70/35000 
+ICEType=White Scramble-4
+Links=6
+
+[Node19]
+Type=DS Green-3 5 5
+Mesg=Arquivos administrativos
+Files=Organograma do semestre/70/0 Projeções para faturamento de 2050/120/6000 
+Links=6
+
+[Node20]
+Type=SM Green-3 3 3
+Mesg=Controle do sistema de refrigeração.
+Links=7
+
+[Node21]
+Type=SM Green-3 5 3
+Mesg=Controle da Cozinha e das Maquinas de refeição
+Links=7
+
+[Node22]
+Type=SM Green-3 5 1
+Mesg=Controle do sistema de multimídia
+Links=7
+
+[Node23]
+Type=SPU Red-4 7 4
+Mesg=Sistema de registro das máquinas de jogos e apostas, Acesso registro
+ICEType1=White Access-4
+ICEType2=Black Killer (PhysS)-6 immobile
+Links=24/6/25
+
+[Node24]
+Type=DS Red-4 7 5
+Mesg=Arquivos gerais das transações e apostas
+Files=Conta interna da Banca/100/100000 Transferências não debitadas/100/100000 
+ICEType=White Scramble-5
+Links=23
+
+[Node25]
+Type=SM Red-4 8 4
+Mesg=Controle das máquinas de aposta
+ICEType=White Access-5 atrigger -2
+Links=23

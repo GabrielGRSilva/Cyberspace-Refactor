@@ -1,0 +1,117 @@
+[Matrix]
+Description=LTG #16206 (Renton)
+Nodes=21
+Entry=2
+Range=0
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Mesg=LTG# 5206(83421)
+Links=1/2
+
+[Node1]
+Type=CPU Green-4 4 4
+Links=3/0/2/6/19
+
+[Node2]
+Type=IOP Green-4 3 4
+Links=0/1
+
+[Node3]
+Type=SPU Green-4 4 7
+Links=17/18/16/1/14/5/15
+
+[Node4]
+Type=SAN Orange-3 4 1
+Mesg=LTG #16206(40-6738)
+ICEType=White Access-5
+Links=6/21
+
+[Node5]
+Type=SAN Orange-3 7 6
+Mesg=LTG #16206(40-6744)
+Links=3
+
+[Node6]
+Type=SPU Green-4 4 2
+Links=1/9/8/7/4/10/11/12/13
+
+[Node7]
+Type=SAN Green-4 2 1
+Mesg=LTG #16206(40-6751)
+Links=6
+
+[Node8]
+Type=SAN Green-4 2 2
+Mesg=LTG #16206(40-6750)
+Links=6
+
+[Node9]
+Type=SAN Green-4 2 3
+Mesg=LTG #16206(40-6749)
+Links=6
+
+[Node10]
+Type=SAN Green-4 5 1
+Mesg=LTG #16206(40-6739)
+Links=6
+
+[Node11]
+Type=SAN Green-4 7 1
+Mesg=LTG #16206(40-6740
+Links=6
+
+[Node12]
+Type=SAN Orange-4 7 2
+Mesg=LTG #16206(40-6741)
+ICEType=White Access-5
+Links=6
+
+[Node13]
+Type=SAN Green-4 7 3
+Mesg=LTG #16206(40-6742)
+Links=6
+
+[Node14]
+Type=SAN Green-4 7 5
+Mesg=LTG #16206(40-6743)
+Links=3
+
+[Node15]
+Type=SAN Green-4 7 7
+Mesg=LTG #16206(40-6745)
+ICEType=White Access-3
+Links=3
+
+[Node16]
+Type=SAN Orange-3 1 5
+Mesg=LTG #16206(40-6748)
+ICEType=White Access-4
+Links=3
+
+[Node17]
+Type=SAN Red-5 1 7
+Mesg=LTG #16206(40-6746)
+ICEType=White Access-7
+Links=3
+
+[Node18]
+Type=SAN Green-4 1 6
+Mesg=LTG #16206(40-6747)
+Files=Comline Index Alpha/2500/2500000 
+Links=3
+
+[Node19]
+Type=SAN Green-4 6 4
+Mesg=RTG Seattle
+Links=1/20
+
+[Node20]
+Type=LNK RTGSEATTLE.ltg 02 8 4
+Links=19
+
+[Node21]
+Type=LNK APSHIMURA.ltg 02 4 0
+Links=4

@@ -1,0 +1,24 @@
+[Character]
+Name=SLIDER
+
+[Attributes]
+Body=6
+Quickness=7
+Strength=5
+Charisma=5
+Intelligence=7
+Willpower=6
+Reaction=7+1D
+Stun Damage=0
+Phys Damage=0
+
+[Skills]
+Computer=15
+Etiquette/Matrix=9
+
+[Dice Pools]
+Karma=18
+Hacking=0
+Team=20
+
+

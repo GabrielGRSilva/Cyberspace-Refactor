@@ -1,0 +1,260 @@
+[Matrix]
+Description=Schloss Munchmaussen System
+Nodes=48
+Entry=1
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Orange-4 4 1
+Mesg=Town Hall Unlisted Number
+ICEType=White Access-5
+Links=2/0
+
+[Node2]
+Type=SPU Orange-6 4 2
+Mesg=Data Routing: Town Government
+Links=10/3/1/18
+
+[Node3]
+Type=SPU Orange-5 2 2
+Mesg=Town Security Center.
+ICEType=White Access-8
+Links=8/6/5/4/9/7/2
+
+[Node4]
+Type=IOP Orange-5 1 1
+Links=3
+
+[Node5]
+Type=IOP Orange-5 1 2
+Links=3
+
+[Node6]
+Type=IOP Orange-5 1 3
+Links=3
+
+[Node7]
+Type=IOP Green-3 3 1
+Links=3
+
+[Node8]
+Type=IOP Green-3 2 3
+Links=3
+
+[Node9]
+Type=IOP Green-3 2 1
+Links=3
+
+[Node10]
+Type=SPU Orange-6 2 5
+Mesg=Public Control Office
+ICEType=White Access-4
+Links=15/14/13/12/16/2/11
+
+[Node11]
+Type=IOP Green-4 3 4
+Mesg=Terminals.
+Links=10
+
+[Node12]
+Type=DS Green-7 1 4
+Files=DC25261/20/0 DC25262/50/0 DC25263/50/25000 DC25264/60/30000 DC25265/80/0 DC25266/80/40000 
+Links=10
+
+[Node13]
+Type=DS Green-7 1 5
+Files=DC31251/30/0 DC31252/70/0 DC31253/80/40000 DC31254/80/40000 DC31255/90/0 DC31256/120/60000 
+Links=10
+
+[Node14]
+Type=DS Green-7 1 6
+Files=DC47821/40/0 DC47822/40/0 DC47823/60/0 DC47824/70/70000 DC47825/80/0 DC47826/110/0 
+Links=10
+
+[Node15]
+Type=DS Green-7 2 6
+Files=DC54681/30/0 DC54682/40/0 DC54683/70/35000 DC54684/70/35000 DC54685/80/40000 DC54686/80/40000 
+Links=10
+
+[Node16]
+Type=DS Green-7 2 4
+Files=DC12421/30/0 DC12422/40/4000 DC12423/40/0 DC12424/100/0 DC12425/100/10000 DC12426/110/0 
+Links=10
+
+[Node17]
+Type=SAN Orange-8 5 1
+Mesg=Munchmaussen Castle Unlisted Number.
+ICEType=White Access-4
+Links=18
+
+[Node18]
+Type=SPU Red-5 5 2
+Mesg=Data Routing: Castle.
+ICEType=Gray Tar Baby-4 immobile
+Links=19/2/17/32
+
+[Node19]
+Type=SPU Green-4 5 4
+Mesg=Government bureucracy.
+ICEType=Gray Trace and Report-6
+Links=20/26/22/21/18/23/24/25
+
+[Node20]
+Type=IOP Orange-4 5 5
+Mesg=Terminals.
+Links=19
+
+[Node21]
+Type=DS Red-9 4 3
+Files=GR10001/40/0 GR10002/60/0 GR10003/60/0 GR10004/70/35000 GR10005/70/0 GR10006/120/0 
+Links=19
+
+[Node22]
+Type=DS Red-9 4 4
+Files=GR20001/50/500000 GR20002/50/500000 GR20003/70/700000 GR20004/70/700000 GR20005/70/0 GR20006/80/800000 
+Links=19
+
+[Node23]
+Type=DS Red-9 6 3
+Files=GR30001/50/25000 GR30002/50/25000 GR30003/60/30000 GR30004/70/0 GR30005/70/35000 GR30006/80/40000 
+Links=19
+
+[Node24]
+Type=DS Red-9 6 4
+Files=GR4001/40/200000 GR4002/50/250000 GR4003/60/300000 GR4004/60/300000 GR4005/100/500000 GR4006/100/0 
+Links=19
+
+[Node25]
+Type=DS Red-9 6 5
+Files=GR5001/70/0 GR5002/70/17500 GR5003/70/0 GR5004/70/0 GR5005/80/0 GR5006/80/0 
+Links=19
+
+[Node26]
+Type=SPU Orange-4 3 6
+Mesg=Senior Bureaucracy.
+ICEType=Gray Blaster-6
+Links=30/29/27/19/31/28
+
+[Node27]
+Type=IOP Orange-5 3 5
+Mesg=Terminals.
+Links=26
+
+[Node28]
+Type=DS Orange-7 4 7
+Files=PR10001/50/0 PR10002/60/0 PR10003/70/70000 PR10004/70/0 PR10005/80/0 PR10006/110/110000 
+Links=26
+
+[Node29]
+Type=DS Orange-7 2 7
+Files=FA1001/40/0 FA1002/50/0 FA1003/60/0 FA1004/60/60000 FA1005/70/70000 FA1006/80/0 
+Links=26
+
+[Node30]
+Type=DS Orange-7 3 7
+Files=FA2001/20/0 FA2002/30/0 FA2003/50/12500 FA2004/50/12500 FA2005/90/0 FA2006/90/22500 
+Links=26
+
+[Node31]
+Type=SPU Red-11 5 6
+Mesg=Data routing: Baron.
+Links=48/26/40
+
+[Node32]
+Type=SPU Green-7 7 2
+Mesg=Environmental Control.
+Links=36/18/33/34/35
+
+[Node33]
+Type=SM Green-7 7 1
+Mesg=Eletricity.
+ICEType=Black Killer (PhysL)-4
+Links=32
+
+[Node34]
+Type=SM Orange-5 8 1
+Mesg=Heating/Air Conditioning.
+Links=32
+
+[Node35]
+Type=SM Green-6 8 2
+Mesg=Skylift Machinery.
+Links=32
+
+[Node36]
+Type=SPU Orange-8 7 4
+Mesg=Castle Security.
+ICEType=White Access-8
+Links=40/32/37/38/39
+
+[Node37]
+Type=IOP Red-7 8 3
+Mesg=Security Cameras.
+ICEType=White Access-10
+Links=36
+
+[Node38]
+Type=SM Orange-7 8 4
+Mesg=Security Cameras Controls.
+ICEType=White Barrier-10
+Links=36
+
+[Node39]
+Type=SM Green-5 8 5
+Mesg=Magolocks on doors and Elevators controls.
+Links=36
+
+[Node40]
+Type=CPU Red-11 7 6
+ICEType=Gray Killer-2 immobile ever
+Links=41/31/36
+
+[Node41]
+Type=SPU Red-6 7 7
+Mesg=Baron personal sub-system
+ICEType=Black Killer (PhysL)-5 amobile
+Links=46/47/42/40/43/44/45
+
+[Node42]
+Type=IOP Orange-6 6 7
+Mesg=Security cameras, in castle and town.
+Links=41
+
+[Node43]
+Type=IOP Orange-6 8 6
+Mesg=Terminal in inner library.
+Links=41
+
+[Node44]
+Type=DS Orange-6 8 7
+Files=BPR0001/30/30000 BPR0002/40/40000 BPR0003/50/0 BPR0004/60/60000 BPR0005/60/60000 BPR0006/90/90000 
+Links=41
+
+[Node45]
+Type=SM Red-6 8 8
+Mesg=Master overide for Maglocks on doors, elevators.
+ICEType=White Access-5
+Links=41
+
+[Node46]
+Type=SM Orange-5 7 8
+Mesg=Master Override on security Cameras (castle).
+Links=41
+
+[Node47]
+Type=SM Red-7 6 8
+Mesg=Master Override on eletricity.
+ICEType=Gray Tar Pit-3
+Links=41
+
+[Node48]
+Type=SAN Red-5 5 7
+Mesg=Schloss Maunchmaussen secret Number.
+ICEType=Black Killer (PhysL)-4
+Links=31

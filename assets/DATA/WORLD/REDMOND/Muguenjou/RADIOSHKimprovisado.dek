@@ -1,0 +1,27 @@
+[Persona]
+Model=Radio Shack Improvisado
+MPCP=2+0-0-0
+Bod=1+0-0-0
+Evasion=2+0-0-0
+Masking=1+0-0-0
+Sensor=2+0-0-0
+Damage=0
+
+[Technical Parameters]
+Hardening=0
+ActiveMem=12
+StorageMem=60
+Load=5
+I/O=1
+Response=0
+Satuplink=0
+PureCyber=0
+RealityFilter=0
+DisplayMode=0
+
+[Utilities]
+Program1=Analyze-2-12
+Program2=Browse-3-9
+Program3=Deception-2-8
+Program4=Sleaze-2-12
+Program5=Evaluate-2-8

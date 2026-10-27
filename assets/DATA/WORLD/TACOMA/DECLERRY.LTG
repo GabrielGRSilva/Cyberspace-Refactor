@@ -1,0 +1,41 @@
+[Matrix]
+Description=DeClerry's 5206(14-0924)
+Nodes=6
+Entry=1
+Range=2
+Alert=none
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Green-4 2 4
+Mesg=Bar Entrance
+Links=0/6/2
+
+[Node2]
+Type=CPU Green-5 4 4
+Mesg=Bar Central System
+ICEType=White Barrier-3 pmobile
+Links=3/1/5/4
+
+[Node3]
+Type=DS Green-4 4 6
+Mesg=Inventory and Finances
+Files=Inventory/20/250 Financial Records/30/3000 
+Links=2
+
+[Node4]
+Type=SM Green-4 6 4
+Mesg=SoyCaf-O-Mat & Soup Tap
+Links=2
+
+[Node5]
+Type=IOP Green-3 4 2
+Mesg=Credstick Checker
+Links=2
+
+[Node6]
+Type=LNK ..\rtg\tacoma.ltg 6 2 2
+Links=1

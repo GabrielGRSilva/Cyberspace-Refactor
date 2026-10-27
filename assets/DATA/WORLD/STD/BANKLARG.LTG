@@ -1,0 +1,158 @@
+[Matrix]
+Description=Large Bank
+Nodes=27
+Entry=1
+Range=2
+Alert=none
+Emergency=60/10
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Red-6 1 2
+Mesg=Medium Bank Entrance
+ICEType1=Gray Tar Baby-4 triggered
+ICEType2=White Access-7 ptrigger 0
+Links=0/2
+
+[Node2]
+Type=SPU Orange-4 3 2
+Mesg=Routing: All Data
+Links=5/1/3
+
+[Node3]
+Type=SPU Orange-5 5 2
+Mesg=Routing: Teller transactions
+Links=2/23/22/4
+
+[Node4]
+Type=SPU Orange-6 7 2
+Mesg=Routing: Building Functions
+ICEType=Gray Acid-4
+Links=3/11/12/13
+
+[Node5]
+Type=SPU Orange-6 3 4
+Mesg=Routing: Administration
+ICEType=White Barrier-5 passive atrigger 7
+Links=8/24/2/20/6/21
+
+[Node6]
+Type=DS Orange-5 5 4
+Mesg=Administration Archives
+Files=Personnel/45/4500 Building Maintenance/60/1200 Management Files/30/7500 
+Links=5/7
+
+[Node7]
+Type=SPU Orange-6 7 4
+Mesg=Routing: Security Commands
+ICEType=White Probe-6 mobile
+Links=6/14/15
+
+[Node8]
+Type=CPU Red-6 3 6
+Mesg=Medium Bank Central System
+ICEType=Gray Blaster-5 amobile active
+Links=18/5/9
+
+[Node9]
+Type=DS Red-6 5 6
+Mesg=Vault and Stock Market Data
+Files=Vault Box Index/50/100000 Stock Market Assets/70/140000 
+ICEType=White Scramble-5
+Links=8/10
+
+[Node10]
+Type=SPU Orange-6 7 6
+Mesg=Routing: Vault Functions
+Links=16/9/17
+
+[Node11]
+Type=SM Orange-4 7 1
+Mesg=Climate controls
+Links=4
+
+[Node12]
+Type=SM Orange-4 8 1
+Mesg=Entrance door controls
+Links=4
+
+[Node13]
+Type=SM Orange-4 8 2
+Mesg=Backup PowerGen Control
+Links=4
+
+[Node14]
+Type=SM Orange-4 8 4
+Mesg=Security Cameras
+Links=7
+
+[Node15]
+Type=IOP Orange-6 8 5
+Mesg=Security Console
+Links=7
+
+[Node16]
+Type=SM Orange-4 7 7
+Mesg=Vault Door Controls
+Links=10
+
+[Node17]
+Type=SM Orange-4 8 7
+Mesg=PANIC BUTTON
+ICEType=Black Killer (StunL)-5 mobile triggered
+Links=10
+
+[Node18]
+Type=DS Red-6 3 7
+Mesg=Account Management
+Files=Accounts Index/80/800 Accounts Archive/800/1600000 Clients ID Verification/120/360000 
+ICEType=White Scramble-6
+Links=8
+
+[Node19]
+Type=IOP Orange-5 2 5
+Mesg=Stock Broker's Terminal
+Links=24
+
+[Node20]
+Type=IOP Orange-6 4 3
+Mesg=Bank managers' terminals
+Links=5
+
+[Node21]
+Type=IOP Orange-5 4 5
+Mesg=Bank officials' terminals
+Links=5
+
+[Node22]
+Type=IOP Orange-6 5 1
+Mesg=Tellers - Row Beta
+Links=3
+
+[Node23]
+Type=IOP Orange-6 4 1
+Mesg=Tellers - Row Alpha
+Links=3
+
+[Node24]
+Type=SPU Orange-6 1 4
+Links=26/27/25/5/19
+
+[Node25]
+Type=IOP Orange-5 2 3
+Mesg=Real Estate Agent's Terminal
+Links=24
+
+[Node26]
+Type=DS Orange-6 1 5
+Mesg=Non-monetary data
+Files=Stock Market Assets/140/280000 Real Estate Assets/90/180000 Insurance Contracts/60/150000 
+Links=24
+
+[Node27]
+Type=IOP Orange-5 1 3
+Mesg=Insurance Agent's Terminal
+Links=24

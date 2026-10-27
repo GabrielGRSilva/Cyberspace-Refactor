@@ -1,0 +1,48 @@
+[Matrix]
+Description=Firstrun-Matrix
+Nodes=7
+Entry=1
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Orange-4 4 7
+ICEType=White Access-4
+Links=0/2
+
+[Node2]
+Type=SPU Green-3 4 5
+Links=1/4/6/5/3
+
+[Node3]
+Type=IOP Green-4 6 5
+Links=2
+
+[Node4]
+Type=SM Green-5 2 5
+Mesg=Surveillance Camera
+ICEType=Gray Tar Baby-8
+Links=2
+
+[Node5]
+Type=CPU Red-5 4 3
+ICEType=Gray Trace and Burn-7
+Links=2/7
+
+[Node6]
+Type=DS Red-4 2 4
+Mesg=A snake guards the data
+Files=Design Data/40/5000 Illegal/110/6000 Bribe/30/2500 
+ICEType=White Scramble-8
+Links=2
+
+[Node7]
+Type=DS Orange-5 4 1
+Files=Tank Design/100/20000 
+ICEType=White Scramble-9
+Links=5

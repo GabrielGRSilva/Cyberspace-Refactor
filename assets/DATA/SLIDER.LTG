@@ -1,0 +1,229 @@
+[Matrix]
+Description=Blood
+Nodes=39
+Entry=1
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Orange-5 5 7
+Mesg=A voice speaks: "Bury all your hopes!"
+ICEType1=White Access-8
+ICEType2=White Barrier-6 active
+Links=0/2
+
+[Node2]
+Type=SPU Green-4 5 6
+ICEType1=White Barrier-6 active
+ICEType2=Gray Blaster (S)-9 active
+Links=1/3/4
+
+[Node3]
+Type=SPU Green-4 4 5
+ICEType=White Barrier-6 active
+Links=5/6/2
+
+[Node4]
+Type=SPU Green-5 7 6
+Mesg=Info: E
+ICEType=White Barrier-6 active
+Links=20/19/2/22/21
+
+[Node5]
+Type=SPU Orange-8 2 5
+Links=24/25/26/27/28/29/30/31/3/23
+
+[Node6]
+Type=SPU Orange-6 4 3
+ICEType1=White Access-5
+ICEType2=White Barrier-6 active
+Links=3/7/13/8
+
+[Node7]
+Type=CPU Red-8 4 2
+ICEType1=Gray Trace and Burn-10 ever
+ICEType2=Black Trace and Burn (PhysS)-8
+ICEType3=White Barrier-6 active
+Links=6/10
+
+[Node8]
+Type=SM Green-5 6 4
+Mesg=Info: Management
+Links=6/32/33/34/35/9
+
+[Node9]
+Type=SM Orange-4 7 4
+Mesg=Info: Business Machines
+Links=37/8/36/38
+
+[Node10]
+Type=SAN Orange-8 4 1
+Mesg=A sign says: "Way of Blood"
+ICEType1=White Barrier-8
+ICEType2=Black Killer (PhysL)-6
+Links=7/39
+
+[Node11]
+Type=DS Orange-6 2 1
+Files=Black ICE #1/80/80000 Black ICE #2/60/60000 Black ICE #3/40/40000 Black ICE #4/60/60000 Black ICE #5/70/70000 
+ICEType1=White Access-6
+ICEType2=White Scramble-5
+Links=12/39
+
+[Node12]
+Type=DS Orange-6 1 1
+Files=Building Black ICE 2/150/90000 Black Chips #1/60/300000 Black Chips #2/50/250000 Black Chips #3/70/350000 Black Chips #4/120/60 
+ICEType=White Scramble-5
+Links=11
+
+[Node13]
+Type=DS Green-5 6 2
+Files=Chemical Library/50/2500 Biochemical Library/80/4000 
+ICEType1=White Access-5
+ICEType2=White Barrier-6 active
+Links=6/14/15
+
+[Node14]
+Type=DS Green-5 6 1
+Mesg=You see a library with lots of books.
+Files=Engineering Library/40/2000 Cyberware Library/60/3000 Living Creatures/40/2000 Physical Library/70/3500 Quantum Leap Effect/80/0 
+ICEType=White Barrier-6 active
+Links=13
+
+[Node15]
+Type=DS Green-5 7 2
+Files=Project Files/90/9000 
+ICEType1=White Barrier-6 active
+ICEType2=Gray Jammer-10 immobile active
+Links=13/16/17
+
+[Node16]
+Type=DS Green-5 7 1
+Files=Math Library/20/2000 Games Library/30/3000 
+ICEType1=White Barrier-6 active
+ICEType2=Gray Binder-9 active
+Links=15
+
+[Node17]
+Type=DS Green-5 8 2
+Files=Financial Library/90/9000 Seattle Stock #1/100/10000 Seattle Stock #2/90/9000 Seattle Stock #3/80/8000 
+ICEType1=White Scramble-5
+ICEType2=White Barrier-6 active
+Links=15/18
+
+[Node18]
+Type=DS Green-5 8 1
+Files=Yakuza/100/50000 
+ICEType1=White Scramble-5
+ICEType2=White Barrier-6 active
+ICEType3=Gray Killer (M)-9 active
+Links=17
+
+[Node19]
+Type=SM Green-4 6 7
+Mesg=Info: Heating System
+Links=4
+
+[Node20]
+Type=SM Green-4 7 7
+Mesg=Info: Air-conditioning
+Links=4
+
+[Node21]
+Type=SM Orange-4 8 7
+Mesg=Info: Elevators
+Links=4
+
+[Node22]
+Type=SM Orange-4 8 6
+Mesg=Info: Doors
+ICEType=Gray Marker-8 active
+Links=4
+
+[Node23]
+Type=SM Orange-5 3 7
+Mesg=E-Sensors
+Links=5
+
+[Node24]
+Type=SM Orange-5 2 7
+Mesg=Camera
+Links=5
+
+[Node25]
+Type=SM Orange-5 1 7
+Mesg=Radar
+ICEType=Gray Tar Baby-8 immobile
+Links=5
+
+[Node26]
+Type=SM Orange-6 1 6
+Mesg=Motion Detectors
+Links=5
+
+[Node27]
+Type=SM Orange-6 1 5
+Mesg=Bio Detectors
+ICEType=Gray Trace and Dump-9 immobile
+Links=5
+
+[Node28]
+Type=SM Orange-7 1 4
+Mesg=Electric Fence
+ICEType=Gray Tar Pit-9 immobile
+Links=5
+
+[Node29]
+Type=SM Orange-7 1 3
+Mesg=Alarm
+Links=5
+
+[Node30]
+Type=SM Orange-8 2 3
+Mesg=Rockets
+Links=5
+
+[Node31]
+Type=SM Orange-8 3 3
+Mesg=Servo Guns
+ICEType=Gray Trace and Burn-10
+Links=5
+
+[Node32]
+Type=IOP Green-4 5 3
+Links=8
+
+[Node33]
+Type=IOP Green-4 6 3
+Links=8
+
+[Node34]
+Type=IOP Green-4 7 3
+Links=8
+
+[Node35]
+Type=IOP Green-4 8 3
+Links=8
+
+[Node36]
+Type=SM Green-4 8 4
+Mesg=Please leave your number - Thanks
+Links=9
+
+[Node37]
+Type=SM Green-4 7 5
+Links=9
+
+[Node38]
+Type=SM Green-4 8 5
+Links=9
+
+[Node39]
+Type=CPU Red-10 3 1
+Mesg=A voice speaks in a friendly tone: "Today is a good day to die"
+Links=11/10

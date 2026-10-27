@@ -1,0 +1,47 @@
+[Matrix]
+Description=Monorail Station
+Nodes=7
+Entry=1
+Range=2
+Alert=none
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Red-3 2 4
+Mesg=Bus Station Entrance
+Links=0/2
+
+[Node2]
+Type=CPU Red-4 4 4
+Mesg=Bus Station Central System
+ICEType=Gray Trace and Report-5
+Links=3/1/4/7/5/6
+
+[Node3]
+Type=IOP Orange-4 4 6
+Mesg=Officer of Operation's Terminal
+Links=2
+
+[Node4]
+Type=SM Orange-4 4 2
+Mesg=Camera's
+Links=2
+
+[Node5]
+Type=SM Orange-4 6 2
+Mesg=Guard Rail Controls
+Links=2
+
+[Node6]
+Type=DS Orange-4 6 4
+Mesg=Scheduls and Logs
+Files=Camera Archives/110/5500 Monorail Schedules/25/10000 Operations Log/55/25000 
+Links=2
+
+[Node7]
+Type=SM Orange-4 5 2
+Mesg=Credstick Turnstiles
+Links=2

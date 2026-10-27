@@ -1,0 +1,137 @@
+[Matrix]
+Description=Mugenjou, setor A
+Nodes=24
+Entry=1
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=IOP Blue-3 1 1
+Mesg=Este nó parece muito antigo e cheio de defeitos e fragmentações. Faíscas surgem de todos os lados e muitos dos vários terminais ligados à ele parecem não estar mais funcionando.
+Links=0/2
+
+[Node2]
+Type=SPU Blue-3 2 2
+Mesg=Bem-vindo (tzzz!) ao si... sist... sistema (tzzz!) público do Conglomerado Kan... Kan... (Tzzz!!! Error! Error!)
+Links=4/1/3/5
+
+[Node3]
+Type=DS Blue-3 2 1
+Mesg=Arquivos pblic... (tzz!)
+Files=AP001/50/1000 AP002/50/1000 AP003/50/1000 AP004/50/1000 AP005/50/1000 AP006/50/1000 AP007/50/1000 AP008/50/1000 AP009/50/1000 AP010/50/1000 
+Links=2
+
+[Node4]
+Type=SM Blue-3 1 2
+Mesg=Controle do Sistema de Ventilação setorial.
+Files=SV001/75/3000 
+Links=2
+
+[Node5]
+Type=SPU Green-5 5 2
+Mesg=ÁREA SOMENTE PARA PESSOAL AUTORIZADO
+ICEType=White Access-3
+Links=8/7/2
+
+[Node6]
+Type=SPU Green-3 7 2
+Mesg=(tzz!!) rOtEADOOOR: Seg..ança
+ICEType=White Access-4
+Links=23/9/10/12/11
+
+[Node7]
+Type=SPU Green-5 2 4
+Mesg=Roteador: Administração
+ICEType=White Access-3 ptrigger 4
+Links=13/15/14/5
+
+[Node8]
+Type=SPU Green-3 5 4
+Mesg=Roteador: Controles gerais do setor A
+Links=19/18/16/5/17/20
+
+[Node9]
+Type=IOP Green-4 6 1
+Mesg=Terminais da Central de segurança.
+Links=6
+
+[Node10]
+Type=SM Green-4 7 1
+Mesg=Controle dos MagLocks públicos dos setor A.
+Links=6
+
+[Node11]
+Type=IOP Green-4 8 2
+Mesg=Câmeras de segurança do "Big Brother"
+Links=6
+
+[Node12]
+Type=DS Green-4 8 1
+Files=AS1001/80/2000 AS1002/60/500 AS1003/100/0 AS1004/20/0 
+ICEType=White Scramble-3
+Links=6
+
+[Node13]
+Type=CPU Orange-4 2 6
+ICEType1=Gray Killer-4 amobile triggered
+ICEType2=White Access-4 ptrigger 4
+Links=7
+
+[Node14]
+Type=IOP Green-4 1 3
+Mesg=Terminais da administração: Setor A
+Links=7
+
+[Node15]
+Type=DS Green-5 1 4
+Files=AD1001/30/1500 AD1002/80/800 AD1003/100/5000 AD1004/50/25000 
+ICEType1=Gray Tar Baby-4 immobile ever
+ICEType2=White Barrier-4 passive
+Links=7
+
+[Node16]
+Type=IOP Green-3 4 4
+Mesg=(Tzzz!)...nais dos contr...(tzz!)...adores de serviços (tzzz!)
+Links=8
+
+[Node17]
+Type=DS Green-3 6 4
+Files=AD2001/110/8000 AD2002/120/0 AD2003/80/4000 AD2004/50/0 AD2005/50/10 
+Links=8
+
+[Node18]
+Type=SM Green-4 4 5
+Mesg=Controles do tránsito e Grid.
+Links=8
+
+[Node19]
+Type=SM Green-4 5 5
+Mesg=Sistema geral de fornecimento de energia, água e conexões à internet.
+Links=8
+
+[Node20]
+Type=SM Green-4 6 5
+Mesg=Central telefônica e comunicação pública.
+Links=8
+
+[Node21]
+Type=SPU Green-5 5 6
+Mesg=Acesso Restrito. Apresente sua senha.
+Links=22
+
+[Node22]
+Type=SAN Orange-5 5 7
+Links=24/21
+
+[Node23]
+Type=LNK MuguenjouSetorA.ltg 5 6 2
+Links=6
+
+[Node24]
+Type=LNK MuguenjouCidadeBaixa.ltg 1 5 8
+Links=22

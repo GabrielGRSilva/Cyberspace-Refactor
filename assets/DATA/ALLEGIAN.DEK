@@ -1,0 +1,27 @@
+[Persona]
+Model=Allegiance Alpha (raw)
+MPCP=3
+Bod=2
+Evasion=3
+Masking=2
+Sensor=2
+Damage=0
+
+[Technical Parameters]
+Hardening=1
+ActiveMem=10
+StorageMem=50
+Load=5
+I/O=1
+Response=0
+Satuplink=1
+PureCyber=0
+RealityFilter=0
+DisplayMode=0
+
+[Utilities]
+Program1=Attack-2-8
+Program2=Deception-2-8
+Program3=Analyze-1-3
+Program4=Browse-1-1
+Program5=Satlink-1-3

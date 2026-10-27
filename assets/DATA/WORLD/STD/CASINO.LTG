@@ -1,0 +1,187 @@
+[Matrix]
+Description=Casino
+Nodes=33
+Entry=1
+Range=2
+Alert=none
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=4/10/1
+
+[Node1]
+Type=SAN Red-3 2 7
+Mesg=Casino Entrance
+ICEType=White Access-5
+Links=0/2
+
+[Node2]
+Type=SPU Orange-4 2 5
+Mesg=Routing: Registration
+Links=1/14/3/13
+
+[Node3]
+Type=CPU Orange-6 2 3
+Mesg=First Floor Central System
+ICEType=Gray Trace and Burn-6
+Links=2/15/16
+
+[Node4]
+Type=SAN Red-6 2 1
+Mesg=Entrance Gambling Floors
+ICEType1=Gray Acid-4 triggered
+ICEType2=White Barrier-6 ptrigger 2
+Links=0/5
+
+[Node5]
+Type=SPU Red-3 4 1
+Mesg=Routing: Card Games
+Links=23/4/6
+
+[Node6]
+Type=SPU Red-3 6 1
+Mesg=Routing: Roulette Games
+Links=8/24/5/7
+
+[Node7]
+Type=SPU Red-3 8 1
+Mesg=Routing: Betting Parlor
+Links=25/6
+
+[Node8]
+Type=SPU Red-3 6 4
+Mesg=Routing: Private Games
+ICEType1=Gray Blaster-6 triggered
+ICEType2=White Probe-5 pmobile atrigger 4
+Links=22/17/6/9
+
+[Node9]
+Type=CPU Red-7 8 4
+Mesg=Casino Central System
+Links=20/21/8/19/18
+
+[Node10]
+Type=SAN Red-3 4 7
+Mesg=Entrance Restaurant
+ICEType=White Access-5
+Links=0/11
+
+[Node11]
+Type=SPU Orange-4 6 7
+Mesg=Routing: Restaurant Orders
+Links=10/33/32/12
+
+[Node12]
+Type=CPU Orange-6 8 7
+Mesg=Business Administration
+ICEType=Gray Tar Pit-6
+Links=11/31/30
+
+[Node13]
+Type=IOP Orange-5 3 5
+Mesg=Registration Terminal
+Links=2
+
+[Node14]
+Type=SM Orange-4 1 5
+Mesg=Weapons Detector
+Links=2
+
+[Node15]
+Type=SM Orange-4 1 3
+Mesg=Natural Drinks Tap
+Links=3
+
+[Node16]
+Type=IOP Orange-5 3 3
+Mesg=System Link
+Links=3
+
+[Node17]
+Type=SPU Red-3 4 4
+Mesg=Routing: Building Controls
+Links=28/26/27/8/29
+
+[Node18]
+Type=IOP Red-3 8 3
+Mesg=Security Terminal
+Links=9
+
+[Node19]
+Type=SM Red-3 7 3
+Mesg=Security Cameras
+Links=9
+
+[Node20]
+Type=DS Red-5 8 5
+Mesg=Casino Bank
+Files=Credit Balance/100/1000000 Bank's Wins and Interest/75/500000 Bank Accounts/20/500000 
+ICEType=White Scramble-5
+Links=9
+
+[Node21]
+Type=DS Red-5 7 5
+Mesg=Customer Infobase
+Files=Client ID Verification/80/1000000 Customer Habits and Stats/50/500000 
+ICEType=White Scramble-5
+Links=9
+
+[Node22]
+Type=SM Orange-5 6 5
+Links=8
+
+[Node23]
+Type=SM Orange-5 3 2
+Mesg=Cards Dealer and Deck Dispenser
+Links=5
+
+[Node24]
+Type=SM Orange-5 5 2
+Mesg=Roulette Table Balancer
+Links=6
+
+[Node25]
+Type=SM Orange-5 7 2
+Mesg=Betting Games Modulator
+Links=7
+
+[Node26]
+Type=SM Orange-5 4 3
+Mesg=Elevator Controls
+Links=17
+
+[Node27]
+Type=SM Orange-5 5 3
+Mesg=Climate Control
+Links=17
+
+[Node28]
+Type=SM Orange-5 4 5
+Mesg=Door Controls
+Links=17
+
+[Node29]
+Type=SM Orange-5 5 5
+Mesg=Fire Extinguisher/Sprinklers
+Links=17
+
+[Node30]
+Type=DS Red-4 8 6
+Mesg=Administrative Data
+Files=Personnel/25/25000 Casino Assets/40/250000 Financial Records/70/750000 Plasticred Exchange/20/500000 
+Links=12
+
+[Node31]
+Type=IOP Orange-5 7 6
+Mesg=Credstick Checker
+Links=12
+
+[Node32]
+Type=SM Orange-4 6 6
+Mesg=Kitchen Macines
+Links=11
+
+[Node33]
+Type=SM Orange-4 5 6
+Mesg=Stage Sound and Light Systems
+Links=11

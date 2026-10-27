@@ -1,0 +1,58 @@
+# =============================================================================
+# Cyberspace Refactor — .gitignore
+# =============================================================================
+
+# Runtime user settings & exported session logs
+settings.json
+assets/LOGS/
+*.log
+
+# Atomic write backups & temporary files
+*.bak
+*.tmp
+*.swp
+*~
+
+# Compressed archives (e.g. README.zip, legacy .rar backups)
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# Windows / macOS / Linux OS metadata (e.g. assets/IMAGES/Thumbs.db)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE & editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Go test binaries, coverage profiles & fuzzing cache
+*.test
+*.out
+coverage.txt
+coverage.html
+**/testdata/fuzz/
+
+# Ignore arbitrary executables/DLLs, but KEEP the official release executable
+*.exe
+*.dll
+*.so
+*.dylib
+!Cyberspace Refactor.exe
+
+# Credentials / secrets (defense-in-depth)
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12

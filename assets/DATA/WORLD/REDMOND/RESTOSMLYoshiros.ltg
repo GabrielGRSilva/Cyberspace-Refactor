@@ -1,0 +1,53 @@
+[Matrix]
+Description=Yoshiro's
+Nodes=8
+Entry=1
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Green-4 4 2
+Mesg=Entrance Yoshiro's Restaurant and Bar
+ICEType=White Barrier-3
+Links=2/0/8
+
+[Node2]
+Type=CPU Green-4 4 4
+Mesg=Central System
+Links=3/7/6/1/5/4
+
+[Node3]
+Type=SM Green-3 4 5
+Mesg=Kitchen Apparatus
+Links=2
+
+[Node4]
+Type=SM Green-3 5 5
+Mesg=Air Conditioning
+Links=2
+
+[Node5]
+Type=IOP Green-3 5 4
+Mesg=Delivery Service Commline
+Links=2
+
+[Node6]
+Type=IOP Green-3 3 3
+Mesg=Credstick Checker/Terminal
+Links=2
+
+[Node7]
+Type=DS Green-4 3 4
+Mesg=Administration
+Files=Reservations/20/500 Personnel/30/3000 Inventory/30/4500 Financial Records/45/9000 Restrict Information/40/5000 
+ICEType=White Scramble-1
+Links=2
+
+[Node8]
+Type=LNK LTGREDMOND68.ltg 7 4 0
+Links=1

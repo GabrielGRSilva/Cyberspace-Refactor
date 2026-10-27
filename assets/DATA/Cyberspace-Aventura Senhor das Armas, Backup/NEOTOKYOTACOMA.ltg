@@ -1,0 +1,126 @@
+[Matrix]
+Description=Neo-Tokyo I&E - Seattle
+Nodes=25
+Entry=22
+Range=2
+Alert=none
+Emergency=50/700
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=22/1/2
+
+[Node1]
+Type=SAN Green-4 6 4
+Mesg=LTG# 0001(5489923)
+Links=24/0/2
+
+[Node2]
+Type=SPU Orange-3 4 4
+ICEType=White Access-4 atrigger -2
+Links=5/0/3/4/22/1
+
+[Node3]
+Type=SAN Green-4 2 4
+Mesg=LTG#16206(40-6738)3
+Links=23/2
+
+[Node4]
+Type=SPU Green-5 4 2
+Links=2/9/8/6/7/10/11
+
+[Node5]
+Type=SPU Green-5 4 6
+ICEType=White Barrier-3 passive
+Links=15/14/13/12/20/2/21/17/18/16
+
+[Node6]
+Type=DS Green-5 3 1
+Files=SG1001/110/0 SG1002/80/4000 SG1003/120/6000 SG1004/30/0 
+Links=4
+
+[Node7]
+Type=IOP Green-4 5 1
+Links=4
+
+[Node8]
+Type=SM Green-4 3 2
+Links=4
+
+[Node9]
+Type=SM Green-4 3 3
+Links=4
+
+[Node10]
+Type=SM Green-4 5 2
+Links=4
+
+[Node11]
+Type=SM Green-4 5 3
+Links=4
+
+[Node12]
+Type=IOP Green-4 2 6
+Links=5
+
+[Node13]
+Type=IOP Green-4 2 7
+Links=5
+
+[Node14]
+Type=IOP Green-4 3 7
+Links=5
+
+[Node15]
+Type=IOP Green-4 4 7
+Links=5
+
+[Node16]
+Type=IOP Green-4 5 7
+Links=5
+
+[Node17]
+Type=DS Green-4 7 5
+Files=AD1001/30/0 AD1002/30/0 AD1003/30/3000 AD1004/70/0 AD1005/70/7000 AD1006/110/11000 
+Links=5
+
+[Node18]
+Type=DS Green-3 7 6
+Files=AD2001/50/2500 AD2002/90/4500 AD2003/20/1000 AD2004/30/1500 
+Links=5
+
+[Node19]
+Type=DS Orange-3 1 5
+Files=PV0031/100/0 PV0032/70/17500 PV0033/80/0 PV0034/50/0 PV0035/50/12500 PV0036/50/0 PV0037/110/27500 PV0038/110/0 
+ICEType1=White Barrier-5 atrigger -2
+ICEType2=White Scramble-4
+Links=20
+
+[Node20]
+Type=CPU Orange-3 2 5
+ICEType1=Gray Trace and Burn-3
+ICEType2=White Access-4 atrigger -2
+Links=19/5
+
+[Node21]
+Type=SM Green-3 5 5
+Links=5
+
+[Node22]
+Type=SAN Orange-3 6 3
+Mesg=LTG# 5206
+ICEType=White Access-4 atrigger -2
+Links=2/0/25
+
+[Node23]
+Type=LNK PLTGSHIMURA.ltg 2 2 3
+Links=3
+
+[Node24]
+Type=LNK NEOTOKYOJAPAO.ltg 2 6 5
+Links=1
+
+[Node25]
+Type=LNK LTGTACOMA.ltg 01 7 3
+Links=22

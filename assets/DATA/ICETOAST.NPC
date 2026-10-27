@@ -1,0 +1,22 @@
+[Character]
+Name=Indian Icetoaster
+
+[Attributes]
+Body=6
+Quickness=6
+Strength=3
+Charisma=3
+Intelligence=6
+Willpower=6
+Reaction=6+1D
+Stun Damage=0
+Phys Damage=0
+
+[Skills]
+Computer=10
+Etiquette/Matrix=0
+
+[Dice Pools]
+Karma=5
+Hacking=0
+Team=12

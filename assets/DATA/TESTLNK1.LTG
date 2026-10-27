@@ -1,0 +1,29 @@
+[Matrix]
+Description=This Matrix is linked with testlnk2.ltg
+Nodes=4
+Entry=3
+Range=2
+Alert=none
+Shutdowntics=1
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=3/2
+
+[Node1]
+Type=SAN Orange-5 3 5
+Links=2
+
+[Node2]
+Type=CPU Green-5 4 4
+Links=1/0/3
+
+[Node3]
+Type=IOP Blue-5 3 3
+Mesg=This is Test Link 1 Matrix
+Links=0/4/2
+
+[Node4]
+Type=LNK testlnk2.ltg 2 3 2
+Links=3

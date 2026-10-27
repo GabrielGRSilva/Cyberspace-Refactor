@@ -1,0 +1,64 @@
+[Matrix]
+Description=LTG (Redmond)
+Nodes=11
+Entry=2
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Mesg=LTG# 5206(83421)
+Links=2/1
+
+[Node1]
+Type=CPU Green-4 4 4
+Links=3/0/10/4/2
+
+[Node2]
+Type=IOP Green-4 7 4
+Mesg=Uma terra virtual desolada jaz a sua frente. Um deserto de pó de silício, com algumas poucas construções abandonadas, formam a rede de Redmond.
+Links=1/0
+
+[Node3]
+Type=SPU Green-4 4 5
+Links=8/9/1/7
+
+[Node4]
+Type=SPU Green-4 4 3
+Links=1/5/6
+
+[Node5]
+Type=SAN Green-4 4 1
+Mesg=LTG #16206(40-6739)
+Links=4
+
+[Node6]
+Type=SAN Green-4 5 1
+Mesg=LTG #16206(40-6740
+Links=4
+
+[Node7]
+Type=SAN Green-4 5 7
+Mesg=LTG #16206(40-6743)
+Links=3
+
+[Node8]
+Type=SAN Green-4 4 7
+Mesg=LTG #16206(40-6745)
+ICEType=White Access-3
+Links=3
+
+[Node9]
+Type=SAN Green-4 3 7
+Mesg=LTG #16206(40-6747)
+Links=3
+
+[Node10]
+Type=SAN Green-4 2 4
+Mesg=RTG Seattle
+Links=11/1
+
+[Node11]
+Type=LNK RTGSEATTLE.ltg 02 1 4
+Links=10

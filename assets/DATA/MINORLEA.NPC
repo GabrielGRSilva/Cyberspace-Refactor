@@ -1,0 +1,22 @@
+[Character]
+Name=Minor League
+Race=Human
+
+[Attributes]
+Body=4
+Quickness=4
+Strength=3
+Charisma=3
+Intelligence=5
+Willpower=4
+Reaction=4+1D6
+
+[SKILLS]
+Computer/Software/Decking=4
+Etiquette/Matrix=2
+
+[DICE POOLS]
+Combat=3
+Karma=2
+# Hackingpool 8 valid for Response Increase 0
+Team=0

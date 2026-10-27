@@ -1,0 +1,230 @@
+0007 -- Logfile on.
+0007 -- Real time decking disabled.
+0007 -- Real time decking disabled.
+0007 -- 
+0007 -- 1. System Access Node (SAN)
+0007 -- 
+0007 -- 1. System Access Node (SAN)
+0007 -- Bem vindo aos sitema do Mart Market.
+0008 -- 
+0008 -- 2. Sub-Processing Unit (SPU)
+0008 -- 
+0008 -- 2. Sub-Processing Unit (SPU)
+0009 -- 
+0009 -- 2. Sub-Processing Unit (SPU)
+0009 -- Mart Market, sempre perto de você.
+0009 -- 
+0009 -- 4. I/O Port (IOP)
+0010 -- 
+0010 -- 4. I/O Port (IOP)
+0011 -- 
+0011 -- 2. Sub-Processing Unit (SPU)
+0011 -- Mart Market, sempre perto de você.
+0012 -- 
+0012 -- 5. Sub-Processing Unit (SPU)
+0012 -- 
+0012 -- 5. Sub-Processing Unit (SPU)
+0013 -- 
+0013 -- 5. Sub-Processing Unit (SPU)
+0013 -- Atenção! Acesso somente para pessoal altorizado.
+0013 -- Decker Initiative:14
+0013 -- Sleaze successful!
+0013 -- *ICE does not see you.
+0013 -- 
+0013 -- 6. Sub-Processing Unit (SPU)
+0013 -- 
+0013 -- 6. Sub-Processing Unit (SPU)
+0014 -- 
+0014 -- 6. Sub-Processing Unit (SPU)
+0014 -- Setor gerencial do Mark Market.
+0015 -- 
+0015 -- 7. Central Processing Unit (CPU)
+0015 -- 
+0015 -- 7. Central Processing Unit (CPU)
+0016 -- Execution of Analyze failed.
+0017 -- 
+0017 -- 6. Sub-Processing Unit (SPU)
+0017 -- Setor gerencial do Mark Market.
+0018 -- Waiting...
+0018 -- Waiting...
+0019 -- 
+0019 -- 7. Central Processing Unit (CPU)
+0019 -- 
+0019 -- 7. Central Processing Unit (CPU)
+0020 -- You see a CPU Green
+0020 -- Gray ICE 
+0021 -- Waiting...
+0021 -- 
+0021 -- 7. Central Processing Unit (CPU)
+0021 -- Central do Mark Market LTDA.
+0021 -- Decker Initiative:14
+0021 -- Sleaze successful!
+0021 -- *ICE does not see you.
+0021 --  Must do a resleaze...
+0021 -- Display Map SysOp failed.
+0021 -- *ICE is nervous.
+0022 -- *ICE is suspicious.
+0022 -- *ICE hits...
+0022 -- Execution... failed. Difficulties increase.
+0022 -- *ICE hits...
+0023 -- Waiting...
+0024 -- Cannot refresh an Armor program.
+0024 -- Waiting...
+0025 -- 
+0025 -- 6. Sub-Processing Unit (SPU)
+0025 -- Setor gerencial do Mark Market.
+0026 -- Waiting...
+0026 -- Waiting...
+0027 -- 
+0027 -- 20. I/O Port (IOP)
+0027 -- 
+0027 -- 6. Sub-Processing Unit (SPU)
+0027 -- Setor gerencial do Mark Market.
+0028 -- 
+0028 -- 7. Central Processing Unit (CPU)
+0028 -- 
+0028 -- 7. Central Processing Unit (CPU)
+0029 -- 
+0029 -- 7. Central Processing Unit (CPU)
+0029 -- Central do Mark Market LTDA.
+0029 -- Decker Initiative:13
+0029 -- Some ICE block your SysOp.
+0029 -- Deception successful!
+0029 -- *ICE ignores you.
+0029 -- Passive Alert canceled.
+0030 -- Display Map SysOp failed.
+0030 -- *ICE ignores you.
+0030 -- Display Map.
+0030 -- *ICE ignores you.
+0031 -- *ICE ignores you.
+0031 -- Teleport activated.
+0031 -- 
+0031 -- 9. Datastore (DS)
+0031 -- Arquivos contábeis e dados restritos.
+0031 -- Data files:
+0031 --   Registros bancários primários [120 Mp]
+0031 --   Transações completadas, arquivos encerrados [120 Mp]
+0031 --   Arquivos do Setor Pessoal [50 Mp]
+0031 --   Registro de faltas, atrasos e dispensa dos empregados [70 Mp]
+0031 --   Transações pendentes [90 Mp]
+0031 --   Controle de estoque [80 Mp]
+0031 --   Controle de saídas [80 Mp]
+0031 --   Contratos e empresas terceirizadas [80 Mp]
+0032 -- Execution of Evaluate failed. Difficulties increase.
+0032 -- You see 8 datafiles
+0033 -- You see 8 datafiles: 
+0033 -- Registros bancários primários 120MP 
+0033 -- Transações completadas, arquivos encerrados 120MP 
+0033 -- Arquivos do Setor Pessoal 50MP 
+0033 -- Registro de faltas, atrasos e dispensa dos empregados 70MP 
+0033 -- Transações pendentes 90MP 
+0033 -- Controle de estoque 80MP 
+0033 -- Controle de saídas 80MP 
+0033 -- Contratos e empresas terceirizadas 80MP 
+0033 -- Cannot determine their values.
+0033 -- You see 8 datafiles: 
+0033 -- Registros bancários primários 120MP 
+0033 -- Transações completadas, arquivos encerrados 120MP 
+0033 -- Arquivos do Setor Pessoal 50MP 
+0033 -- Registro de faltas, atrasos e dispensa dos empregados 70MP 
+0033 -- Transações pendentes 90MP 
+0033 -- Controle de estoque 80MP 
+0033 -- Controle de saídas 80MP 
+0033 -- Contratos e empresas terceirizadas 80MP 
+0033 -- Cannot determine their values.
+0034 -- Transfer file SysOp failed.
+0035 -- Waiting...
+0036 -- Waiting...
+0036 -- Waiting...
+0037 -- 
+0037 -- 9. Datastore (DS)
+0037 -- 
+0037 -- 9. Datastore (DS)
+0037 -- Arquivos contábeis e dados restritos.
+0038 -- You see 8 datafiles: 
+0038 -- Registros bancários primários 120MP 
+0038 -- Transações completadas, arquivos encerrados 120MP 
+0038 -- Arquivos do Setor Pessoal 50MP 
+0038 -- Registro de faltas, atrasos e dispensa dos empregados 70MP 
+0038 -- Transações pendentes 90MP 
+0038 -- Controle de estoque 80MP 
+0038 -- Controle de saídas 80MP 
+0038 -- Contratos e empresas terceirizadas 80MP 
+0038 -- Cannot determine their values.
+0040 -- Waiting...
+0040 -- Waiting...
+0041 -- 
+0041 -- 9. Datastore (DS)
+0041 -- 
+0041 -- 9. Datastore (DS)
+0041 -- Arquivos contábeis e dados restritos.
+0041 -- Data files:
+0041 --   Registros bancários primários [120 Mp]
+0041 --   Transações completadas, arquivos encerrados [120 Mp]
+0041 --   Arquivos do Setor Pessoal [50 Mp]
+0041 --   Registro de faltas, atrasos e dispensa dos empregados [70 Mp]
+0041 --   Transações pendentes [90 Mp]
+0041 --   Controle de estoque [80 Mp]
+0041 --   Controle de saídas [80 Mp]
+0041 --   Contratos e empresas terceirizadas [80 Mp]
+0042 -- You see 8 datafiles: 
+0042 -- Registros bancários primários 120MP 
+0042 -- Transações completadas, arquivos encerrados 120MP 
+0042 -- Arquivos do Setor Pessoal 50MP 
+0042 -- Registro de faltas, atrasos e dispensa dos empregados 70MP 
+0042 -- Transações pendentes 90MP 
+0042 -- Controle de estoque 80MP 
+0042 -- Controle de saídas 80MP 
+0042 -- Contratos e empresas terceirizadas 80MP 
+0042 -- Cannot determine their values.
+0044 -- 
+0044 -- 9. Datastore (DS)
+0044 -- Arquivos contábeis e dados restritos.
+0044 -- Data files:
+0044 --   Registros bancários primários [120 Mp]
+0044 --   Transações completadas, arquivos encerrados [120 Mp]
+0044 --   Arquivos do Setor Pessoal [50 Mp]
+0044 --   Registro de faltas, atrasos e dispensa dos empregados [70 Mp]
+0044 --   Transações pendentes [90 Mp]
+0044 --   Controle de estoque [80 Mp]
+0044 --   Controle de saídas [80 Mp]
+0044 --   Contratos e empresas terceirizadas [80 Mp]
+0045 -- 
+0045 -- 7. Central Processing Unit (CPU)
+0045 -- 
+0045 -- 7. Central Processing Unit (CPU)
+0046 -- 
+0046 -- 9. Datastore (DS)
+0046 -- Arquivos contábeis e dados restritos.
+0047 -- Execution of Evaluate failed. Difficulties increase.
+0048 -- Waiting...
+0048 -- 
+0048 -- 9. Datastore (DS)
+0048 -- Arquivos contábeis e dados restritos.
+0049 -- Execution of Evaluate failed. Difficulties increase.
+0049 -- Transfer started...
+0049 -- Transfering <Registros bancários primários>
+0052 -- Transfer started...
+0052 -- Transfering <Contratos e empresas terceirizadas>
+0054 -- Transfer file SysOp failed.
+0055 -- Transfer file SysOp failed.
+0055 -- 
+0055 -- 7. Central Processing Unit (CPU)
+0055 -- 
+0055 -- 7. Central Processing Unit (CPU)
+0056 -- 
+0056 -- 7. Central Processing Unit (CPU)
+0056 -- Central do Mark Market LTDA.
+0056 -- Decker Initiative:16
+0056 -- Deception failed!
+0056 -- Your armor disolves.
+0056 -- *ICE hits...
+0057 -- Waiting...
+0057 -- 
+0057 -- 7. Central Processing Unit (CPU)
+0057 -- Central do Mark Market LTDA.
+0057 -- Decker Initiative:14
+0057 -- Deception failed!
+0057 -- *ICE hits...
+0058 -- Jack out.
+0058 !! GMLOG: Decker should save his deck, because something has changed!

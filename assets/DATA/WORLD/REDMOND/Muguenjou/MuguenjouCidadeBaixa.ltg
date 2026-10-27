@@ -1,0 +1,155 @@
+[Matrix]
+Description=Muguenjou, Cidade Baixa.
+Nodes=28
+Entry=1
+Range=2
+Alert=none
+Emergency=80/60
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Orange-4 1 1
+Mesg=Ligação com Setor A: Acesso Restrito. Favor apresentar identificação e senha.
+ICEType1=White Access-6 ptrigger -3
+ICEType2=Gray Killer-6 amobile triggered
+Links=0/2/3
+
+[Node2]
+Type=LNK MuguenjouSetorA.ltg 13 1 0
+Links=1
+
+[Node3]
+Type=SPU Green-4 4 2
+Mesg=Roteador nível 2: acesso à Sistema Intermediário.
+Links=23/7/1/4/5/6/15
+
+[Node4]
+Type=SAN Orange-4 3 1
+Mesg=Ligação com Setor B: Acesso Restrito. Favor apresentar identificação e senha.
+Links=3
+
+[Node5]
+Type=SAN Orange-4 5 1
+Mesg=Ligação com Setor C: Acesso Restrito. Favor apresentar identificação e senha.
+Links=3
+
+[Node6]
+Type=SAN Orange-4 7 1
+Mesg=Ligação com Setor D: Acesso Restrito. Favor apresentar identificação e senha.
+Links=3
+
+[Node7]
+Type=SPU Orange-4 2 3
+Mesg=Sub-Controlador de Monitoramento 01.
+Links=12/11/10/9/8/3/13/14
+
+[Node8]
+Type=IOP Orange-4 2 2
+Mesg=Câmeras e Sensores do Setor A.
+Links=7
+
+[Node9]
+Type=IOP Orange-4 1 2
+Mesg=Câmeras e Sensores do Setor B.
+Links=7
+
+[Node10]
+Type=IOP Orange-4 1 3
+Mesg=Câmeras e Sensores do Setor C.
+Links=7
+
+[Node11]
+Type=IOP Orange-4 1 4
+Mesg=Câmeras e Sensores do Setor D.
+Links=7
+
+[Node12]
+Type=IOP Orange-3 2 4
+Mesg=Terminais de Controle: Acesso Nível 2
+Links=7
+
+[Node13]
+Type=SM Orange-6 3 3
+Mesg=Controle das câmeras e Sensores dos Setores A, B, C e D.
+Links=7
+
+[Node14]
+Type=DS Orange-4 3 4
+Files=ACB1001/100/20000 ACB1002/30/6000 ACB1003/50/10000 ACB1003/50/0 ACB1004/120/0 ACB1005/60/0 
+ICEType=White Scramble-4
+Links=7
+
+[Node15]
+Type=SPU Orange-4 6 3
+Mesg=Sub-Controlador de Segurança 01.
+ICEType=Gray Acid-4 amobile
+Links=22/21/20/3/16/17/18/19
+
+[Node16]
+Type=SM Orange-4 6 2
+Mesg=Controle dos Maglocks e elevadores, Setor A.
+Links=15
+
+[Node17]
+Type=SM Orange-4 7 2
+Mesg=Controle dos Maglocks e elevadores, Setor B.
+Links=15
+
+[Node18]
+Type=SM Orange-4 7 3
+Mesg=Controle dos Maglocks e elevadores, Setor C.
+Links=15
+
+[Node19]
+Type=SM Orange-4 7 4
+Mesg=Controle dos Maglocks e elevadores, Setor D.
+Links=15
+
+[Node20]
+Type=IOP Orange-3 5 3
+Mesg=Terminais de Controle: Acesso Nível 2
+Links=15
+
+[Node21]
+Type=DS Orange-5 5 4
+Files=ACB2001/60/0 
+ICEType=White Scramble-4
+Links=15
+
+[Node22]
+Type=DS Orange-5 6 4
+ICEType=White Scramble-4
+Links=15
+
+[Node23]
+Type=CPU Red-3 4 5
+Mesg=Central de Processamento: Nível 2. Acesso Restrito.
+ICEType=Gray Killer-5 immobile ever
+Links=24/3/28
+
+[Node24]
+Type=SPU Orange-4 4 6
+Mesg=Roteador Central de Acesso: Nível 2
+ICEType=Gray Blaster-7 mobile ever
+Links=27/25/23/26
+
+[Node25]
+Type=DLJ Orange-4 2 6
+Mesg=Intersecção para Área Restrita: Setor A21. Nível de Acesso Necessário: 3. Deseja Continuar?
+Links=24
+
+[Node26]
+Type=DLJ Orange-4 6 6
+Links=24
+
+[Node27]
+Type=DLJ Orange-4 4 7
+Links=24
+
+[Node28]
+Type=DS Red-3 5 5
+Links=23

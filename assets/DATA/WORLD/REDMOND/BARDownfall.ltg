@@ -1,0 +1,52 @@
+[Matrix]
+Description=The DownFall Bar
+Nodes=8
+Entry=1
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Green-4 1 4
+Mesg=The Downfall Bar Entrance
+Links=8/0/6
+
+[Node2]
+Type=CPU Green-5 5 4
+Mesg=Bar Central System
+ICEType=White Barrier-3 pmobile
+Links=3/6/5/7/4
+
+[Node3]
+Type=DS Green-4 4 5
+Mesg=Inventory and Finances
+Files=Inventory/20/250 Financial Records/30/3000 
+Links=2
+
+[Node4]
+Type=SM Green-3 6 5
+Mesg=SoyCaf-O-Mat & Soup Tap
+Links=2
+
+[Node5]
+Type=IOP Green-3 4 3
+Mesg=Credstick Checker
+Links=2
+
+[Node6]
+Type=SPU Green-3 3 4
+Mesg=Costummers attendence.
+Links=1/2
+
+[Node7]
+Type=SM Green-3 6 3
+Mesg=Air condition system an eletricity controls.
+Links=2
+
+[Node8]
+Type=LNK LTGREDMOND68.LTG 6 0 4
+Links=1

@@ -1,0 +1,42 @@
+[Persona]
+Model=Fuchi Cyber-6 (Icetoaster)
+MPCP=8
+Bod=6
+Evasion=6
+Masking=6
+Sensor=6
+Damage=0
+
+[Technical Parameters]
+Hardening=4
+ActiveMem=400
+StorageMem=1500
+Load=80
+I/O=40
+Response=2
+Satuplink=1
+PureCyber=0
+RealityFilter=0
+DisplayMode=1
+
+[Utilities]
+Program1=Sleaze-6-108
+Program2=Sift-6-36
+Program3=Browse-3-9
+Program4=Relocate-4-32
+Program5=Cloak-5-75
+Program6=Medic-3-36
+Program7=Mirrors-5-75
+Program8=Restore-4-48
+Program9=Auto Execute-6-36
+Program10=Hog-3-27
+Program11=Slow-5-100
+Program12=Evaluate-5-50
+Program13=Armor-3-27
+Program14=Browse-1-1
+Program15=Satlink-1-3
+Program16=Attack-3-18
+Program17=Deception-6-72
+Program18=Attack (ME)-6-128
+Program19=Decrypt-5-50
+Program20=Analyze-6-108

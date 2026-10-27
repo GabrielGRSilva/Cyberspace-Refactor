@@ -1,0 +1,50 @@
+TACOMA LOCAL TELECOM GRID
+
+District Code:  5206
+File:           rtg\tacoma.ltg
+Notes:          SAN* with number, but no LNK don't have *.ltg files yet.
+                SAN- have no number ('disconnected'), free to fill in.
+
+Alpha Links
+Node#   LTGcode Client                          Location Archetype
+ 4      14-2582 Basil's Faulty Bar              bar
+ 5      16-9485 Tacoma Charity General          hospital (25 floors)
+ 6      14-0924 DeClerry's                      bar
+ 7      19-4822 Doctor's Hospital of Tacoma     hospital (15 floors)
+ 8      16-3719 Fenris Nacht                    night club
+ 9      19-2872 Humana Hospital                 hospital (11 floors)
+10      14-6461 Lakewood Shezan                 mid-size restaurant
+11      12-8766 Lakewood Comfy Cubicle          cheap hotel
+12      15-3319 M. Bridge Child Health Hospital hospital (10 floors)
+13      16-9756 Tacoma Nybbles & Bytes          large store
+14      14-0954 Palace of China                 night club
+15      14-0920 Port of Tacoma Police Station   police station
+16      14-5662 Tacoma Purple Haze              large restaurant
+17      17-8173 Sea-Tac Mall                    shopping mall (5 floors)
+19      16-2230 Sheraton Tacoma                 luxury hotel
+20      16-8868 Tacoma Dome Hotel               luxury hotel
+21      16-0705 Tacoma Mall                     shopping mall (4 floors)
+22      17-3337 Tacoma Style                    mid-size restaurant
+23      13-1154 Villa Plaza                     shopping mall (2 floors)
+
+Beta Links
+Node#   LTGcode Client                          Location Archetype
+25      17-7029 Zalensky's Electronics          illegal body shop
+26*     16-1171 Charles Royer Station
+27*     15-0667 The Crying Wall
+28*     15-3050 Tacoma Ferry Terminal
+30*     14-9597 Silcox Island Correctional Facilities
+31*     14-0540 Tacoma District Courthouse
+32*     14-0351 Tacoma District Hall
+33*     19-3987 Brichert Paper Mills
+34*     19-9334 Federated Boeing Metalworks
+35*     16-4301 Learson Shipyards
+36*     19-0532 Pacific Rim Communications Unlimited
+37*     16-2608 Shiawase Corporation
+38      14-1374 Johnny's Bar                    bar in my campaign
+39-     Disconnected
+40-     Disconnected
+41-     Disconnected
+42-     Disconnected
+43-     Disconnected
+44      RTG             Seattle Regional Telecom Grid

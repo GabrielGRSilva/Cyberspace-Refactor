@@ -1,0 +1,143 @@
+0000 -- Logfile on.
+0000 -- Real time decking disabled.
+0008 -- Logfile on.
+0008 -- Real time decking disabled.
+0008 -- 
+0008 -- 1. System Access Node (SAN)
+0009 -- 
+0009 -- 1. System Access Node (SAN)
+0009 -- Waiting...
+0010 -- 
+0010 -- 1. System Access Node (SAN)
+0010 -- Bar Entrance
+0010 -- Execution of Analyze failed.
+0011 -- Execution of Analyze failed.
+0012 -- Waiting...
+0013 -- 
+0013 -- 1. System Access Node (SAN)
+0014 -- 
+0014 -- 1. System Access Node (SAN)
+0014 -- Bar Entrance
+0014 -- 
+0014 -- 2. Central Processing Unit (CPU)
+0015 -- 
+0015 -- 2. Central Processing Unit (CPU)
+0015 -- Execution of Analyze failed.
+0016 -- Execution of Analyze failed.
+0016 -- 
+0016 -- 2. Central Processing Unit (CPU)
+0016 -- Bar Central System
+0016 -- Decker Initiative:11
+0016 -- *ICE wants your identification.
+0016 -- Useless against this ICE-type?
+0016 -- Deception stalemate!
+0016 -- *ICE is suspicious.
+0016 -- *ICE yells!
+0017 -- 
+0017 -- 2. Central Processing Unit (CPU)
+0017 -- Bar Central System
+0017 -- Decker Initiative:15
+0017 -- Useless against this ICE-type?
+0017 -- Too late for sleazing.
+0017 -- *ICE yells!
+0018 -- Waiting...
+0019 -- 
+0019 -- 2. Central Processing Unit (CPU)
+0019 -- *ICE leaves the node and approaches.
+0019 -- Sleaze failed!
+0020 -- *ICE wants your identification.
+0020 -- Useless against this ICE-type?
+0020 -- Deception stalemate!
+0020 -- *ICE is suspicious.
+0020 -- *ICE yells!
+0021 -- 
+0021 -- 1. System Access Node (SAN)
+0021 -- Bar Entrance
+0021 -- *New ICE approaches this node.
+0022 -- 
+0022 -- External Matrix (MAT)
+0022 -- 
+0022 -- 1. System Access Node (SAN)
+0000 -- 
+0000 -- 1. System Access Node (SAN)
+0000 -- 
+0000 -- 1. System Access Node (SAN)
+0000 -- Bar Entrance
+0000 -- 
+0000 -- 2. Central Processing Unit (CPU)
+0001 -- 
+0001 -- 2. Central Processing Unit (CPU)
+0002 -- Loading takes 2 turns
+0003 -- Loading takes 2 turns
+0004 -- Loading takes 3 turns
+0006 -- Loading takes 1 turns
+0006 -- Loading takes 1 turns
+0007 -- Loading takes 1 turns
+0007 -- Loading takes 1 turns
+0008 -- Loading takes 2 turns
+0010 -- Execution of Analyze failed.
+0011 -- 
+0011 -- 1. System Access Node (SAN)
+0011 -- Bar Entrance
+0011 -- Waiting...
+0012 -- 
+0012 -- 2. Central Processing Unit (CPU)
+0012 -- 
+0012 -- 2. Central Processing Unit (CPU)
+0013 -- You just see a CPU
+0014 -- White ICE Barrier-3
+0014 -- 
+0014 -- 2. Central Processing Unit (CPU)
+0014 -- Bar Central System
+0014 -- You see a White Barrier-3
+0014 -- Decker Initiative:17
+0014 -- Sleaze successful!
+0014 -- *ICE does not see you.
+0014 --  Must do a resleaze...
+0014 -- Display Map.
+0015 -- 
+0015 -- 3. Datastore (DS)
+0015 -- 
+0015 -- 3. Datastore (DS)
+0016 -- 
+0016 -- 3. Datastore (DS)
+0016 -- Inventory and Finances
+0016 -- Data files:
+0016 --   Inventory [20 Mp]
+0016 --   Financial Records [30 Mp]
+0016 -- You see 2 datafiles
+0017 -- You see 2 datafiles: 
+0017 -- Inventory 20MP 
+0017 -- Financial Records 30MP 
+0017 -- Cannot determine their values.
+0017 -- You see 2 datafiles: 
+0017 -- Inventory 20MP 
+0017 -- Financial Records 30MP 
+0017 -- Cannot determine their values.
+0018 -- Transfer started...
+0018 -- Transfering <Inventory>
+0018 -- Transfer started...
+0018 -- Transfering <Financial Records>
+0019 -- 
+0019 -- 2. Central Processing Unit (CPU)
+0019 -- 
+0019 -- 2. Central Processing Unit (CPU)
+0021 -- You already know this node:
+0021 -- You see a CPU Green-5
+0021 -- 
+0021 -- 2. Central Processing Unit (CPU)
+0021 -- Bar Central System
+0021 -- You see a White Barrier-3
+0021 -- Decker Initiative:12
+0021 -- Sleaze successful!
+0021 -- *ICE does not see you.
+0021 --  Must do a resleaze...
+0021 -- Shutdown successful running.
+0021 -- System Shutdown is very close!
+0022 -- Jack out.
+0022 !! GMLOG: Decker should save his deck, because something has changed!
+0022 -- Rating of Persona programs higher than MPCP supports.
+0022 -- R=(Q+I)/2 does not fit this decker!
+0022 -- 
+0022 -- 1. System Access Node (SAN)
+0000 -- Logfile off.

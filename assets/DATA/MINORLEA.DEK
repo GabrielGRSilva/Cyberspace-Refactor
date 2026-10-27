@@ -1,0 +1,29 @@
+[Persona]
+Model=Fuchi Cyber-4 (raw)
+MPCP=6
+Bod=4
+Evasion=5
+Masking=4
+Sensor=5
+Damage=0
+
+[Technical Parameters]
+Hardening=3
+ActiveMem=100
+StorageMem=500
+Load=20
+I/O=20
+Response=0
+Satuplink=1
+PureCyber=0
+RealityFilter=0
+DisplayMode=0
+
+[Utilities]
+Program1=Attack-4-32
+Program2=Deception-4-32
+Program3=Analyze-4-48
+Program4=Browse-2-4
+Program5=Cloak-2-12
+Program6=Shield-2-16
+Program7=Satlink-1-3

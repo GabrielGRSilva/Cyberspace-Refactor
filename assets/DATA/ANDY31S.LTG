@@ -1,0 +1,53 @@
+[Matrix]
+Description=Security
+Nodes=6
+Entry=1
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SM Orange-4 2 4
+Mesg=Security
+ICEType1=White Access-4
+ICEType2=White Barrier-4 active
+Links=0/5
+
+[Node2]
+Type=SM Green-3 3 2
+Mesg=Light
+ICEType1=White Access-4
+ICEType2=White Barrier-4 active
+ICEType3=Gray Blaster-4 mobile
+Links=5
+
+[Node3]
+Type=SM Green-3 4 2
+Mesg=Heat & Air
+ICEType1=White Access-4
+ICEType2=White Barrier-4 active
+Links=5
+
+[Node4]
+Type=SM Green-3 5 3
+Mesg=Smoke-Detect.
+ICEType1=White Barrier-4 active
+ICEType2=White Access-4
+Links=5
+
+[Node5]
+Type=SPU Orange-4 4 4
+ICEType1=White Access-4
+ICEType2=White Barrier-4 active
+Links=6/1/2/3/4
+
+[Node6]
+Type=CPU Red-5 4 7
+Mesg=Floor 31
+ICEType1=White Access-4
+ICEType2=White Barrier-4 active
+Links=5

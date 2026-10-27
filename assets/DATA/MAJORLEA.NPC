@@ -1,0 +1,22 @@
+[Character]
+Name=Major League
+Race=Human
+
+[Attributes]
+Body=4
+Quickness=5
+Strength=3
+Charisma=3
+Intelligence=5
+Willpower=4
+Reaction=5+1D6
+
+[SKILLS]
+Computer/Software/Decking=5
+Etiquette/Matrix=3
+
+[DICE POOLS]
+Combat=3
+Karma=2
+# Hackingpool 12 valid for Response Increase 1
+Team=0

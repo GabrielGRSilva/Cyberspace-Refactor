@@ -1,0 +1,30 @@
+[Matrix]
+Description=New LTG
+Nodes=4
+Entry=2
+Range=1
+Alert=none
+Emergency=50/1
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=2
+
+[Node1]
+Type=IOP Orange-5 2 5
+Links=2/3
+
+[Node2]
+Type=SAN Orange-5 2 6
+ICEType1=White Access-6 ptrigger 1
+ICEType2=Gray Killer (D)-10
+Links=0/1
+
+[Node3]
+Type=CPU Green-5 2 4
+Links=1/4
+
+[Node4]
+Type=CPU Purple-5 2 3
+Links=3

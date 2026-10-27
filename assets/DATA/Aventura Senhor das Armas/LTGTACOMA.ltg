@@ -1,0 +1,122 @@
+[Matrix]
+Description=LTG# 5206
+Nodes=22
+Entry=6
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Mesg=LTG# 5206(83421)
+Links=2/1
+
+[Node1]
+Type=CPU Green-4 4 4
+Links=3/0/6/2/19
+
+[Node2]
+Type=IOP Green-4 5 3
+Links=1/0
+
+[Node3]
+Type=SPU Green-4 4 7
+Links=18/17/16/1/14/15/5
+
+[Node4]
+Type=SAN Orange-3 2 1
+Mesg=LTG# 5206(3216)
+ICEType=White Access-5
+Links=21/6
+
+[Node5]
+Type=SAN Orange-3 7 7
+Mesg=LTG# 5206(83421)
+ICEType=White Access-4
+Links=3/22
+
+[Node6]
+Type=SPU Green-4 4 1
+Links=1/9/8/7/4/10/11/12/13
+
+[Node7]
+Type=SAN Green-4 2 2
+Mesg=LTG# 5206(3465)
+Links=6
+
+[Node8]
+Type=SAN Green-4 2 3
+Mesg=LTG# 5206(2351)
+Links=6
+
+[Node9]
+Type=SAN Green-4 2 4
+Mesg=LTG# 5206(6789)
+Links=6
+
+[Node10]
+Type=SAN Green-4 7 1
+Mesg=LTG# 5206(83415)
+Links=6
+
+[Node11]
+Type=SAN Green-4 7 2
+Mesg=LTG# 5206(83416)
+Links=6
+
+[Node12]
+Type=SAN Orange-4 7 3
+Mesg=LTG# 5206(83417)
+ICEType=White Access-5
+Links=6
+
+[Node13]
+Type=SAN Green-4 7 4
+Mesg=LTG# 5206(83418)
+Links=6
+
+[Node14]
+Type=SAN Green-4 7 5
+Mesg=LTG# 5206(83419)
+Links=3
+
+[Node15]
+Type=SAN Green-4 7 6
+Mesg=LTG# 5206(83420)
+ICEType=White Access-3
+Links=3
+
+[Node16]
+Type=SAN Orange-3 2 5
+Mesg=LTG# 5206(1139)
+ICEType=White Access-4
+Links=3
+
+[Node17]
+Type=SAN Red-5 2 6
+Mesg=LTG# 5206(5586)
+ICEType=White Access-7
+Links=3
+
+[Node18]
+Type=SAN Green-4 2 7
+Mesg=LTG# 5206(6312)
+Files=Comline Index Alpha/2500/2500000 
+Links=3
+
+[Node19]
+Type=SAN Green-4 5 5
+Mesg=RTG Seattle
+Links=20/1
+
+[Node20]
+Type=LNK RTGSEATTLE.ltg 02 5 6
+Links=19
+
+[Node21]
+Type=LNK PREDIOCOMERCIAL.ltg 02 1 1
+Links=4
+
+[Node22]
+Type=LNK NEOTOKYOTACOMA.ltg 22 8 7
+Links=5

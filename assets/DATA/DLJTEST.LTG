@@ -1,0 +1,27 @@
+[Matrix]
+Description=New LTG
+Nodes=4
+Entry=1
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Orange-5 4 6
+Links=0/2
+
+[Node2]
+Type=SPU Orange-5 4 4
+Links=1/3
+
+[Node3]
+Type=DLJ Orange-5 4 2
+Links=2/4
+
+[Node4]
+Type=CPU Orange-5 2 2
+Links=3

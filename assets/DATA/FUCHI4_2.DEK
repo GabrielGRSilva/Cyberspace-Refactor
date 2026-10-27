@@ -1,0 +1,41 @@
+[Persona]
+Model=Fuchi Cyber-4 (upgraded)
+MPCP=6
+Bod=4
+Evasion=5
+Masking=4
+Sensor=5
+Damage=0
+
+[Technical Parameters]
+Hardening=3
+ActiveMem=300
+StorageMem=1000
+Load=60
+I/O=30
+Response=1
+Satuplink=1
+PureCyber=0
+RealityFilter=0
+DisplayMode=0
+
+[Utilities]
+Program1=Attack (ME)-5-98
+Program2=Deception-4-32
+Program3=Sleaze-4-48
+Program4=Decrypt-4-32
+Program5=Relocate-4-32
+Program6=Slow-4-64
+Program7=Analyze-4-48
+Program8=Browse-2-4
+Program9=Evaluate-2-8
+Program10=Sift-3-9
+Program11=Armor-3-27
+Program12=Cloak-3-27
+Program13=Mirrors-3-27
+Program14=Shield-3-36
+Program15=Smoke-3-18
+Program16=Medic-4-64
+Program17=Attack-2-8
+Program18=Restore-4-48
+Program19=Satlink-1-3

@@ -1,0 +1,56 @@
+[Matrix]
+Description=Lakewood Comfy Cubicle 5206(12-8766)
+Nodes=9
+Entry=1
+Range=2
+Alert=none
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Green-4 4 6
+Mesg=Cheap Hotel Entrance
+Links=9/0/2
+
+[Node2]
+Type=CPU Green-4 4 4
+Mesg=Cheap Hotel Central System
+Links=1/3/4/5/8/6/7
+
+[Node3]
+Type=IOP Green-3 2 4
+Mesg=Hotel Manager's Terminal
+Links=2
+
+[Node4]
+Type=DS Green-3 2 2
+Mesg=Hotel Administration
+Files=Guest List/35/3500 Financial Records/40/6000 Laundry Contract/10/3000 
+ICEType=White Scramble-3
+Links=2
+
+[Node5]
+Type=SM Green-3 6 2
+Mesg=Cubicle Locks
+Links=2
+
+[Node6]
+Type=SM Green-3 6 4
+Mesg=Kitchen Equipment/Showers
+Links=2
+
+[Node7]
+Type=IOP Green-3 6 5
+Mesg=Cubicle Commlines
+Links=2
+
+[Node8]
+Type=SM Green-3 6 3
+Mesg=Climate Control
+Links=2
+
+[Node9]
+Type=LNK ..\rtg\tacoma.ltg 11 4 7
+Links=1

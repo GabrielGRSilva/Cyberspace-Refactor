@@ -1,0 +1,41 @@
+[Matrix]
+Description=Bus Station
+Nodes=6
+Entry=1
+Range=2
+Alert=none
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Orange-3 2 4
+Mesg=Bus Station Entrance
+Links=0/2
+
+[Node2]
+Type=CPU Orange-4 4 4
+Mesg=Bus Station Central System
+Links=3/1/4/5/6
+
+[Node3]
+Type=IOP Green-3 4 6
+Mesg=Officer of Operation's Terminal
+Links=2
+
+[Node4]
+Type=SM Green-3 4 2
+Mesg=Camera's
+Links=2
+
+[Node5]
+Type=SM Orange-3 6 2
+Mesg=Safety Barrier Controls
+Links=2
+
+[Node6]
+Type=DS Orange-3 6 4
+Mesg=Scheduls and Logs
+Files=Bus Schedules/25/2500 Operation Logs/45/9000 Camera Archives/110/5500 
+Links=2

@@ -1,0 +1,50 @@
+SEATTLE/DOWNTOWN LOCAL TELECOM GRID 1 of 3
+
+District Code:  206/2206
+File:           rtg\seattle1.ltg
+Notes:          SAN* with number, but no LNK don't have *.ltg files yet.
+                SAN- have no number ('disconnected'), free to fill in.
+
+Alpha Links
+Node#   LTGcode Client                          Location Archetype
+ 4      52-4320 Alabaster Maiden                night club
+ 5      56-9145 The Big Rhino                   large restaurant
+ 6      56-1576 Bosco's                         mid-size restaurant
+ 7      56-4802 Cafe Sport                      mid-size restaurant
+ 8      56-4418 Cutting Edge                    night club
+ 9      56-2724 Damian's                        large restaurant
+10      52-8016 Dante's Inferno                 night club
+11      56-3516 Elliot's                        large restaurant
+12      52-7713 Executive Body Enhancements     (legal) body shop
+13      52-4527 Fast Freddies Salmon Eatery     (illegal) body shop
+14      52-1624 Gates Undersound Hotel          luxury hotel (20 floors)
+15      52-2380 Seattle General Hospital        hospital (14 floors)
+16      56-3392 Glass Onion                     large restaurant
+17      56-9737 Gracie's for Ribs               mid-size restaurant
+19      56-3978 Gravity Bar                     mid-size restaurant
+20      56-3372 The Gray Line                   large restaurant
+21      56-1636 Green Village                   mid-size restaurant
+22      52-9824 Harborview Hospital             hospital (12 floors)
+23      52-2675 Health Maintenance Org.         hospital (15 floors)
+
+Beta Links
+Node#   LTGcode Client                          Location Archetype
+25      52-4058 Seattle Hilton                  luxury hotel (30 floors)
+26      56-9230 Icarus Descending               mid-size restaurant
+27*     52-5620 Aquarium
+28*     53-0422 Aurora Village                  shopping mall (5 floors)
+30*     52-5593 Bagley Wright Theater/The Playhouse
+31*     52-4784 Center House                    shopping mall (10 floors)
+32*     52-0639 Downtown Library
+33*     52-0150 Evergreen Kingdom
+34*     52-3648 Exhibition Hall
+35*     55-0119 Ch. Royer Building/Metroplex Hall
+36*     55-7797 Federal Building
+37*     52-7217 Dassurn Securities and Investments
+38*     52-5403 Federated Boeing Field
+39*     52-0787 Federated Boeing Shipyards
+40*     52-6605 Fuchi Industrial Electronics Compound
+41*     52-9689 Haukshorn Complex
+42*     52-2197 Ingersoll and Berkley Tower
+43-     Disconnected
+44      RTG             Seattle Regional Telecom Grid

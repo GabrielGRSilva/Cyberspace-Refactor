@@ -1,0 +1,230 @@
+[Matrix]
+Description=Police Station LTG #11206(32-721)
+Nodes=40
+Entry=1
+Range=2
+Alert=none
+Readonly=No
+
+[Node0]
+Type=MAT Green-4 0 0
+Links=1
+
+[Node1]
+Type=SAN Red-6 1 2
+ICEType=White Access-7
+Links=40/0/2
+
+[Node2]
+Type=SPU Orange-5 3 2
+Mesg=Routing: Desk Sergeant
+Links=12/1/4/3/5
+
+[Node3]
+Type=IOP Orange-4 3 1
+Mesg=Desk Sergeant's Terminal
+Links=2
+
+[Node4]
+Type=DS Red-3 2 1
+Mesg=Public Information Base
+Files=Complaints/55/5500 Bail Payments/25/65000 Theft Declarations/55/15000 
+ICEType=White Scramble-5 passive
+Links=2
+
+[Node5]
+Type=SPU Orange-5 5 2
+Mesg=Routing: City Government
+Links=2/7/6/8/9
+
+[Node6]
+Type=IOP Orange-4 5 1
+Mesg=Parking Tickets/Fines Desk
+Links=5
+
+[Node7]
+Type=IOP Orange-4 4 1
+Mesg=Licenses Desk
+Links=5
+
+[Node8]
+Type=DS Red-3 6 1
+Mesg=City Government Database
+Files=Parking Tickets/30/10000 Eco Fines/55/75000 Licenses/35/35000 
+ICEType=White Scramble-5 passive
+Links=5
+
+[Node9]
+Type=SPU Orange-5 7 2
+Mesg=Routing: Property Officer
+Links=5/10/11
+
+[Node10]
+Type=IOP Orange-4 7 1
+Mesg=Property Officer's Terminal
+Links=9
+
+[Node11]
+Type=DS Red-3 8 1
+Mesg=Lost and Found Database
+Files=Lost/110/10000 Found/30/1000 
+ICEType=White Scramble-5 passive
+Links=9
+
+[Node12]
+Type=SPU Orange-5 2 4
+Mesg=Routing: Building Commands
+Links=17/16/15/2/13
+
+[Node13]
+Type=SPU Red-4 4 4
+Mesg=Routing: Patrol Logs
+ICEType1=Gray Trace and Report-6 triggered
+ICEType2=White Barrier-7 ptrigger 4
+Links=23/25/12/18/19/20/14
+
+[Node14]
+Type=SPU Orange-5 6 4
+Mesg=Routing: Station Management
+ICEType=White Probe-5 mobile
+Links=13/21/22
+
+[Node15]
+Type=SM Orange-4 1 3
+Mesg=Parking Lot Barriers
+Links=12
+
+[Node16]
+Type=SM Orange-4 1 4
+Mesg=Climate Control
+Links=12
+
+[Node17]
+Type=SM Orange-4 1 5
+Mesg=Elevators
+Links=12
+
+[Node18]
+Type=IOP Orange-4 3 3
+Mesg=Patrol Officers' Terminals - A
+Links=13
+
+[Node19]
+Type=IOP Orange-4 4 3
+Mesg=Patrol Officers' Terminals - B
+Links=13
+
+[Node20]
+Type=DS Red-3 5 3
+Mesg=Patrol Officers' Logs
+Files=491 Surveillance Report/15/5000 772 Burglary Response/15/10000 247 Neighbor Quarrel/15/500 109 Armed Robbery/15/9500 747 Parking Tickets/15/750 
+ICEType=White Scramble-5
+Links=13
+
+[Node21]
+Type=DS Red-3 7 3
+Mesg=Business Administration
+Files=Personnel/45/135000 Assets/40/500000 Equipment Maintenance/75/300000 Financial Records/50/100000 Procedures Overhead/25/150000 
+ICEType=White Scramble-5 passive
+Links=14
+
+[Node22]
+Type=IOP Orange-3 7 4
+Mesg=Business Administrator's Terminal
+Links=14
+
+[Node23]
+Type=CPU Red-7 4 6
+Mesg=Police station Central System
+ICEType1=Gray Blaster-6 amobile triggered
+ICEType2=Gray Acid-4 amobile ever atrigger 9
+Links=39/35/13/24
+
+[Node24]
+Type=SPU Orange-5 6 6
+Mesg=Routing: Secure Data
+Links=33/34/23/26/27/28/29/30/31/32
+
+[Node25]
+Type=IOP Orange-4 3 5
+Links=13
+
+[Node26]
+Type=IOP Orange-4 5 5
+Mesg=Precinct Commander's Terminal
+Links=24
+
+[Node27]
+Type=IOP Orange-4 6 5
+Mesg=Detectives' Terminals - Homicide
+Links=24
+
+[Node28]
+Type=IOP Orange-4 7 5
+Mesg=Detectives' Terminals - Narcotics
+Links=24
+
+[Node29]
+Type=DS Red-3 8 5
+Mesg=Criminal Records
+Files=Murder Investigations/40/160000 Drugs Investigations/40/160000 Matrix Investigations/40/160000 Magical Investigations/40/160000 
+ICEType1=White Scramble-4
+ICEType2=White Scramble-4
+Links=24
+
+[Node30]
+Type=DS Red-3 8 6
+Mesg=Criminals Database
+Files=Known Criminals/80/240000 Gang Operations/50/200000 Current Jail Guests/10/75000 
+ICEType1=White Scramble-4
+ICEType2=White Scramble-4
+Links=24
+
+[Node31]
+Type=IOP Orange-5 8 7
+Mesg=Security Console
+ICEType=White Access-4
+Links=24
+
+[Node32]
+Type=SM Orange-4 7 7
+Mesg=Security Multisensors
+Links=24
+
+[Node33]
+Type=SM Orange-4 6 7
+Mesg=Interrogation Equipment
+Links=24
+
+[Node34]
+Type=SM Orange-4 5 7
+Mesg=SoyCaf-O-Mat and Soup Server
+Links=24
+
+[Node35]
+Type=SPU Red-4 2 6
+Links=37/36/23/38
+
+[Node36]
+Type=SM Orange-4 1 7
+Mesg=Helipad Signalling
+Links=35
+
+[Node37]
+Type=IOP Orange-5 2 7
+Mesg=Dispatcher Radio Central
+Links=35
+
+[Node38]
+Type=IOP Orange-5 3 7
+Mesg=Satellite Dish (link)
+Links=35
+
+[Node39]
+Type=SM Orange-4 4 7
+Mesg=Jail Door Controls
+Links=23
+
+[Node40]
+Type=LNK LTGREDMOND.LTG 7 0 2
+Links=1
