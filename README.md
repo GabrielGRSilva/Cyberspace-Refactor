@@ -1,4 +1,4 @@
-# Cyberspace Refactor
+# Cyberspace Refactor 🤖
 
 **Cyberspace Refactor** is a clean-room, modern **Golang** recreation of the classic *Cyberspace / Matrix Program Package* originally created by **Stefan Markgraf** (1995–1998) for *Shadowrun 2nd Edition (SR 2.01D) / Virtual Realities 1.0* (`CYBERSPC.EXE`, `MATED.EXE`, `CYBDECK.EXE`, and `DECKERED.EXE`).
 
@@ -6,6 +6,15 @@ Designed from the ground up for **Windows 10 and Windows 11**, it replaces the o
 
 ---
 
+## 👥Team
+
+**Idea, project kickoff and testing:** Roberto Ceppe <img src="https://flagcdn.com/w20/br.png" width="18" alt="Brazil">
+
+**Development and Architecture:** Gabriel G. R. Silva <img src="https://flagcdn.com/w20/br.png" width="18" alt="Brazil">
+
+**Original Application:** Stefan Markgraf <img src="https://flagcdn.com/w20/de.png" width="18" alt="Germany">
+
+---
 ## ✨ Key Features
 
 - **Unified Single-Executable Suite**: All four classic programs plus settings and batch tools live inside one native GUI window with instant tab switching:
